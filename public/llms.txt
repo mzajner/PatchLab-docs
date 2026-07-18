@@ -1,0 +1,12 @@
+# PatchLab documentation
+
+> PatchLab is a modular environment for building audio effects, instruments, and signal-processing systems. The documentation separates current product behavior, edited guidance, DSP learning, and generated registry facts.
+
+- Start here: https://docs.patchlab.dev/start-here/what-is-patchlab/
+- User manual: https://docs.patchlab.dev/manual/install-and-first-run/
+- Build and explore: https://docs.patchlab.dev/guides/example-library/
+- DSP curriculum: https://docs.patchlab.dev/learn/curriculum/
+- Block reference: https://docs.patchlab.dev/reference/blocks/
+- Documentation status: https://docs.patchlab.dev/reference/documentation-status/
+
+The canonical hostname is approved but must not be advertised until its DNS record and published artifact are verified.

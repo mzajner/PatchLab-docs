@@ -1,0 +1,738 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "in",
+      "type": 0,
+      "x": 60,
+      "y": 200
+    },
+    {
+      "id": "out",
+      "type": 0,
+      "x": 980,
+      "y": 200
+    },
+    {
+      "id": "midi",
+      "type": 0,
+      "x": 60,
+      "y": 420
+    },
+    {
+      "id": "4",
+      "type": 20,
+      "x": 480,
+      "y": 140,
+      "name": "Supersaw Pad",
+      "params": {
+        "m0": 850,
+        "m1": 2600,
+        "m2": 22,
+        "m3": 0.319999992847443,
+        "m4": 1.399999976158142,
+        "m5": 1400
+      },
+      "sub": {
+        "version": 2,
+        "nodes": [
+          {
+            "id": "in",
+            "type": 0,
+            "x": 40,
+            "y": 200
+          },
+          {
+            "id": "out",
+            "type": 0,
+            "x": 2180,
+            "y": 200
+          },
+          {
+            "id": "midi",
+            "type": 0,
+            "x": 40,
+            "y": 940
+          },
+          {
+            "id": "4",
+            "type": 134,
+            "x": 200,
+            "y": 120,
+            "name": "Supersaw",
+            "params": {
+              "freq": 110,
+              "level": 0.5,
+              "voices": 7,
+              "detune": 22,
+              "spread": 0.800000011920929
+            }
+          },
+          {
+            "id": "5",
+            "type": 134,
+            "x": 200,
+            "y": 310,
+            "name": "Supersaw",
+            "params": {
+              "freq": 164.80999755859375,
+              "level": 0.419999986886978,
+              "voices": 7,
+              "detune": 22,
+              "spread": 0.800000011920929
+            }
+          },
+          {
+            "id": "6",
+            "type": 134,
+            "x": 200,
+            "y": 500,
+            "name": "Supersaw",
+            "params": {
+              "freq": 220,
+              "level": 0.379999995231628,
+              "voices": 7,
+              "detune": 19.674419403076172,
+              "spread": 0.699999988079071
+            }
+          },
+          {
+            "id": "7",
+            "type": 14,
+            "x": 420,
+            "y": 120,
+            "name": "Add",
+            "params": {
+              "a": 1,
+              "b": 1,
+              "off": 0
+            }
+          },
+          {
+            "id": "8",
+            "type": 14,
+            "x": 640,
+            "y": 120,
+            "name": "Add",
+            "params": {
+              "a": 1,
+              "b": 1,
+              "off": 0
+            }
+          },
+          {
+            "id": "9",
+            "type": 5,
+            "x": 860,
+            "y": 120,
+            "name": "SVF",
+            "params": {
+              "type": 0,
+              "cutoff": 2600,
+              "res": 0.800000011920929,
+              "modoct": 0
+            }
+          },
+          {
+            "id": "10",
+            "type": 28,
+            "x": 200,
+            "y": 750,
+            "name": "ADSR",
+            "params": {
+              "a": 850,
+              "d": 400,
+              "s": 0.850000023841858,
+              "r": 1400
+            }
+          },
+          {
+            "id": "11",
+            "type": 12,
+            "x": 1080,
+            "y": 120,
+            "name": "Multiply",
+            "params": {}
+          },
+          {
+            "id": "12",
+            "type": 9,
+            "x": 1300,
+            "y": 120,
+            "name": "Chorus",
+            "params": {
+              "rate": 0.5,
+              "depth": 0.5,
+              "centre": 12,
+              "fb": 0,
+              "mix": 0.449999988079071
+            }
+          },
+          {
+            "id": "13",
+            "type": 11,
+            "x": 1520,
+            "y": 120,
+            "name": "Reverb",
+            "params": {
+              "size": 0.75,
+              "damp": 0.349999994039536,
+              "width": 1,
+              "mix": 0.319999992847443
+            }
+          },
+          {
+            "id": "14",
+            "type": 4,
+            "x": 1740,
+            "y": 120,
+            "name": "Width",
+            "params": {
+              "width": 1.399999976158142,
+              "pan": 0
+            }
+          },
+          {
+            "id": "15",
+            "type": 24,
+            "x": 1960,
+            "y": 120,
+            "name": "Limiter",
+            "params": {
+              "thresh": -3,
+              "release": 150,
+              "lookahd": 2
+            }
+          }
+        ],
+        "connections": [
+          {
+            "s": "midi",
+            "sc": -1,
+            "d": "10",
+            "dc": -1
+          },
+          {
+            "s": "4",
+            "sc": 0,
+            "d": "7",
+            "dc": 0
+          },
+          {
+            "s": "4",
+            "sc": 1,
+            "d": "7",
+            "dc": 1
+          },
+          {
+            "s": "5",
+            "sc": 0,
+            "d": "7",
+            "dc": 2
+          },
+          {
+            "s": "5",
+            "sc": 1,
+            "d": "7",
+            "dc": 3
+          },
+          {
+            "s": "6",
+            "sc": 0,
+            "d": "8",
+            "dc": 2
+          },
+          {
+            "s": "6",
+            "sc": 1,
+            "d": "8",
+            "dc": 3
+          },
+          {
+            "s": "7",
+            "sc": 0,
+            "d": "8",
+            "dc": 0
+          },
+          {
+            "s": "7",
+            "sc": 1,
+            "d": "8",
+            "dc": 1
+          },
+          {
+            "s": "8",
+            "sc": 0,
+            "d": "9",
+            "dc": 0
+          },
+          {
+            "s": "8",
+            "sc": 1,
+            "d": "9",
+            "dc": 1
+          },
+          {
+            "s": "9",
+            "sc": 0,
+            "d": "11",
+            "dc": 0
+          },
+          {
+            "s": "9",
+            "sc": 1,
+            "d": "11",
+            "dc": 1
+          },
+          {
+            "s": "10",
+            "sc": 0,
+            "d": "11",
+            "dc": 2
+          },
+          {
+            "s": "10",
+            "sc": 1,
+            "d": "11",
+            "dc": 3
+          },
+          {
+            "s": "11",
+            "sc": 0,
+            "d": "12",
+            "dc": 0
+          },
+          {
+            "s": "11",
+            "sc": 1,
+            "d": "12",
+            "dc": 1
+          },
+          {
+            "s": "12",
+            "sc": 0,
+            "d": "13",
+            "dc": 0
+          },
+          {
+            "s": "12",
+            "sc": 1,
+            "d": "13",
+            "dc": 1
+          },
+          {
+            "s": "13",
+            "sc": 0,
+            "d": "14",
+            "dc": 0
+          },
+          {
+            "s": "13",
+            "sc": 1,
+            "d": "14",
+            "dc": 1
+          },
+          {
+            "s": "14",
+            "sc": 0,
+            "d": "15",
+            "dc": 0
+          },
+          {
+            "s": "14",
+            "sc": 1,
+            "d": "15",
+            "dc": 1
+          },
+          {
+            "s": "15",
+            "sc": 0,
+            "d": "out",
+            "dc": 0
+          },
+          {
+            "s": "15",
+            "sc": 1,
+            "d": "out",
+            "dc": 1
+          }
+        ]
+      },
+      "macros": [
+        {
+          "name": "Swell",
+          "min": 20,
+          "max": 1000,
+          "def": 850,
+          "step": 0,
+          "mid": 50,
+          "suffix": " ms",
+          "value": 850,
+          "targets": [
+            {
+              "n": "10",
+              "p": 0,
+              "lo": 20,
+              "hi": 1000
+            }
+          ]
+        },
+        {
+          "name": "Cutoff",
+          "min": 300,
+          "max": 12000,
+          "def": 2600,
+          "step": 0,
+          "mid": 1000,
+          "suffix": " Hz",
+          "value": 2600,
+          "targets": [
+            {
+              "n": "9",
+              "p": 1,
+              "lo": 300,
+              "hi": 12000
+            }
+          ]
+        },
+        {
+          "name": "Detune",
+          "min": 2,
+          "max": 45,
+          "def": 22,
+          "step": 0,
+          "mid": 0,
+          "suffix": " ct",
+          "value": 22,
+          "targets": [
+            {
+              "n": "4",
+              "p": 3,
+              "lo": 2,
+              "hi": 45
+            },
+            {
+              "n": "5",
+              "p": 3,
+              "lo": 2,
+              "hi": 45
+            },
+            {
+              "n": "6",
+              "p": 3,
+              "lo": 2,
+              "hi": 40
+            }
+          ]
+        },
+        {
+          "name": "Space",
+          "min": 0,
+          "max": 0.600000023841858,
+          "def": 0.319999992847443,
+          "step": 0,
+          "mid": 0,
+          "suffix": "",
+          "value": 0.319999992847443,
+          "targets": [
+            {
+              "n": "13",
+              "p": 3,
+              "lo": 0,
+              "hi": 0.600000023841858
+            }
+          ]
+        },
+        {
+          "name": "Width",
+          "min": 0.800000011920929,
+          "max": 2,
+          "def": 1.399999976158142,
+          "step": 0,
+          "mid": 0,
+          "suffix": "",
+          "value": 1.399999976158142,
+          "targets": [
+            {
+              "n": "14",
+              "p": 0,
+              "lo": 0.800000011920929,
+              "hi": 2
+            }
+          ]
+        },
+        {
+          "name": "Release",
+          "min": 200,
+          "max": 3000,
+          "def": 1400,
+          "step": 0,
+          "mid": 300,
+          "suffix": " ms",
+          "value": 1400,
+          "targets": [
+            {
+              "n": "10",
+              "p": 3,
+              "lo": 200,
+              "hi": 3000
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "s": "in",
+      "sc": 0,
+      "d": "4",
+      "dc": 0
+    },
+    {
+      "s": "in",
+      "sc": 1,
+      "d": "4",
+      "dc": 1
+    },
+    {
+      "s": "midi",
+      "sc": -1,
+      "d": "4",
+      "dc": -1
+    },
+    {
+      "s": "4",
+      "sc": 0,
+      "d": "out",
+      "dc": 0
+    },
+    {
+      "s": "4",
+      "sc": 1,
+      "d": "out",
+      "dc": 1
+    }
+  ],
+  "faceManifest": {
+    "bindings": [
+      {
+        "id": "4/0",
+        "role": "knob",
+        "gesture": "radialDrag",
+        "bind": {
+          "node": "4",
+          "param": 0
+        },
+        "map": {
+          "min": 20,
+          "max": 1000,
+          "mid": 50,
+          "step": 0
+        },
+        "label": "Swell",
+        "suffix": " ms",
+        "drive": [
+          {
+            "el": "[data-drive=pointer]",
+            "prop": "rotate",
+            "range": [
+              -135,
+              135
+            ]
+          },
+          {
+            "el": "[data-drive=arc]",
+            "prop": "dashoffset",
+            "range": [
+              198,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4/1",
+        "role": "knob",
+        "gesture": "radialDrag",
+        "bind": {
+          "node": "4",
+          "param": 1
+        },
+        "map": {
+          "min": 300,
+          "max": 12000,
+          "mid": 1000,
+          "step": 0
+        },
+        "label": "Cutoff",
+        "suffix": " Hz",
+        "drive": [
+          {
+            "el": "[data-drive=pointer]",
+            "prop": "rotate",
+            "range": [
+              -135,
+              135
+            ]
+          },
+          {
+            "el": "[data-drive=arc]",
+            "prop": "dashoffset",
+            "range": [
+              198,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4/2",
+        "role": "knob",
+        "gesture": "radialDrag",
+        "bind": {
+          "node": "4",
+          "param": 2
+        },
+        "map": {
+          "min": 2,
+          "max": 45,
+          "mid": 0,
+          "step": 0
+        },
+        "label": "Detune",
+        "suffix": " ct",
+        "drive": [
+          {
+            "el": "[data-drive=pointer]",
+            "prop": "rotate",
+            "range": [
+              -135,
+              135
+            ]
+          },
+          {
+            "el": "[data-drive=arc]",
+            "prop": "dashoffset",
+            "range": [
+              198,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4/3",
+        "role": "knob",
+        "gesture": "radialDrag",
+        "bind": {
+          "node": "4",
+          "param": 3
+        },
+        "map": {
+          "min": 0,
+          "max": 0.600000023841858,
+          "mid": 0,
+          "step": 0
+        },
+        "label": "Space",
+        "suffix": "",
+        "drive": [
+          {
+            "el": "[data-drive=pointer]",
+            "prop": "rotate",
+            "range": [
+              -135,
+              135
+            ]
+          },
+          {
+            "el": "[data-drive=arc]",
+            "prop": "dashoffset",
+            "range": [
+              198,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4/4",
+        "role": "knob",
+        "gesture": "radialDrag",
+        "bind": {
+          "node": "4",
+          "param": 4
+        },
+        "map": {
+          "min": 0.800000011920929,
+          "max": 2,
+          "mid": 0,
+          "step": 0
+        },
+        "label": "Width",
+        "suffix": "",
+        "drive": [
+          {
+            "el": "[data-drive=pointer]",
+            "prop": "rotate",
+            "range": [
+              -135,
+              135
+            ]
+          },
+          {
+            "el": "[data-drive=arc]",
+            "prop": "dashoffset",
+            "range": [
+              198,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4/5",
+        "role": "knob",
+        "gesture": "radialDrag",
+        "bind": {
+          "node": "4",
+          "param": 5
+        },
+        "map": {
+          "min": 200,
+          "max": 3000,
+          "mid": 300,
+          "step": 0
+        },
+        "label": "Release",
+        "suffix": " ms",
+        "drive": [
+          {
+            "el": "[data-drive=pointer]",
+            "prop": "rotate",
+            "range": [
+              -135,
+              135
+            ]
+          },
+          {
+            "el": "[data-drive=arc]",
+            "prop": "dashoffset",
+            "range": [
+              198,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "face": {
+      "theme": "dark",
+      "tokens": {
+        "accent": "#57d0a3",
+        "title": "Supersaw Pad"
+      }
+    }
+  }
+}

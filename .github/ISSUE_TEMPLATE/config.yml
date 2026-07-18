@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: PatchLab product issues
+    url: https://github.com/mzajner/ModularFx/issues
+    about: Report product defects and feature requests in the product repository.
+  - name: Private security report
+    url: https://github.com/mzajner/PatchLab-docs/security/advisories/new
+    about: Report vulnerabilities or exposed secrets privately.

@@ -1,0 +1,92 @@
+---
+title: Diagnose no sound
+description: A fast, ordered method for finding silence without changing several unrelated controls at once.
+sidebar:
+  order: 2
+---
+
+Silence is usually easiest to diagnose from the endpoints inward. Avoid turning many
+parameters at once; each extra change destroys information about the cause.
+
+## 1. Check the output state
+
+- If **Panic! Silence Output** is latched, choose **Edit → Resume Output**.
+- Confirm AUDIO OUT has a connected input.
+- Check the final Meter or master output indication.
+- In standalone mode, confirm the intended audio device and output are selected.
+- In a DAW, confirm the track, plugin instance, monitoring, and host routing are active.
+
+## 2. Prove a direct path
+
+Temporarily connect AUDIO IN directly to AUDIO OUT at a low monitoring level.
+
+- If you hear the source, the host/device path works and the silence is inside the
+  processing graph.
+- If you do not, inspect the external input and output setup before changing blocks.
+
+Remove the temporary cable after the test so it does not bypass the intended effect.
+
+## 3. Trace the graph backward
+
+Starting at AUDIO OUT, inspect each previous block:
+
+- Is its output connected?
+- Does its input receive a signal?
+- Is it bypassed, suspended, muted, or set to a zero-output mode?
+- Does a Gain, Multiply, envelope, gate, or selector reduce the path to zero?
+- Does a wet-only branch depend on a source that is not running?
+
+Insert a Meter at intermediate points to find the first stage where signal disappears.
+
+## 4. Check source defaults
+
+PatchLab's generator blocks are silent by default as a safety rule. Raise the relevant
+level deliberately and keep monitoring low.
+
+For a note-driven source, confirm all of these:
+
+- MIDI reaches the block;
+- a note-on event is active;
+- the oscillator or voice level is above zero;
+- an envelope opens the amplitude path; and
+- the audio output reaches AUDIO OUT.
+
+Open Keys with `K` to audition a known note while you trace the path.
+
+## 5. Remove control complexity
+
+Disconnect modulation, feedback, selectors, and sidechains temporarily. Restore the
+main path to useful static values.
+
+Common control-related causes include:
+
+- a base value at the bottom of its range;
+- an envelope or gate that never triggers;
+- a selector pointing to an unconnected input;
+- a macro target range that maps to silence; or
+- feedback/routing that sends signal away from the observed output.
+
+## 6. Inspect structural boundaries
+
+Enter each Container, Oversample, or Poly block on the silent route. Confirm its
+interior PORTS IN and PORTS OUT are connected. A healthy parent-level cable does not
+prove that the nested graph has a complete interior path.
+
+## 7. Read diagnostics
+
+Open the Console for compile or runtime messages. Use the Debug page to inspect the
+selected block or group. If a custom Cmajor block failed to compile, do not assume the
+previous audio state represents the edited source.
+
+## Report a reproducible problem
+
+If the graph still fails:
+
+1. Save a copy that contains the smallest failing path.
+2. Record whether the problem occurs in standalone, plugin, or both.
+3. Record the host, plugin format, sample rate, and block size.
+4. State the first silent measurement point.
+5. Use **Help → Report a Bug** to save a diagnostics bundle.
+
+A minimal patch plus exact environment facts is much more useful than a screenshot of
+a large graph.

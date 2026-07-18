@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+  "registrySha256": "6d2fe8aac73daf92dccf547b5a7ef80717395d244e973e468b914a8c4ca5b7b0",
+  "generatedAt": "2026-07-18T15:52:14.637Z",
+  "files": [
+    {
+      "name": "Shimmer Reverb",
+      "file": "shimmer-reverb.plpatch",
+      "nodes": 8,
+      "connections": 14,
+      "sha256": "56e19633c26d7315f758e61b4b05f10b3ac8649825c9b90d6bfc41683eccd623"
+    },
+    {
+      "name": "Supersaw Pad",
+      "file": "supersaw-pad.plpatch",
+      "nodes": 4,
+      "connections": 5,
+      "sha256": "bae56474ab71de6ba845267205ed876458b9fa15576c5168538401683f325aa0"
+    },
+    {
+      "name": "Vocal Chain",
+      "file": "vocal-chain.plpatch",
+      "nodes": 10,
+      "connections": 16,
+      "sha256": "7958dd8a0edb6847f882d18e63d9a0c82cb311fc53a29a7d5d7a67996ee87726"
+    },
+    {
+      "name": "Lofi Hip-Hop",
+      "file": "lofi-hip-hop.plpatch",
+      "nodes": 7,
+      "connections": 10,
+      "sha256": "9ab9169284e2e7c6c4ebba9e2b6ac11fb2241cc15c06a42cefb731c5c0fdedcc"
+    },
+    {
+      "name": "Parallel Compressor",
+      "file": "parallel-compressor.plpatch",
+      "nodes": 7,
+      "connections": 10,
+      "sha256": "990b6f2d6bec8d94fd684e4bbf96e94d5f1569e6178e27892e26419e6386a569"
+    },
+    {
+      "name": "Space Echo",
+      "file": "space-echo.plpatch",
+      "nodes": 4,
+      "connections": 5,
+      "sha256": "23b5995fd8abda963613d31bdfa82838f6a00df2690d367e1f115ad4edc5e628"
+    },
+    {
+      "name": "Mid-Side Master",
+      "file": "mid-side-master.plpatch",
+      "nodes": 7,
+      "connections": 10,
+      "sha256": "50cda87cf6cab0b5645e6d2d5260afd6a28cdf84ce55a0605d50cb5429d4708a"
+    },
+    {
+      "name": "Spectral Freeze",
+      "file": "spectral-freeze.plpatch",
+      "nodes": 9,
+      "connections": 14,
+      "sha256": "344c21886a8cb7ea10236c8c33d21de4155d65de33b73b0fcfdb4bd93cfe4072"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+---
+title: Amplitude and decibels
+description: Relate linear gain, peak and RMS measurement, headroom, clipping, and level matching.
+sidebar:
+  order: 2
+---
+
+import LevelCalculator from '../../../components/LevelCalculator.astro';
+
+Audio systems use both linear amplitude ratios and decibels. Linear values describe
+the multiplication directly; decibels make large ratios easier to compare.
+
+## Linear gain
+
+For a constant gain `g`:
+
+```text
+y[n] = g × x[n]
+```
+
+- `g = 1` leaves amplitude unchanged.
+- `g = 0.5` halves sample amplitude.
+- `g = 0` produces silence.
+- `g = -1` preserves magnitude and reverses polarity.
+
+Gain does not inherently change pitch or duration.
+
+## Convert amplitude ratio to decibels
+
+For amplitude quantities:
+
+```text
+dB = 20 × log10(amplitude ratio)
+amplitude ratio = 10^(dB / 20)
+```
+
+Useful anchors:
+
+| Change | Approximate amplitude ratio |
+| --- | ---: |
+| +6.02 dB | 2.0 |
+| 0 dB | 1.0 |
+| -6.02 dB | 0.5 |
+| -20 dB | 0.1 |
+| -∞ dB | 0 |
+
+<LevelCalculator />
+
+Do not use `10 × log10` for an amplitude ratio; that form applies directly to power
+ratios. The distinction is a common source of 2× errors in level calculations.
+
+## Peak and RMS answer different questions
+
+**Peak** reports the largest instantaneous magnitude in the measurement window. It is
+important for headroom and clipping risk.
+
+**RMS** reports the square root of mean squared amplitude. It relates to signal energy
+over the window and often tracks sustained level better than peak.
+
+Neither is a complete perceptual loudness model. Frequency weighting, duration,
+dynamics, and human hearing all matter.
+
+## Headroom
+
+Headroom is space between the current level and a chosen limit. Leave it before
+summing branches, resonant filters, dynamics makeup gain, and nonlinear stages.
+
+Floating-point processing can represent values beyond the conventional full-scale
+boundary internally, but that is not permission to ignore level. A later clipper,
+export format, converter, or host path may not preserve those excursions.
+
+## Clipping changes the waveform
+
+When a signal exceeds a hard boundary, clipping replaces part of the waveform with the
+boundary value. That is nonlinear processing and creates harmonics. A soft clipper or
+saturator changes the transition shape, but it still creates new spectral components.
+
+If distortion is intentional, control the level entering and leaving the nonlinear
+stage. If it is not intentional, reduce gain earlier in the path.
+
+## Level matching
+
+Louder often sounds more impressive in a quick comparison. When judging tone or
+dynamics:
+
+1. compare the same source passage;
+2. trim output to a similar perceived level;
+3. confirm peaks remain safe; and
+4. switch often enough that memory is not doing all the work.
+
+An exact perceptual match requires more than peak or RMS equality, but even a careful
+approximation is better than an uncontrolled level advantage.
+
+## PatchLab experiment
+
+1. Route a steady source through Gain and Meter.
+2. Measure at 0 dB.
+3. Set Gain to approximately -6.02 dB.
+4. Predict the new linear amplitude and RMS change.
+5. Confirm that peak and RMS both fall by about 6 dB for the unchanged source.
+6. Duplicate the original path, sum the correlated branches, and predict the new peak.
+
+The final step demonstrates why parallel routing needs gain planning.
+
+## Primary references
+
+- Julius O. Smith III, [*Introduction to Digital Filters — Decibels*](https://ccrma.stanford.edu/~jos/filters/Decibels.html)
+- [Recommendation ITU-R BS.1770-5](https://www.itu.int/rec/R-REC-BS.1770-5-202311-I/en), for the distinction between programme loudness and true-peak measurement

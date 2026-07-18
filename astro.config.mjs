@@ -1,24 +1,80 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import registry from './src/data/registry.json' with { type: 'json' };
+
+/** @param {string} value */
+const slugify = (value) =>
+	value
+		.normalize('NFKD')
+		.toLowerCase()
+		.replace(/&/g, ' and ')
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-|-$/g, '');
+const blockCategories = [...new Set(registry.blocks.map((block) => block.category))].map(
+	(category) => ({ label: category, slug: `reference/blocks/${slugify(category)}` }),
+);
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://docs.patchlab.dev',
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'PatchLab',
+			disable404Route: true,
+			description: 'Build audio systems, understand what they do, and turn them into instruments and effects.',
+			logo: {
+				src: './src/assets/patchlab-mark.svg',
+				replacesTitle: false,
+			},
+			favicon: '/favicon.svg',
+			customCss: ['./src/styles/custom.css'],
+			social: [{ icon: 'github', label: 'PatchLab documentation on GitHub', href: 'https://github.com/mzajner/PatchLab-docs' }],
+			lastUpdated: true,
+			tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Start here',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ slug: 'start-here/what-is-patchlab' },
+						{ slug: 'start-here/first-patch' },
+						{ slug: 'start-here/interface' },
 					],
 				},
 				{
+					label: 'Core concepts',
+					items: [{ autogenerate: { directory: 'concepts' } }],
+				},
+				{
+					label: 'User manual',
+					items: [{ autogenerate: { directory: 'manual' } }],
+				},
+				{
+					label: 'Build and explore',
+					items: [{ autogenerate: { directory: 'guides' } }],
+				},
+				{
+					label: 'Learn DSP',
+					items: [{ autogenerate: { directory: 'learn' } }],
+				},
+				{
+					label: 'Block reference',
+					collapsed: true,
+					items: [{ slug: 'reference/blocks' }, ...blockCategories],
+				},
+				{
 					label: 'Reference',
-					items: [{ autogenerate: { directory: 'reference' } }],
+					items: [
+						{ slug: 'reference/shortcuts' },
+						{ slug: 'reference/file-types' },
+						{ slug: 'reference/glossary' },
+						{ slug: 'reference/documentation-status' },
+					],
+				},
+				{
+					label: 'About the docs',
+					collapsed: true,
+					items: [{ autogenerate: { directory: 'about' } }],
 				},
 			],
 		}),

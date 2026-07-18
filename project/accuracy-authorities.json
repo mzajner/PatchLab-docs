@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+  "classes": {
+    "generated-registry": {
+      "description": "Generated from the running PatchLab registry and checked against its canonical hash.",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ]
+    },
+    "current-product": {
+      "description": "Reviewed against the pinned PatchLab source, live registry, and validated factory examples.",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ]
+    },
+    "dsp-theory": {
+      "description": "Checked against stated primary references and executable numerical invariants.",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    "site-governance": {
+      "description": "Defines documentation scope or governance and is checked for current/planned separation.",
+      "authorities": [
+        "project/DOCUMENTATION_STRATEGY.md",
+        "project/CONTENT_STANDARD.md",
+        "project/ROADMAP.md"
+      ]
+    }
+  },
+  "productTerms": [
+    "New Patch",
+    "New Project (from current patch)",
+    "Open Project",
+    "Save Patch As",
+    "Export Patch as .plpatch",
+    "Load Example",
+    "Audio/MIDI Settings",
+    "Panic! Silence Output",
+    "Resume Output",
+    "Generate UI",
+    "Analyze this block",
+    "Save Canvas Preset",
+    "Save Preset",
+    "Export Plugin (VST3 + AU + CLAP)",
+    "Run in background",
+    "External Agent",
+    "Dry run",
+    "auto-apply",
+    "Audition Keyboard",
+    "Perform Overlay",
+    "Local LLM Endpoint"
+  ]
+}

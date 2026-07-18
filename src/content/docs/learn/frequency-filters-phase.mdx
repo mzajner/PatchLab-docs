@@ -1,0 +1,106 @@
+---
+title: Frequency, filters, and phase
+description: Connect cycles, spectrum, filter response, delay, phase, and cancellation to practical PatchLab experiments.
+sidebar:
+  order: 3
+---
+
+import PhaseExplorer from '../../../components/PhaseExplorer.astro';
+
+Frequency describes repetition rate in cycles per second, measured in hertz. Phase
+describes position within a cycle. Filters and delays change the relationship between
+frequency components, so frequency and phase must be understood together.
+
+## Frequency and period
+
+For a periodic signal:
+
+```text
+period in seconds = 1 / frequency in hertz
+```
+
+A 1 kHz sine completes one cycle every 1 ms. At 48 kHz sample rate, that cycle spans
+48 sample intervals.
+
+## A spectrum is a view, not another signal
+
+An analyzer estimates how energy is distributed across frequency for a chosen time
+window. Window length, window function, FFT size, overlap, and signal stationarity all
+affect what you see.
+
+Use a spectrum to test frequency-domain claims, but do not treat one frame as a full
+description of a time-varying sound.
+
+## Filter magnitude
+
+A filter's magnitude response states how strongly it passes each frequency. Cutoff is
+usually a transition reference, not a brick-wall boundary. Slope and resonance shape
+that transition.
+
+Different filter designs can share a nominal cutoff yet differ in:
+
+- transition shape;
+- resonance or Q behavior;
+- phase response;
+- modulation behavior;
+- numerical behavior near extreme parameters; and
+- nonlinear or self-oscillating behavior.
+
+Use the block's exact reference and measurements rather than assuming all “low-pass”
+filters are interchangeable.
+
+## Delay creates frequency-dependent phase shift
+
+A time delay shifts every component by the same amount in seconds. Expressed as phase,
+that shift grows with frequency:
+
+```text
+phase shift = -2π × frequency × delay
+```
+
+When a delayed signal is mixed with its undelayed version, some frequencies reinforce
+and others cancel. The result is a comb-like magnitude response.
+
+<PhaseExplorer />
+
+This is the foundation of flanging and many phasing or spatial effects. It also
+explains why parallel processing paths with different latency can sound hollow when
+recombined.
+
+## Polarity is not arbitrary phase
+
+Reversing polarity multiplies the entire waveform by -1, equivalent to 180° for every
+sinusoidal component. A general time shift does not apply the same phase angle at every
+frequency.
+
+Use **polarity inversion** and **phase shift** as distinct terms.
+
+## PatchLab experiments
+
+### Observe a low-pass filter
+
+1. Feed broadband noise into SVF.
+2. Observe it with Analyzer.
+3. Lower cutoff and predict which region will fall.
+4. Raise resonance carefully and observe the region near cutoff.
+
+### Create a comb response
+
+1. Split one signal into a dry branch and a SampleDelay branch.
+2. Recombine with Add at conservative gain.
+3. Change the delay by one sample at a time.
+4. Observe the notches move and compare against the audible change.
+
+### Test mono compatibility
+
+1. Create a stereo difference with Width, Pan, or a short delay.
+2. Observe Goniometer and Correlation.
+3. Recombine or monitor in mono.
+4. Identify which apparent width depends on cancellation.
+
+The purpose is not to avoid phase interaction. It is to make it intentional.
+
+## Primary references
+
+- Julius O. Smith III, [*Introduction to Digital Filters — Frequency Response*](https://ccrma.stanford.edu/~jos/filters/Frequency_Response.html)
+- Julius O. Smith III, [*Physical Audio Signal Processing — Comb Filters*](https://ccrma.stanford.edu/~jos/pasp/Comb_Filters.html)

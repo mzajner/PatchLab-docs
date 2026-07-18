@@ -1,0 +1,45 @@
+<section class="pl-lab" data-level-lab aria-labelledby="level-lab-title">
+	<h3 id="level-lab-title">Amplitude ratio ↔ decibels</h3>
+	<label>
+		Amplitude ratio
+		<input type="range" min="0.001" max="2" step="0.001" value="0.5" data-ratio />
+	</label>
+	<div class="readout" aria-live="polite">
+		<output data-ratio-out>0.500</output>
+		<span aria-hidden="true">→</span>
+		<strong><output data-db-out>-6.02 dB</output></strong>
+	</div>
+	<div class="meter" aria-hidden="true"><span data-meter></span><i>1.0</i></div>
+	<p class="note">The result uses <code>20 × log10(ratio)</code>. It is an amplitude ratio, not a loudness estimate.</p>
+</section>
+
+<script>
+	document.querySelectorAll('[data-level-lab]').forEach((lab) => {
+		const input = lab.querySelector<HTMLInputElement>('[data-ratio]');
+		const ratioOut = lab.querySelector<HTMLOutputElement>('[data-ratio-out]');
+		const dbOut = lab.querySelector<HTMLOutputElement>('[data-db-out]');
+		const meter = lab.querySelector<HTMLElement>('[data-meter]');
+		if (!input || !ratioOut || !dbOut || !meter) return;
+		const update = () => {
+			const ratio = Number(input.value);
+			ratioOut.value = ratio.toFixed(3);
+			dbOut.value = `${(20 * Math.log10(ratio)).toFixed(2)} dB`;
+			meter.style.width = `${Math.min(100, ratio * 50)}%`;
+		};
+		input.addEventListener('input', update);
+		update();
+	});
+</script>
+
+<style>
+	.pl-lab { border: 1px solid var(--sl-color-gray-5); border-radius: .85rem; padding: 1rem 1.1rem; background: color-mix(in srgb, var(--sl-color-bg-nav) 82%, transparent); }
+	.pl-lab h3 { margin: 0 0 .8rem; font-size: 1rem; }
+	.pl-lab label { display: grid; gap: .45rem; font-weight: 650; }
+	.pl-lab input { width: 100%; accent-color: var(--sl-color-accent); }
+	.readout { display: flex; align-items: baseline; justify-content: center; gap: .8rem; padding: .8rem 0; font-variant-numeric: tabular-nums; }
+	.readout strong { color: var(--sl-color-white); font-size: 1.25rem; }
+	.meter { position: relative; height: .6rem; border-radius: 99px; background: var(--sl-color-gray-6); overflow: visible; }
+	.meter span { display: block; height: 100%; border-radius: inherit; background: var(--sl-color-accent); }
+	.meter i { position: absolute; left: 50%; top: -.35rem; border-left: 1px solid var(--sl-color-gray-2); height: 1.3rem; width: 0; color: transparent; }
+	.note { margin: .8rem 0 0; color: var(--sl-color-gray-2); font-size: .84rem; }
+</style>

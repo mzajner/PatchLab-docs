@@ -1,0 +1,141 @@
+:root {
+	color-scheme: dark;
+	--sl-color-accent-low: #17281f;
+	--sl-color-accent: #62d882;
+	--sl-color-accent-high: #caf8d6;
+	--sl-color-white: #f6f8fa;
+	--sl-color-gray-1: #e6e8ea;
+	--sl-color-gray-2: #bdc2c7;
+	--sl-color-gray-3: #8c9197;
+	--sl-color-gray-4: #5d646c;
+	--sl-color-gray-5: #303841;
+	--sl-color-gray-6: #1a2129;
+	--sl-color-black: #0c1117;
+	--pl-amber: #e8b64c;
+	--pl-green: #7adf8e;
+	--pl-panel: #111820;
+	--pl-wave-a: #65c7ff;
+	--pl-wave-b: #f1b75b;
+	--pl-wave-sum: #f5f7fa;
+	--pl-wave-plot: #080d12;
+}
+
+:root[data-theme='light'] {
+	color-scheme: light;
+	--sl-color-accent-low: #dff5e6;
+	--sl-color-accent: #176f36;
+	--sl-color-accent-high: #0d3e1f;
+	--sl-color-white: #111820;
+	--sl-color-gray-1: #25303a;
+	--sl-color-gray-2: #46525d;
+	--sl-color-gray-3: #68737d;
+	--sl-color-gray-4: #a8afb5;
+	--sl-color-gray-5: #d9dde0;
+	--sl-color-gray-6: #eef0f2;
+	--sl-color-gray-7: #f7f8f9;
+	--sl-color-black: #ffffff;
+	--pl-panel: #f1f3f4;
+	--pl-amber: #8a5600;
+	--pl-green: #176f36;
+	--pl-wave-a: #006b9e;
+	--pl-wave-b: #8a4f00;
+	--pl-wave-sum: #15202b;
+	--pl-wave-plot: #f7f9fa;
+}
+
+body {
+	font-variant-numeric: tabular-nums;
+}
+
+.site-title {
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.hero h1 {
+	max-width: 14ch;
+	font-size: clamp(2.7rem, 7vw, 5.6rem);
+	letter-spacing: -0.055em;
+	line-height: 0.94;
+}
+
+.hero .tagline {
+	max-width: 48rem;
+	font-size: clamp(1.05rem, 2vw, 1.35rem);
+}
+
+.sl-markdown-content h2 {
+	letter-spacing: -0.02em;
+}
+
+.sl-markdown-content table {
+	font-size: 0.92rem;
+}
+
+.sl-markdown-content :not(pre) > code {
+	border: 1px solid color-mix(in srgb, var(--sl-color-gray-4) 40%, transparent);
+	border-radius: 0.35rem;
+}
+
+.pl-kicker {
+	color: var(--pl-amber);
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+.pl-signal-chain {
+	display: grid;
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+	gap: 0.75rem;
+	margin-block: 1.5rem 2rem;
+}
+
+.pl-signal-chain > div {
+	position: relative;
+	min-height: 6.5rem;
+	padding: 1rem;
+	border: 1px solid var(--sl-color-gray-5);
+	border-radius: 0.9rem;
+	background: linear-gradient(145deg, color-mix(in srgb, var(--pl-panel) 92%, var(--pl-green)), var(--pl-panel));
+}
+
+.pl-signal-chain > div:not(:last-child)::after {
+	content: '→';
+	position: absolute;
+	top: 50%;
+	right: -0.68rem;
+	z-index: 1;
+	color: var(--pl-green);
+	font-weight: 700;
+	transform: translate(50%, -50%);
+}
+
+.pl-signal-chain strong,
+.pl-signal-chain span {
+	display: block;
+}
+
+.pl-signal-chain span {
+	margin-top: 0.45rem;
+	color: var(--sl-color-gray-2);
+	font-size: 0.82rem;
+}
+
+@media (max-width: 50rem) {
+	.pl-signal-chain {
+		grid-template-columns: 1fr;
+	}
+
+	.pl-signal-chain > div {
+		min-height: auto;
+	}
+
+	.pl-signal-chain > div:not(:last-child)::after {
+		top: auto;
+		right: 50%;
+		bottom: -0.9rem;
+		transform: translate(50%, 50%) rotate(90deg);
+	}
+}

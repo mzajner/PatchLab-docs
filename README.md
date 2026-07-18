@@ -1,49 +1,87 @@
-# Starlight Starter Kit: Basics
+# PatchLab documentation
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+The standalone source for PatchLab's product guide, DSP learning path, and generated
+block reference.
 
-```
-npm create astro@latest -- --template starlight
-```
+## Local development
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
-
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+```bash
+npm install
+npm run dev
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Open the local URL printed by Astro.
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+## Required checks
 
-Static assets, like favicons, can be placed in the `public/` directory.
+```bash
+npm run check
+```
 
-## 🧞 Commands
+This validates frontmatter, internal links, terminology migrations, generated registry
+provenance, downloadable-example integrity, per-page accuracy authorities, DSP
+invariants, theme contrast, Astro types, the production build, the search index, and
+sitemap generation.
 
-All commands are run from the root of the project, from a terminal:
+## Refresh the block reference
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Build PatchLab first, then run:
 
-## 👀 Want to learn more?
+```bash
+npm run sync:registry
+```
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+Set `PATCHLAB_BIN` and `PATCHLAB_SOURCE` when the product checkout is not in the
+expected sibling location. Generated pages under
+`src/content/docs/reference/blocks/` are replaced on each sync; do not edit them by
+hand.
+
+## Refresh the example library
+
+After the product revision is frozen, run:
+
+```bash
+npm run sync:examples
+```
+
+This copies the approved factory examples, validates their graph structure against the
+registry, normalizes their JSON, and writes a hash manifest. Files under
+`public/examples/` are generated release inputs; update them through the sync script.
+
+## Prepare a release
+
+```bash
+npm run sync:registry
+npm run sync:examples
+npm run release:audit
+npm run check
+```
+
+`release:audit` compares documentation provenance with the current PatchLab checkout
+and reports unresolved public-release gates. The strict form is for a publication
+candidate and intentionally fails while any gate remains open:
+
+```bash
+npm run release:audit:strict
+```
+
+Follow [project/RELEASE_CHECKLIST.md](project/RELEASE_CHECKLIST.md) for procedural,
+media, host, accessibility, preview, and deployment review. Public-release decisions
+are recorded in `project/release-gates.json`; do not silently replace a missing fact
+with a provisional claim.
+
+## Repository map
+
+- `src/content/docs/` — published pages
+- `src/data/` — registry snapshot and provenance
+- `src/styles/` — documentation design tokens and presentation
+- `scripts/` — registry/example generation, content checks, and release audit
+- `project/` — strategy, standards, governance, and roadmap (not published)
+- `.github/workflows/` — verification, link checking, and deployment
+
+Read [project/DOCUMENTATION_STRATEGY.md](project/DOCUMENTATION_STRATEGY.md) before
+changing the information architecture.
+
+Licensing and public conduct, privacy, security, and support policies are defined in
+[LICENSE.md](LICENSE.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md),
+[PRIVACY.md](PRIVACY.md), [SECURITY.md](SECURITY.md), and [SUPPORT.md](SUPPORT.md).

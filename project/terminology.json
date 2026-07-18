@@ -1,0 +1,32 @@
+{
+  "terms": [
+    {
+      "id": "block",
+      "preferred": "block",
+      "definition": "One functional unit placed in a PatchLab graph.",
+      "aliases": ["node"],
+      "note": "Use node only for framework internals, source identifiers, quotations, or comparisons where the other product uses that term."
+    },
+    {
+      "id": "patch",
+      "preferred": "patch",
+      "definition": "A graph of blocks, connections, values, and nested graphs."
+    },
+    {
+      "id": "container",
+      "preferred": "container",
+      "definition": "A block whose interior is another graph."
+    },
+    {
+      "id": "macro",
+      "preferred": "macro",
+      "definition": "A parent-facing control mapped to one or more parameters inside a container."
+    },
+    {
+      "id": "face",
+      "preferred": "face",
+      "definition": "A designed musician-facing interface for a patch or block."
+    }
+  ],
+  "deprecated": []
+}

@@ -1,40 +1,84 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: PatchLab documentation
+description: Learn PatchLab, understand the DSP behind your patches, and find precise reference material for every block.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  title: Build sound. See the system.
+  tagline: PatchLab is a modular environment for designing audio effects and instruments. These docs teach both the product and the signal-processing ideas beneath it.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/patchlab-mark.svg
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Build your first patch
+      link: /start-here/first-patch/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Explore the block library
+      link: /reference/blocks/
+      icon: open-book
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+<p class="pl-kicker">One system, three ways in</p>
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Use PatchLab" icon="rocket">
+		Follow the [user manual](/manual/install-and-first-run/) and short, outcome-led
+		guides from an empty patch to a working effect, instrument, interface, and export.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Understand the patch" icon="open-book">
+		Follow the [DSP curriculum](/learn/curriculum/) through signal flow, gain,
+		phase, filtering, dynamics, aliasing, spectral processing, and real-time design.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Look up the facts" icon="magnifier">
+		Search a reference generated from PatchLab's live registry: ports, parameters,
+		ranges, defaults, units, signal role, CPU class, and latency.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Open a working example" icon="download">
+		Use the [validated example library](/guides/example-library/) to inspect complete
+		factory patches with recorded source revision and per-file hashes.
 	</Card>
 </CardGrid>
+
+## A patch is a signal system
+
+<div class="pl-signal-chain">
+	<div><strong>Source</strong><span>Audio input, oscillator, sampler</span></div>
+	<div><strong>Shape</strong><span>Filter, dynamics, distortion</span></div>
+	<div><strong>Move</strong><span>LFO, envelope, follower</span></div>
+	<div><strong>Observe</strong><span>Meter, scope, spectrum</span></div>
+	<div><strong>Deliver</strong><span>Perform, save, export</span></div>
+</div>
+
+The documentation follows the same modular idea as PatchLab. Read one concept in
+isolation, follow its links into a working guide, or open the exact block reference.
+You should never need to read the site in order.
+
+## Choose a path
+
+<CardGrid>
+	<Card title="I am new to modular audio" icon="puzzle">
+		Start with [What is PatchLab?](/start-here/what-is-patchlab/), then make
+		[a first patch](/start-here/first-patch/). Technical terms are introduced only
+		when they explain something you can hear or see.
+	</Card>
+	<Card title="I already build audio tools" icon="seti">
+		Go directly to [core concepts](/concepts/signal-flow/) or the
+		[block reference](/reference/blocks/). Parameter values are stated in their
+		real units and generated data is separated from editorial guidance.
+	</Card>
+	<Card title="I want to learn DSP" icon="approve-check-circle">
+		Begin with [DSP foundations](/learn/dsp-foundations/). The learning path uses
+		PatchLab as a laboratory: predict, patch, measure, listen, and explain.
+	</Card>
+	<Card title="Something is not working" icon="information">
+		Use the [no-sound diagnostic](/guides/diagnose-no-sound/) for a fast signal-path
+		check, then consult the relevant block page for port and range details.
+	</Card>
+</CardGrid>
+
+:::note[Development documentation]
+PatchLab is evolving quickly. Pages distinguish verified behavior from planned
+material, and the block reference records the exact product revision that generated
+it. See [Documentation status](/reference/documentation-status/).
+:::

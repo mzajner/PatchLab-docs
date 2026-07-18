@@ -1,0 +1,71 @@
+<section class="pl-lab" data-phase-lab aria-labelledby="phase-lab-title">
+	<h3 id="phase-lab-title">Equal-sine phase interaction</h3>
+	<label>
+		Relative phase: <output data-phase-out>0°</output>
+		<input type="range" min="-180" max="180" step="1" value="0" data-phase />
+	</label>
+	<svg viewBox="0 0 600 190" role="img" aria-labelledby="phase-plot-title phase-plot-desc">
+		<title id="phase-plot-title">Two equal sine waves and their sum</title>
+		<desc id="phase-plot-desc" data-description>The waves are in phase and their sum has twice the amplitude of either wave.</desc>
+		<line x1="0" y1="95" x2="600" y2="95" class="axis" />
+		<path data-a class="wave a" />
+		<path data-b class="wave b" />
+		<path data-sum class="wave sum" />
+	</svg>
+	<div class="legend" aria-hidden="true"><span>A</span><span>B</span><strong>A + B</strong></div>
+	<p class="result" aria-live="polite">
+		Sum peak relative to one sine: <strong><output data-amp-out>2.000 (+6.02 dB)</output></strong>
+	</p>
+	<p class="note">This exact cancellation model assumes equal amplitude, frequency, and steady phase. Real signals rarely satisfy all three across the spectrum.</p>
+</section>
+
+<script>
+	document.querySelectorAll('[data-phase-lab]').forEach((lab) => {
+		const input = lab.querySelector<HTMLInputElement>('[data-phase]');
+		const phaseOut = lab.querySelector<HTMLOutputElement>('[data-phase-out]');
+		const ampOut = lab.querySelector<HTMLOutputElement>('[data-amp-out]');
+		const desc = lab.querySelector<SVGDescElement>('[data-description]');
+		const pathA = lab.querySelector<SVGPathElement>('[data-a]');
+		const pathB = lab.querySelector<SVGPathElement>('[data-b]');
+		const pathSum = lab.querySelector<SVGPathElement>('[data-sum]');
+		if (!input || !phaseOut || !ampOut || !desc || !pathA || !pathB || !pathSum) return;
+		const path = (fn: (value: number) => number, scale = 30) => Array.from({ length: 151 }, (_, index) => {
+			const x = index * 4;
+			const t = (index / 150) * Math.PI * 4;
+			const y = 95 - fn(t) * scale;
+			return `${index ? 'L' : 'M'}${x.toFixed(1)},${y.toFixed(1)}`;
+		}).join(' ');
+		const update = () => {
+			const deg = Number(input.value);
+			const rad = deg * Math.PI / 180;
+			const amplitude = 2 * Math.abs(Math.cos(rad / 2));
+			const db = amplitude < 1e-9 ? '−∞' : `${(20 * Math.log10(amplitude)).toFixed(2)}`;
+			phaseOut.value = `${deg}°`;
+			ampOut.value = amplitude < 1e-9 ? '0.000 (−∞ dB)' : `${amplitude.toFixed(3)} (${Number(db) >= 0 ? '+' : ''}${db} dB)`;
+			pathA.setAttribute('d', path((t) => Math.sin(t)));
+			pathB.setAttribute('d', path((t) => Math.sin(t + rad)));
+			pathSum.setAttribute('d', path((t) => (Math.sin(t) + Math.sin(t + rad)), 24));
+			desc.textContent = `Wave B is ${deg} degrees from wave A. Their ideal sum has ${amplitude.toFixed(3)} times the peak amplitude of one wave.`;
+		};
+		input.addEventListener('input', update);
+		update();
+	});
+</script>
+
+<style>
+	.pl-lab { border: 1px solid var(--sl-color-gray-5); border-radius: .85rem; padding: 1rem 1.1rem; background: color-mix(in srgb, var(--sl-color-bg-nav) 82%, transparent); }
+	.pl-lab h3 { margin: 0 0 .8rem; font-size: 1rem; }
+	.pl-lab label { display: grid; gap: .45rem; font-weight: 650; }
+	.pl-lab input { width: 100%; accent-color: var(--sl-color-accent); }
+	svg { width: 100%; height: auto; margin-top: .7rem; border-radius: .45rem; background: var(--pl-wave-plot); }
+	.axis { stroke: var(--sl-color-gray-5); stroke-width: 1; }
+	.wave { fill: none; stroke-width: 2; }
+	.a { stroke: var(--pl-wave-a); }
+	.b { stroke: var(--pl-wave-b); stroke-dasharray: 5 4; }
+	.sum { stroke: var(--pl-wave-sum); stroke-width: 3; }
+	.legend { display: flex; gap: 1rem; justify-content: center; font-size: .78rem; color: var(--sl-color-gray-2); }
+	.legend span:first-child { color: var(--pl-wave-a); }
+	.legend span:nth-child(2) { color: var(--pl-wave-b); }
+	.result { text-align: center; font-variant-numeric: tabular-nums; }
+	.note { margin-bottom: 0; color: var(--sl-color-gray-2); font-size: .84rem; }
+</style>

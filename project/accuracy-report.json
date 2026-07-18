@@ -1,0 +1,2967 @@
+{
+  "schemaVersion": 1,
+  "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+  "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300",
+  "registryBlocks": 166,
+  "pages": [
+    {
+      "page": "404.md",
+      "evidenceClass": "site-governance",
+      "authorities": [
+        "project/DOCUMENTATION_STRATEGY.md",
+        "project/CONTENT_STANDARD.md",
+        "project/ROADMAP.md"
+      ]
+    },
+    {
+      "page": "about/contributing.md",
+      "evidenceClass": "site-governance",
+      "authorities": [
+        "project/DOCUMENTATION_STRATEGY.md",
+        "project/CONTENT_STANDARD.md",
+        "project/ROADMAP.md"
+      ]
+    },
+    {
+      "page": "about/licensing.md",
+      "evidenceClass": "site-governance",
+      "authorities": [
+        "project/DOCUMENTATION_STRATEGY.md",
+        "project/CONTENT_STANDARD.md",
+        "project/ROADMAP.md"
+      ]
+    },
+    {
+      "page": "about/privacy.md",
+      "evidenceClass": "site-governance",
+      "authorities": [
+        "project/DOCUMENTATION_STRATEGY.md",
+        "project/CONTENT_STANDARD.md",
+        "project/ROADMAP.md"
+      ]
+    },
+    {
+      "page": "about/versioning.md",
+      "evidenceClass": "site-governance",
+      "authorities": [
+        "project/DOCUMENTATION_STRATEGY.md",
+        "project/CONTENT_STANDARD.md",
+        "project/ROADMAP.md"
+      ]
+    },
+    {
+      "page": "concepts/blocks-ports-cables.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "concepts/containers-macros.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "concepts/modulation.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "concepts/projects-patches-presets.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "concepts/signal-flow.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/block-families/dynamics-and-distortion.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/block-families/filters-and-eq.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/block-families/generators.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/block-families/index.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/block-families/meters-and-analysis.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/block-families/modulators.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/block-families/notes-and-sequencing.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/block-families/routing-and-structure.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/block-families/spectral.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/block-families/time-and-motion.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/block-families/visual.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/build-a-safe-delay.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/build-first-effect.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/build-first-instrument.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/build-tremolo-and-autopan.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/design-a-face.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/diagnose-no-sound.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/dissect-lofi-chain.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/example-library.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/measure-a-filter.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "guides/release-an-export.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "index.mdx",
+      "evidenceClass": "site-governance",
+      "authorities": [
+        "project/DOCUMENTATION_STRATEGY.md",
+        "project/CONTENT_STANDARD.md",
+        "project/ROADMAP.md"
+      ]
+    },
+    {
+      "page": "learn/amplitude-and-decibels.mdx",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/curriculum.md",
+      "evidenceClass": "site-governance",
+      "authorities": [
+        "project/DOCUMENTATION_STRATEGY.md",
+        "project/CONTENT_STANDARD.md",
+        "project/ROADMAP.md"
+      ]
+    },
+    {
+      "page": "learn/delay-modulation-and-reverb.md",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/dsp-foundations.mdx",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/envelopes-and-dynamics.md",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/fft-stft-and-convolution.md",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/filter-structures.md",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/frequency-filters-phase.mdx",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/nonlinearity-and-oversampling.md",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/oscillators-and-bandlimiting.md",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/real-time-audio-architecture.md",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/sampling-and-aliasing.md",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/stereo-and-mono.md",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "learn/testing-dsp.md",
+      "evidenceClass": "dsp-theory",
+      "authorities": [
+        "page-primary-references",
+        "scripts/test-dsp.mjs"
+      ]
+    },
+    {
+      "page": "manual/agent.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "manual/audio-and-midi.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "manual/canvas-page.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "manual/debug-page.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "manual/exporting.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "manual/install-and-first-run.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "manual/patch-page.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "manual/perform-and-docks.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "manual/presets-and-faces.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "manual/projects-and-saving.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "manual/support-status.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "manual/troubleshooting.md",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/clipper.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/comp.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/crush.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/drive.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/gate.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/index.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/limiter.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/tableshaper.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/transient.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/updowncomp.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/waveshaper.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/allpass.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/biquad.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/cascade.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/comb.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/crossover.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/eq.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/filterbank.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/fir.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/formant.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/harmonicbank.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/index.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/ladder.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/onepole.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/phasedelay.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/svf-eq.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/svf.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/drumsynth.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/fmop.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/impulse.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/index.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/modalbank.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/noise.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/noteosc.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/osc.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/phasor.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/sampler.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/supersaw.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/waveguide.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/generators/wavetable.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/index.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/analyzer.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/autoalign.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/correlation.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/cvscope.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/goniometer.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/index.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/meter.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/midimonitor.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/print.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/recorder.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/scope.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/spectrogram.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/tuner.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/meters-and-analysis/wavehistory.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/accumulate.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/adsr.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/ahdsr.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/ar.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/chaos.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/clamp.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/const.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/convert.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/curvemap.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/cvtranspose.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/envfollow.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/faders.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/formula.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/function.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/gaincomp.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/index.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/keytrack.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/lastchanged.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/lfo.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/maprange.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/math1.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/math2.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/midicc.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/multienv.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/onload.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/quantize.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/ramp.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/random.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/s-and-h.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/smoother.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/track-and-hold.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/velocity.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/voiceinfo.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/modulators/xy.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/arp.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/burst.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/button.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/cctransform.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/change.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/chordgen.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/clockdiv.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/compare.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/cvtomidicc.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/cvtomidinote.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/dice.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/euclidean.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/eventdelay.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/humanize.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/index.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/keys.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/logic.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/microquant.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/midifilt.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/midimerge.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/midipanic.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/midiscale.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/noteremap.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/notetogate.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/pendulum.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/ppq.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/probability.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/scala.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/scalequant.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/sequencer.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/temposync.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/timer.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/transport.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/transpose.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/notes-and-sequencing/turing.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/add.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/branch.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/cmaj.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/container.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/feedback.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/gain.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/index.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/matrix.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/mixmatrix.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/monosplit.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/ms-dec.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/ms-enc.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/multiply.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/oversample.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/pan.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/poly.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/receive.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/selector.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/send.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/stereomerge.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/width.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/xfade.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/spectral/binfreeze.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/spectral/bingate.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/spectral/binshift.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/spectral/crosssynth.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/spectral/index.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/spectral/magphase.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/spectral/spectralblur.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/spectral/stft.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/allpassdelay.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/chorus.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/combbank.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/convolution.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/delay.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/diffuser.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/fdn.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/fixdelay.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/flanger.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/granular.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/index.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/looper.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/multitap.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/phaser.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/pitchshift.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/reverb.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/reversedelay.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/ringmod.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/sampledelay.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/tremolo.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/time-and-motion/wowflutter.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/visual/index.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/blocks/visual/videoplayer.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+    },
+    {
+      "page": "reference/documentation-status.mdx",
+      "evidenceClass": "site-governance",
+      "authorities": [
+        "project/DOCUMENTATION_STRATEGY.md",
+        "project/CONTENT_STANDARD.md",
+        "project/ROADMAP.md"
+      ]
+    },
+    {
+      "page": "reference/file-types.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "reference/glossary.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "reference/shortcuts.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "start-here/first-patch.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "start-here/interface.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    },
+    {
+      "page": "start-here/what-is-patchlab.mdx",
+      "evidenceClass": "current-product",
+      "authorities": [
+        "Source/Main.cpp",
+        "Source/PatchView.h",
+        "Source/Plugin.cpp",
+        "Source/ProjectFolder.h",
+        "Source/engine/ProjectRoot.h",
+        "Source/engine/Registry.h",
+        "ui/src/commands.js",
+        "ui/src/Editor.svelte",
+        "ui/src/Agent.svelte",
+        "ui/src/Debug.svelte",
+        "ui/src/ExportModal.svelte",
+        "ui/src/Face.svelte"
+      ],
+      "productCommit": "d2693baee79099f244fa2427da40050f4a76da64"
+    }
+  ]
+}

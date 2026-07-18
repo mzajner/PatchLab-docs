@@ -1,0 +1,102 @@
+---
+title: Blocks, ports, and cables
+description: The modular grammar PatchLab uses to turn small processing units into complete systems.
+sidebar:
+  order: 2
+---
+
+PatchLab's graph has a small grammar: **blocks perform work, ports declare connection
+points, and cables create relationships**. Complex patches are compositions of these
+three things.
+
+## Blocks are units of behavior
+
+A block may:
+
+- generate audio or control signals;
+- transform tone, level, timing, or stereo position;
+- respond to MIDI events;
+- combine, split, select, or feed back signals;
+- measure a signal without intentionally changing it; or
+- contain another graph.
+
+The block browser groups the current library into functional categories. Category is a
+navigation aid, not a complete definition: inspect the block's ports, parameter table,
+signal role, latency, and safety notes before using it in a critical path.
+
+## Ports have direction and meaning
+
+An output port publishes information. An input port receives it. PatchLab highlights
+compatible targets while you drag a cable.
+
+A block can expose several distinct inputs:
+
+- primary audio inputs;
+- secondary audio inputs such as a sidechain or carrier;
+- a MIDI input or output; and
+- one modulation input for each parameter.
+
+The label answers the question “what will this connection control?” For a parameter
+row, the destination is that parameter even though it appears on the block body rather
+than in the header.
+
+## Cables define execution relationships
+
+Drag from an output to an input to connect them. Click a cable and press Delete to
+remove it. Right-click an input port to disconnect that destination.
+
+Cable layout is visual, but its endpoints are semantic. Rearranging a cable's curve or
+moving a block does not change the DSP. Changing either endpoint does.
+
+## Fan-out, fan-in, and explicit mixing
+
+One output may feed more than one destination. This **fan-out** creates parallel
+branches without consuming the source.
+
+When branches return to one path, make the combination explicit. Choose a block that
+matches the desired law:
+
+- **Add** for weighted summing;
+- **XFade** for a controlled transition between two paths;
+- **Multiply** for amplitude control or ring modulation;
+- **MixMatrix/Matrix** for multi-path routing; or
+- a container macro that exposes a musically named blend.
+
+The choice affects gain, correlation, and perceived loudness. “Both signals are
+present” is not enough to define a mix.
+
+## Parameters are part of the connection model
+
+Each parameter declares a minimum, maximum, default, unit, and—where relevant—a step
+or list of choices. PatchLab uses these declarations for editing, automation,
+modulation, serialization, and generated reference pages.
+
+Right-click a parameter row to:
+
+- connect an existing modulator or create a new LFO;
+- unplug its modulation input;
+- toggle bipolar modulation;
+- reset it; or
+- expose it as a macro when working inside a container.
+
+## Structural blocks
+
+Container, Oversample, and Poly are structural. Their purpose is not only to color the
+signal; they change how an interior graph is organized or evaluated.
+
+- **Container** creates a nested reusable subsystem.
+- **Oversample** evaluates its interior at a higher sample rate with boundary filtering
+  and reports the added latency.
+- **Poly** creates a multi-voice interior for note-driven instruments.
+
+Treat structural boundaries as design decisions. They affect comprehensibility,
+latency, CPU use, and export behavior.
+
+## The reference is generated, the guidance is edited
+
+Every [block reference page](/reference/blocks/) is generated from PatchLab's live
+registry. Parameter names, ranges, defaults, units, port counts, CPU class, and latency
+therefore come from the product rather than a hand-maintained table.
+
+Editorial pages such as this one explain how and why to combine those facts. Keeping
+the two layers separate reduces drift while preserving clear teaching.

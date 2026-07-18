@@ -1,0 +1,95 @@
+---
+title: Signal flow
+description: How audio, control, and event information moves through a PatchLab graph.
+sidebar:
+  order: 1
+---
+
+**Signal flow** is the path information takes through a patch. For an audio effect,
+that usually begins at AUDIO IN, passes through one or more processing blocks, and
+ends at AUDIO OUT. An instrument also needs note or control information to tell its
+sound-generating blocks what to do.
+
+## Three questions for every connection
+
+Before drawing a cable, ask:
+
+1. **What kind of information leaves this port?** Audio samples, a modulation signal,
+   or MIDI events?
+2. **What does the destination expect?** A main signal, a secondary signal, or control
+   over a named parameter?
+3. **What numerical range is meaningful?** A modulation signal near 0–1 has a very
+   different interpretation from audio near -1–1 or a frequency stated in hertz.
+
+A legal cable only establishes connectivity. These questions establish intent.
+
+## Audio flow
+
+Audio is a sequence of sample values for each channel. A stereo path carries left and
+right channels. Processing blocks read a block of samples, transform or combine them,
+and produce output samples for the next stage.
+
+Common topologies include:
+
+- **Series:** A → B → C. Each block receives the result of the previous block.
+- **Parallel:** one signal feeds two branches that are later combined. This supports
+  dry/wet processing and layered effects.
+- **Feedback:** part of a later signal returns to an earlier point. Feedback can create
+  echoes, resonances, and oscillation; it also requires deliberate gain control.
+
+## Control and modulation flow
+
+PatchLab exposes every block parameter as a modulation destination. A modulation
+source can therefore move a value that you could otherwise adjust by hand.
+
+The default parameter-modulation mode is **upward from the base value** in the
+parameter's normalized domain. The parameter row establishes the base; a positive
+modulation signal pushes toward the top of the range. Enable **Bipolar mod** when you
+need a signed signal to move above and below the base.
+
+The normalized-domain rule matters. A parameter with a musical frequency taper does
+not behave like a linear number line: an equal normalized movement is designed to feel
+useful across the range rather than add a fixed number of hertz.
+
+See [Modulation](/concepts/modulation/) for practical consequences.
+
+## MIDI event flow
+
+MIDI is event-based. A note-on event has a pitch, velocity, and channel; it is not a
+continuously sampled waveform. PatchLab shows MIDI IN at each graph level and routes
+MIDI through compatible blocks and ports.
+
+MIDI can determine **when** a voice begins and **which** pitch it plays. A sound still
+requires an audio-generating path such as a note-aware oscillator followed by AUDIO
+OUT.
+
+## Summing and level
+
+Parallel signals must eventually be combined. Summing is addition: if two correlated
+signals have the same polarity, their peaks can reinforce. Two individually safe
+branches can therefore overload the combined path.
+
+Use Gain, Add, XFade, a matrix block, or a purpose-built mixer deliberately. Observe
+the result with a Meter and leave headroom before nonlinear processors or AUDIO OUT.
+
+## Feedback needs a delay and a limit
+
+A useful feedback system needs some state—typically a delay element—and a loop gain
+that supports the intended decay. As the loop gain approaches unity, decay becomes
+longer. At or above unity, some systems can sustain or grow instead of decaying.
+
+Nonlinear blocks, filters, and frequency-dependent delays make the exact behavior more
+complex. Begin with low monitor level, a conservative feedback value, and a limiter or
+other bounded safety stage outside the creative loop.
+
+## Read a patch from endpoints inward
+
+When diagnosing a graph:
+
+1. Confirm the output endpoint is connected.
+2. Trace backward through the audible path.
+3. Confirm every source is active and every required event path exists.
+4. Inspect branch gains and polarity where paths recombine.
+5. Temporarily remove modulation and feedback to establish a stable baseline.
+
+This is faster than turning random controls because it tests the structure first.

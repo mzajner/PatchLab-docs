@@ -1,0 +1,108 @@
+---
+title: DSP foundations
+description: A practical mental model for samples, signals, systems, parameters, measurement, and real-time constraints.
+sidebar:
+  order: 1
+---
+
+Digital signal processing becomes manageable when you separate five ideas:
+
+1. a **signal** is a sequence of values over time;
+2. a **system** maps one or more input signals to output signals;
+3. a **parameter** changes how that mapping behaves;
+4. **state** lets the present output depend on earlier input; and
+5. **measurement** tests a specific claim about the system.
+
+PatchLab renders these ideas as blocks, ports, parameters, cables, and analysis tools.
+
+## Samples and sample rate
+
+An audio interface or host presents audio as discrete samples. If the sample rate is
+48 kHz, each channel contains 48,000 sample values per second.
+
+Sample rate is not “audio quality” by itself. It sets the time grid and the highest
+frequency that can be represented without ambiguity under the sampling theorem. A
+complete system must also manage anti-alias filtering, reconstruction, numerical
+error, converter behavior, and processing design.
+
+## Amplitude
+
+A sample value represents instantaneous amplitude in a normalized digital scale. The
+meaning of a sequence comes from how those values change over time—not from one sample
+in isolation.
+
+Multiplying every sample by a constant changes level. Adding two signals mixes them.
+Clipping limits values beyond a boundary and introduces new spectral content.
+
+Read [Amplitude and decibels](/learn/amplitude-and-decibels/) for the logarithmic level
+model used throughout audio work.
+
+## Frequency and phase
+
+A periodic waveform repeats. Frequency states how many cycles occur per second; phase
+states position within a cycle. Real audio can be described as combinations of
+sinusoidal components with amplitudes and phases that vary over time.
+
+Filters change frequency-dependent magnitude and phase. Delay creates a phase shift
+that depends on frequency. When related paths recombine, those phase relationships can
+reinforce or cancel parts of the spectrum.
+
+## Memory and state
+
+A memoryless system computes each output from the current input, as an ideal static
+waveshaper does. A stateful system also depends on previous samples.
+
+Filters, delays, envelopes, compressors, oscillators, reverbs, and feedback networks
+all use state. State explains why:
+
+- a reverb continues after its input stops;
+- a filter reacts differently during a transient;
+- a compressor has attack and release; and
+- changing topology safely can require a transition rather than an instantaneous swap.
+
+## Linear and nonlinear systems
+
+In a linear system, scaling and adding inputs produces correspondingly scaled and
+added outputs. Gain, summing, and ideal linear filters fit this model within their
+operating assumptions.
+
+Nonlinear systems do not. Saturation, clipping, many dynamics processes, and some
+time-varying systems create frequency components that were not present at the input.
+They can sound useful, but they also make level, aliasing, and oversampling more
+important.
+
+## Time variance
+
+A time-invariant system behaves the same way regardless of when a signal arrives. A
+modulated delay, moving filter, or parameter automated over time is time-varying.
+
+Time variation can create sidebands, pitch movement, or clicks depending on what
+changes and how smoothly it changes.
+
+## Real-time constraints
+
+An audio callback must finish before the next block of samples is due. Missing that
+deadline produces a dropout, regardless of how correct the algorithm is on paper.
+
+Good real-time audio design therefore avoids unbounded work, blocking locks, file I/O,
+and allocation on the audio thread. Expensive preparation belongs off the real-time
+path, followed by a bounded and thread-safe handoff.
+
+## Learn with the scientific loop
+
+For each lesson:
+
+1. **Predict** a direction or numerical outcome.
+2. **Patch** the smallest system that isolates it.
+3. **Measure** with the appropriate time, frequency, level, or correlation tool.
+4. **Listen** at matched and safe level.
+5. **Explain** why the result agrees or disagrees with the prediction.
+6. **Vary one thing** and repeat.
+
+That loop turns PatchLab from a collection of effects into a laboratory.
+
+## Primary references
+
+- Julius O. Smith III, [*Spectral Audio Signal Processing*](https://ccrma.stanford.edu/~jos/sasp/)
+- Julius O. Smith III, [*Physical Audio Signal Processing*](https://ccrma.stanford.edu/~jos/pasp/)
+- Robert Bristow-Johnson, [Audio EQ Cookbook](https://www.w3.org/TR/audio-eq-cookbook/)

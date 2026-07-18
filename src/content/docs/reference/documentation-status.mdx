@@ -1,0 +1,66 @@
+---
+title: Documentation status
+description: What is verified today, what remains in editorial review, and how the docs stay synchronized with PatchLab.
+sidebar:
+  order: 4
+---
+
+These are development docs for a product under active construction. The site uses
+explicit evidence and provenance so that “current” has a testable meaning.
+
+## Current baseline
+
+- The block reference is generated from a running PatchLab binary, not copied from a
+  marketing list.
+- The current snapshot contains **166 blocks** in **10 registry categories**.
+- Generated data records its registry schema, SHA-256 hash, binary timestamp, source
+  candidate revision, and source HEAD observed during generation.
+- Core operation pages were compared with the current source commands, menus,
+  parameter model, project model, and live registry.
+
+Open [Block reference](/reference/blocks/) for the exact snapshot provenance.
+
+## Confidence labels
+
+The documentation program uses these states internally:
+
+| State | Meaning |
+| --- | --- |
+| **Generated** | Product data extracted from the running registry and checked structurally |
+| **Verified** | Editorial claim checked against the user path and an authoritative product source |
+| **Reviewed** | Technical and language review completed, but real-path verification may still be pending |
+| **Draft** | Useful working content that should not be represented as release-complete |
+| **Planned** | Information architecture placeholder; no behavior is promised |
+
+The current-product manual now covers first run, audio/MIDI setup, Patch, Canvas,
+Debug, Perform and docks, project saving, presets and faces, Agent trust, export,
+troubleshooting, and the development support matrix. Procedures whose implementation
+is present are documented independently from public-release claims.
+
+An approved download origin, installer, update channel, notarized release artifact,
+and completed real-DAW matrix still require release decisions or end-to-end evidence.
+Those facts remain visibly gated instead of being inferred from development builds.
+
+## When product and docs move at different speeds
+
+PatchLab's source can advance while the documentation is being written. The registry
+sync process therefore treats the binary snapshot as the authority for generated
+facts and separately records the source revision seen at sync time.
+
+Future release automation should build PatchLab, emit registry and command catalogs,
+validate patch fixtures, capture approved screenshots, then build the docs from those
+artifacts in one release job.
+
+## Report a documentation error
+
+A useful report includes:
+
+- the page URL and heading;
+- the PatchLab build or source revision;
+- the observed behavior;
+- the platform and host when relevant; and
+- whether the error is factual, unclear language, broken navigation, or an outdated
+  image.
+
+Documentation defects should be tracked with the same seriousness as product defects:
+wrong instructions can make correct software unusable.

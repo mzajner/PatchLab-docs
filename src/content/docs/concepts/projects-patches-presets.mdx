@@ -1,0 +1,92 @@
+---
+title: Projects, patches, and presets
+description: What each PatchLab artifact contains, where it lives, and what Save means in each working mode.
+sidebar:
+  order: 5
+---
+
+PatchLab separates the unit of work, the signal graph, parameter snapshots, and face
+designs. They are related, but they are not interchangeable.
+
+## The artifact model
+
+| Artifact | What it contains | Typical form |
+| --- | --- | --- |
+| **Project** | Product identity, graph, custom blocks, UI, assets, presets, and export configuration | A folder you choose and version |
+| **Patch** | Blocks, connections, nested graphs, parameters, and the embedded face model | `dsp/graph.json` inside a project |
+| **Loose patch** | A portable single-file graph snapshot | `.plpatch` |
+| **Patch preset** | Parameter and macro values for a fixed graph | `.plpreset` |
+| **Canvas preset** | A reusable face-design snapshot | `.plface` |
+
+The rule that prevents most confusion is: **a preset does not replace the graph**.
+Changing topology means changing the patch. A preset re-poses values or presentation
+over a graph that already exists.
+
+## Project mode
+
+A project folder is the intended durable unit of work. It can hold:
+
+```text
+My Project/
+├── project.json
+├── dsp/
+│   └── graph.json
+├── blocks/
+├── presets/
+├── ui/
+├── audio/
+├── images/
+├── samples/
+└── exports/
+```
+
+The full scaffold can include additional asset and agent-context folders. Treat the
+project folder as one versioned unit; do not move individual internal files without
+understanding their references.
+
+With a project open:
+
+- `Cmd+S` saves the project state without asking for a destination.
+- `Cmd+Shift+S` creates a new project folder and switches to it.
+- **Export Patch as .plpatch…** writes a portable graph snapshot without replacing the
+  open project.
+
+## Loose-patch mode
+
+Loose-patch mode is useful for interchange and quick experiments.
+
+- `Cmd+S` overwrites the last explicit `.plpatch` destination, or opens Save As for an
+  untitled patch.
+- `Cmd+Shift+S` always opens **Save Patch As…**.
+- **New Project (from current patch)…** promotes the current work into a project.
+
+Factory examples are protected from accidental overwrite. After editing one, Save
+uses a new destination instead of replacing the shipped example.
+
+## Patch presets
+
+A patch preset stores values against a specific graph. If that graph changes, some
+stored targets may no longer match. PatchLab records graph identity so stale presets
+can be treated honestly rather than silently presented as exact.
+
+Use a patch preset when the routing and processing design are stable but you want
+several sounds, such as “Gentle,” “Parallel Crush,” and “Wide.”
+
+## Canvas presets
+
+A Canvas preset stores a face design independently from a parameter snapshot. Use it
+to reuse or compare interface layouts without conflating visual design with the
+current sound.
+
+## Version-control practice
+
+For serious work:
+
+1. Keep the whole project folder together.
+2. Version source-like files and small intentional assets.
+3. Exclude generated exports and caches.
+4. Review graph and manifest changes before merging them.
+5. Tag a product release together with the documentation revision that describes it.
+
+The documentation repository follows the same principle: generated reference data
+records the PatchLab source revision from which it was produced.

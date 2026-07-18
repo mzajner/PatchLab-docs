@@ -1,0 +1,96 @@
+---
+title: Glossary
+description: Canonical PatchLab and DSP terms used throughout the documentation.
+sidebar:
+  order: 3
+---
+
+**Aliasing**
+: Misidentification of frequency content after sampling or nonlinear processing places
+  energy above the representable band. It appears at other frequencies after folding.
+
+**Amplitude**
+: The instantaneous magnitude of a signal or the magnitude of one of its components,
+  depending on context.
+
+**Block**
+: One functional unit placed in a PatchLab graph. Use *node* only for implementation
+  details or when describing another system that uses that term.
+
+**Cable**
+: A connection from an output port to a compatible input port.
+
+**Canvas**
+: The PatchLab page for designing the musician-facing plugin interface. Lowercase
+  *canvas* can also mean the spatial graph surface when context is unambiguous.
+
+**Container**
+: A block whose interior is another graph.
+
+**Control signal**
+: A signal used to change behavior rather than serve as the main audible path. Some
+  control signals can run at audio rate.
+
+**Cutoff frequency**
+: A reference point in a filter's transition region. Its exact magnitude meaning
+  depends on filter design.
+
+**Decibel (dB)**
+: A logarithmic unit for ratios. For amplitude ratios, use `20 × log10(ratio)`.
+
+**DSP**
+: Digital signal processing: the numerical transformation, generation, measurement,
+  and routing of sampled signals.
+
+**Face**
+: A designed musician-facing interface for a patch or block.
+
+**Feedback**
+: Routing part of a system's output back toward an earlier point in the system.
+
+**Headroom**
+: Margin between the current signal level and a chosen limit.
+
+**Latency**
+: Delay introduced by transport, buffering, or processing. A block's reported latency
+  is only one part of end-to-end system latency.
+
+**Macro**
+: A parent-facing control mapped to one or more parameters inside a Container.
+
+**Modulation**
+: Change to a parameter over time from another signal or event-derived source.
+
+**Parameter**
+: A named, ranged value that changes a block's behavior.
+
+**Patch**
+: A graph of blocks, connections, values, and nested graphs.
+
+**Phase**
+: Position within a periodic cycle, or the frequency-dependent angle of a complex
+  signal/system representation.
+
+**Polarity**
+: Sign orientation of a signal. Reversing polarity multiplies it by -1; this is not the
+  same as an arbitrary time or phase shift.
+
+**Port**
+: A typed and directed connection point on a block.
+
+**Preset**
+: A stored pose of values or face design over existing structure. In PatchLab, a preset
+  does not replace graph topology.
+
+**RMS**
+: Root mean square, an energy-related measurement over a defined time window.
+
+**Sample rate**
+: Number of samples per second per channel, expressed in hertz.
+
+**Signal flow**
+: The path audio, control, or event information takes through a system.
+
+**Topology**
+: The structural pattern of blocks and connections, independent of their visual
+  positions.

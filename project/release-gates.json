@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "gates": [
+    {
+      "id": "repository",
+      "requirement": "Publish the standalone public repository and protect its release path.",
+      "complete": true,
+      "evidence": "https://github.com/mzajner/PatchLab-docs"
+    },
+    {
+      "id": "domain",
+      "requirement": "Create and verify the docs.patchlab.dev DNS record for the published Pages origin.",
+      "complete": false,
+      "evidence": "Canonical hostname approved; patchlab.dev DNS is managed by Vercel and docs.patchlab.dev has no record yet."
+    },
+    {
+      "id": "license",
+      "requirement": "Choose the documentation and downloadable-example license.",
+      "complete": true,
+      "evidence": "LICENSE.md: CC-BY-SA-4.0 documentation/media; GPL-3.0-only code, generated data, and .plpatch fixtures"
+    },
+    {
+      "id": "distribution",
+      "requirement": "Approve the official PatchLab download origin, checksum path, installer, and update policy.",
+      "complete": false
+    },
+    {
+      "id": "signing",
+      "requirement": "Provide release signing/notarization identity and a verified release artifact.",
+      "complete": false
+    },
+    {
+      "id": "hosts",
+      "requirement": "Complete the real-DAW support matrix for every claimed host and format.",
+      "complete": false
+    },
+    {
+      "id": "feedback",
+      "requirement": "Choose the public documentation-error and product-support destination.",
+      "complete": true,
+      "evidence": "GitHub documentation issue form, SUPPORT.md, and private security-advisory route"
+    }
+  ]
+}

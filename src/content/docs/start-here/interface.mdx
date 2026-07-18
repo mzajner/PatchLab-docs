@@ -1,0 +1,70 @@
+---
+title: The interface
+description: A map of PatchLab's pages, docks, overlays, navigation, and main interaction grammar.
+sidebar:
+  order: 3
+---
+
+PatchLab separates the engineering graph, the designed plugin face, and live analysis
+into three pages. Supporting tools open as docks so you can keep context while you
+move between those pages.
+
+## Pages
+
+| Page | Use it for | Key behavior |
+| --- | --- | --- |
+| **Patch** | Building and inspecting the graph | Add blocks, connect ports, edit parameters, enter containers |
+| **Canvas** | Designing the plugin-facing interface | Add and arrange controls, bind them to patch parameters, preview the face |
+| **Debug** | Understanding live behavior | Inspect a selected block or group through scopes and measurements |
+
+The **Perform overlay** belongs to the Patch page. It presents the patch title,
+container controls, and output information as a musician-facing layer. Press Escape
+at the root to leave it and return to graph editing.
+
+## Docks and supporting panels
+
+| Panel | Purpose |
+| --- | --- |
+| **Console** | Runtime messages and diagnostic output |
+| **Agent** | Describe a sound or edit and let an enabled agent work through PatchLab's graph operations |
+| **Code** | Edit custom DSP source where the selected block supports it |
+| **Keys** | Audition notes without leaving the patch |
+
+Open the Agent with `Cmd+L`. Toggle the audition keyboard with `K` or from the View
+menu.
+
+## Canvas navigation
+
+- Drag empty space or scroll to pan.
+- Use a pinch gesture or `Cmd`+scroll to zoom.
+- Press `F` to fit the graph.
+- Double-click a Container header to enter it.
+- Use the breadcrumb to choose a level, or press Escape to move up one level.
+- Double-click supported Sampler, Wavetable, or EQ headers to enter their dedicated
+  workbench.
+
+Containers are not separate project files. They are nested graphs inside the current
+patch, so navigation changes your editing scope without opening another document.
+
+## Editing on the graph
+
+- Drag a block header to move it.
+- Drag an output port to a compatible input port to create a cable.
+- Click a cable, then press Delete to remove it.
+- Right-click an input port to disconnect that input.
+- Drag a parameter row vertically to edit it; hold Shift for fine adjustment.
+- Double-click a parameter row to reset it.
+- Right-click a parameter row to reach modulation, reset, and macro actions.
+- Press `Cmd+D` to duplicate the selected block.
+- Press `Cmd+G` to encapsulate a multi-selection in a container.
+
+## A display rule worth remembering
+
+Screen position helps humans read a patch, but cables determine signal flow. Moving a
+block does not change the sound. Reconnecting it can.
+
+## Related reference
+
+- [Keyboard shortcuts](/reference/shortcuts/)
+- [Blocks, ports, and cables](/concepts/blocks-ports-cables/)
+- [Containers and macros](/concepts/containers-macros/)

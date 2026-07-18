@@ -1,0 +1,93 @@
+---
+title: What is PatchLab?
+description: The product model, the people it is for, and the concepts that make the rest of the documentation easier to navigate.
+sidebar:
+  order: 1
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+PatchLab is a visual environment for building audio effects, instruments, and
+signal-processing systems. You place **blocks** on a **patch canvas**, connect their
+ports with cables, adjust parameters, and hear the result while you work.
+
+The graph is not a decorative diagram of a hidden fixed signal chain. It is the
+signal chain: its blocks, connections, modulation, and nested containers define the
+system PatchLab runs.
+
+## The four working surfaces
+
+<CardGrid>
+	<Card title="Patch" icon="puzzle">
+		Build and inspect the signal graph. Add blocks, connect ports, change parameters,
+		group systems into containers, and follow signals through the patch.
+	</Card>
+	<Card title="Canvas" icon="pencil">
+		Design the interface that a musician will use. Bind controls to patch parameters
+		and arrange the face independently of the engineering graph.
+	</Card>
+	<Card title="Debug" icon="magnifier">
+		Observe live signal behavior and measure a selected block or group. Debugging is
+		part of the design loop, not a separate final step.
+	</Card>
+	<Card title="Perform" icon="play">
+		Use a clean performance layer with the patch's named controls. It turns a complex
+		graph into an intentional instrument or effect surface.
+	</Card>
+</CardGrid>
+
+Console, Agent, Code, and audition-keyboard panels can remain open alongside those
+surfaces. They support the work; they do not replace the patch.
+
+## The central vocabulary
+
+**Block**
+: One functional unit in a patch. A block may generate, transform, route, measure,
+  or control a signal. A block can be simple, such as Gain, or structural, such as
+  Container.
+
+**Patch**
+: A graph of blocks and connections. A patch includes layout and configuration, not
+  merely a list of effects.
+
+**Port**
+: A connection point on a block. Ports have direction and purpose. An audio input is
+  not interchangeable with a parameter's modulation input or a MIDI port.
+
+**Parameter**
+: A named value that changes a block's behavior. PatchLab keeps parameter ranges and
+  units explicit so that “500 Hz,” “-12 dB,” and “80 ms” remain meaningful.
+
+**Container**
+: A block whose interior contains another patch. Containers let a system be treated
+  as one reusable unit without hiding how it works.
+
+**Macro**
+: A named control on a container that reaches one or more parameters inside it. A
+  macro is a designed interface to a subsystem.
+
+## Who PatchLab serves
+
+PatchLab has two equally important entry points:
+
+- A musician or newcomer can begin with a working example, a small palette, named
+  macro controls, and musical language.
+- An audio developer can work with primitives, nested graphs, live measurement,
+  custom DSP, project files, and export tooling.
+
+The documentation follows the same rule. Every important concept begins in plain
+language, then exposes the exact technical model and its consequences.
+
+## What PatchLab is not
+
+PatchLab does not make every connection meaningful. A cable can be legal and still
+produce silence, clipping, instability, or an inaudible result. Modular work requires
+you to reason about signal type, level, range, timing, and feedback.
+
+That is why these docs pair procedures with DSP explanation. The goal is not only to
+show which gesture to use, but to help you predict what the patch will do.
+
+## Next
+
+Build [your first patch](/start-here/first-patch/), or learn the more general model in
+[Signal flow](/concepts/signal-flow/).

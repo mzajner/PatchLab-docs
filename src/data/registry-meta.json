@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 4,
+  "blockCount": 166,
+  "binarySourceCandidate": "99899b76e00666045f1b83a1f480926f2de97356",
+  "binarySourceCandidateShort": "99899b76e006",
+  "binarySourceCandidateDate": "2026-07-18T11:45:10-04:00",
+  "binaryModifiedAt": "2026-07-18T15:47:38.891Z",
+  "sourceHeadObserved": "d2693baee79099f244fa2427da40050f4a76da64",
+  "sourceHeadObservedShort": "d2693baee790",
+  "sourceAdvancedSinceBinary": true,
+  "sourceWorkingTreeDirtyObserved": false,
+  "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300",
+  "generatedAt": "2026-07-18T14:17:32.806Z",
+  "binary": "/Users/ernest/HisePersonal/Personal/ModularFx/PatchLab/build/PatchLab_artefacts/Release/ModFx PatchLab.app/Contents/MacOS/ModFx PatchLab"
+}

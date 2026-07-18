@@ -1,0 +1,42 @@
+---
+title: File types and project layout
+description: The PatchLab files users exchange, save, version, and export.
+sidebar:
+  order: 2
+---
+
+## User-facing files
+
+| Form | Purpose | Contains graph topology? |
+| --- | --- | --- |
+| `.plpatch` | Portable loose-patch snapshot | Yes |
+| `.plpreset` | Parameter and macro values for a patch | No |
+| `.plface` | Canvas face-design snapshot | No |
+
+Do not rename one extension to another. The three forms have different schemas and
+different load behavior.
+
+## Core project files
+
+| Path | Purpose |
+| --- | --- |
+| `project.json` | Project identity, product branding, and project-level configuration |
+| `dsp/graph.json` | The project's active patch graph |
+| `blocks/<name>/block.json` | Manifest for a project-owned custom block |
+| `blocks/<name>/dsp.cmajor` | Cmajor source for that custom block |
+| `ui/` | Face documents and generated or authored interface assets |
+| `presets/` | Patch and Canvas presets organized by the project |
+| `exports/` | Generated build products; normally not source-controlled |
+
+Projects may also contain samples, audio, MIDI, images, wavetables, and agent-context
+files. Keep referenced assets inside the project when the work needs to move between
+machines.
+
+## Save behavior
+
+With a project open, `Cmd+S` writes the project graph and project metadata. With a
+loose patch open, it writes the current `.plpatch` destination or asks for one when the
+patch is untitled.
+
+See [Projects, patches, and presets](/concepts/projects-patches-presets/) for the
+conceptual distinction and version-control guidance.

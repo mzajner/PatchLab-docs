@@ -1,0 +1,48 @@
+name: Documentation correction
+description: Report an inaccurate, unclear, inaccessible, or broken documentation page.
+title: "docs: "
+labels: [documentation]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://docs.patchlab.dev/...
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Problem type
+      options:
+        - Incorrect product behavior
+        - Incorrect DSP or equation
+        - Broken link or download
+        - Accessibility or presentation
+        - Unclear wording
+        - Missing topic
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What is wrong?
+      description: Quote only the smallest relevant passage and explain the discrepancy.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and conditions
+      description: Include PatchLab revision, OS, sample rate, buffer size, source, measurement, or primary reference when relevant.
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-data check
+      options:
+        - label: I removed credentials, personal paths, private audio, and confidential project data.
+          required: true

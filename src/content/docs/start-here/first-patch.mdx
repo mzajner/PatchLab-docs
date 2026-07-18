@@ -1,0 +1,91 @@
+---
+title: Your first patch
+description: Build a safe, audible gain stage and learn the basic edit-listen-measure loop.
+sidebar:
+  order: 2
+---
+
+This first patch places one controllable stage between PatchLab's audio input and
+output. It is deliberately simple: the goal is to learn the complete working loop
+without hiding it inside a preset.
+
+:::caution[Protect your hearing]
+Lower your monitor or headphone level before changing a live graph. PatchLab also
+provides **Edit → Panic! Silence Output** and the `Cmd+Shift+.` shortcut for an
+immediate emergency mute.
+:::
+
+## 1. Start with an empty patch
+
+Choose **File → New Patch** or press `Cmd+N`. At the root of the graph you will see:
+
+- **AUDIO IN**, the signal arriving from the standalone audio device or plugin host;
+- **AUDIO OUT**, the signal sent back to that destination; and
+- **MIDI IN**, the event source used by instruments and note-processing patches.
+
+For an audio effect, AUDIO IN and AUDIO OUT are the endpoints that matter.
+
+## 2. Add a Gain block
+
+Press `Cmd+Shift+N` from anywhere in the app, or press `Shift+Tab` while the patch
+canvas has focus. Search for **Gain**, then add it to the canvas.
+
+`Tab` opens the smaller quick-add palette at the pointer. `Shift+Tab` opens the full
+browser.
+
+## 3. Connect the signal path
+
+Drag a cable from AUDIO IN's output to Gain's audio input. Then drag from Gain's
+output to AUDIO OUT's input.
+
+<div class="pl-signal-chain" style="grid-template-columns: repeat(3, minmax(0, 1fr));">
+	<div><strong>AUDIO IN</strong><span>The incoming stereo signal</span></div>
+	<div><strong>GAIN</strong><span>A controllable level stage</span></div>
+	<div><strong>AUDIO OUT</strong><span>The signal returned to the host</span></div>
+</div>
+
+If a direct AUDIO IN → AUDIO OUT cable already exists, remove it so that you hear
+only the path through Gain. Click that cable, then press Delete.
+
+## 4. Change one parameter
+
+Drag the Gain parameter row vertically. Hold Shift for fine adjustment. Double-click
+the row to restore its default value.
+
+Set a moderate cut such as **-12 dB**. The sound should become quieter without a
+change in duration or pitch. A gain stage multiplies every sample by the same factor;
+it does not selectively change frequency content.
+
+## 5. Observe before adding complexity
+
+Add a **Meter** after Gain or inspect the signal in the Debug page. Compare the level
+before and after your change. Then bypass or restore the Gain value and confirm that
+the observation follows the patch.
+
+This is the basic PatchLab method:
+
+1. Predict what one change should do.
+2. Make the smallest patch that can test it.
+3. Listen at a controlled level.
+4. Observe or measure the result.
+5. Explain any difference between prediction and result.
+
+## 6. Save in the right form
+
+For a durable piece of work, choose **File → New Project (from current patch)…**.
+Inside a project, `Cmd+S` saves the project and its graph. A loose patch can instead
+be saved as a portable `.plpatch` file.
+
+Read [Projects, patches, and presets](/concepts/projects-patches-presets/) before you
+build a preset library; these artifacts intentionally save different things.
+
+## What you learned
+
+- Blocks do nothing until the relevant signal reaches them.
+- Cables define the path; visual left-to-right arrangement alone does not.
+- Parameters use real ranges and units.
+- Listening and measurement answer different questions and should be used together.
+- A small understood patch is a better starting point than a large unexplained one.
+
+Next, explore the [interface](/start-here/interface/) or build a more complete
+[first effect](/guides/build-first-effect/).

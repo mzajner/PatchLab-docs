@@ -1,0 +1,55 @@
+---
+title: Keyboard shortcuts
+description: Current PatchLab keyboard shortcuts, organized by scope.
+sidebar:
+  order: 1
+---
+
+Shortcuts are scoped. A plain key such as `F` applies when the patch canvas has focus;
+an app-level command such as `Cmd+S` works from the broader editor.
+
+## App and file
+
+| Shortcut | Action |
+| --- | --- |
+| `Cmd+N` | New patch |
+| `Cmd+Shift+N` | Add block from anywhere |
+| `Cmd+S` | Save the current project or loose patch |
+| `Cmd+Shift+S` | Save project or patch as a new destination |
+| `Cmd+L` | Open and focus the Agent dock |
+| `K` | Toggle the audition keyboard |
+| `Cmd+Shift+.` | Panic: silence output and send MIDI all-notes/all-sound-off |
+
+## Patch canvas
+
+| Shortcut | Action |
+| --- | --- |
+| `Tab` or `Cmd+K` | Quick add at the pointer |
+| `Shift+Tab` | Open the full block browser |
+| `F` | Zoom to fit |
+| `L` | Toggle straight/tidy cable routing |
+| `Delete` or `Backspace` | Delete the selected block, cable, or workbench item |
+| `Escape` | Cancel cable drag, clear multi-selection, leave a workbench/container, or leave Perform at root |
+| `Cmd+D` | Duplicate the selected block |
+| `Cmd+A` | Select all non-I/O blocks at the current level |
+| `Cmd+G` | Encapsulate a multi-selection in a Container |
+| `Cmd+Shift+G` | Ungroup a selected plain Container when the graph permits it |
+| `Cmd+Z` | Undo |
+| `Cmd+Shift+Z` or `Cmd+Y` | Redo |
+
+## Pointer modifiers
+
+| Gesture | Action |
+| --- | --- |
+| Shift while dragging a parameter | Fine adjustment |
+| `Cmd`+scroll or pinch | Zoom |
+| Drag empty canvas or scroll | Pan |
+| Double-click a parameter row | Reset to default |
+| Double-click a Container header | Enter the Container |
+| Right-click an input port | Disconnect that input |
+
+:::note[Platform notation]
+The current development build and this table use macOS Command-key notation. A future
+cross-platform release should render platform-specific shortcut labels from one
+machine-readable command catalog rather than duplicating tables by hand.
+:::

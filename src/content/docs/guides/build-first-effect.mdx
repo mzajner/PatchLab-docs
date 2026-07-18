@@ -1,0 +1,96 @@
+---
+title: Build a first effect
+description: Make a level-safe filter effect, expose a small performance surface, and verify it by listening and measurement.
+sidebar:
+  order: 1
+---
+
+This guide builds a simple tone-shaping effect:
+
+**AUDIO IN → SVF → Gain → Meter → AUDIO OUT**
+
+It introduces a processor, output trim, measurement, and a container interface without
+using a large preset as a black box.
+
+## Before you begin
+
+- Lower your monitoring level.
+- Start from a new patch.
+- Confirm AUDIO IN produces signal in your current standalone or plugin context.
+
+:::tip[Use a revealing source]
+Broadband material—drums, noise, or a harmonically rich loop—makes a filter easier to
+hear than a sine wave whose frequency is far from the cutoff.
+:::
+
+## Build the path
+
+1. Add **SVF**, **Gain**, and **Meter**.
+2. Connect AUDIO IN → SVF → Gain → Meter → AUDIO OUT.
+3. Remove any direct AUDIO IN → AUDIO OUT path.
+4. Leave Gain at unity initially so it does not hide the filter's behavior.
+
+## Establish a static filter
+
+Choose a low-pass mode. Set resonance conservatively and move cutoff slowly through
+the audible spectrum.
+
+Listen for a change in brightness, then check the meter for unintended overload. A
+filter changes frequency-dependent amplitude; its output peak can still increase in
+some configurations, especially with resonance.
+
+## Add movement
+
+Right-click the SVF Cutoff row, choose **Modulate → New LFO**, and set a slow rate.
+Lower the cutoff base value so upward modulation has room to travel.
+
+If the motion stays near the top of the cutoff range, reduce the base or the source
+level. If you want movement around a center point, enable **Bipolar mod** and choose a
+base with room above and below it.
+
+## Control output level
+
+Adjust the Gain block so the processed and bypassed signals have a comparable
+subjective level. This is not an exact loudness match, but it reduces the tendency to
+prefer the louder option automatically.
+
+Leave peak headroom at AUDIO OUT. A creative patch should not rely on the host or
+hardware to absorb accidental overload.
+
+## Turn it into a module
+
+Select SVF and Gain, then press `Cmd+G` to encapsulate them in a Container.
+
+Inside the Container:
+
+1. Expose SVF Cutoff as a macro named **Tone**.
+2. Expose SVF Resonance as **Resonance**.
+3. Expose Gain as **Output**.
+4. Return to the parent and test every macro across its full range.
+
+The Meter can remain outside the Container because it observes the module's delivered
+result. That boundary makes the structure easy to reason about.
+
+## Verify the claim
+
+Do not stop at “sound comes out.” Confirm:
+
+- Tone changes high-frequency content in the expected direction.
+- Resonance does not produce an uncontrolled peak over its intended range.
+- Output changes level without changing pitch or timing.
+- Removing the LFO cable stops the periodic movement.
+- The Meter sees the same final path that reaches AUDIO OUT.
+- Saving and reopening preserves the graph, macros, and values.
+
+## Extend it deliberately
+
+Try one change at a time:
+
+- replace the LFO with EnvFollow for an auto-filter;
+- insert Drive before the filter and compare aliasing with and without an Oversample
+  boundary;
+- make a parallel dry/wet path with XFade; or
+- add a Scope or Analyzer to connect what you hear to time- or frequency-domain
+  behavior.
+
+Each extension should begin with a prediction and end with an observation.

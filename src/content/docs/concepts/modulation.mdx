@@ -1,0 +1,82 @@
+---
+title: Modulation
+description: Move PatchLab parameters with LFOs, envelopes, followers, random sources, and other control signals.
+sidebar:
+  order: 3
+---
+
+**Modulation** changes a parameter over time. Instead of setting Filter Cutoff once,
+you can let an LFO cycle it, an envelope shape it after each note, or an envelope
+follower react to the level of another signal.
+
+## The base value still matters
+
+PatchLab's parameter row sets the **base value**. In the default mode, the modulation
+input pushes upward from that base in the parameter's normalized range.
+
+For example, if a cutoff is already near its maximum, upward modulation has little
+room to move. Lower the base value to create useful travel.
+
+This model makes unipolar sources such as envelopes and followers predictable: zero
+returns to the base, and a larger signal moves farther toward the top of the range.
+
+## Bipolar modulation
+
+Enable **Bipolar mod** from the parameter row's context menu when a signed modulation
+signal should move both below and above the base.
+
+The base must leave room in both directions. A center value is often a useful starting
+point, but “center” means the center of the parameter's normalized taper, not
+necessarily the arithmetic midpoint of its displayed units.
+
+## Choose a source by behavior
+
+| Source | Behavior | Typical use |
+| --- | --- | --- |
+| **LFO** | Repeating or drifting waveform | Vibrato, tremolo, pan, filter motion |
+| **ADSR/AHDSR/AR** | Time shape triggered by notes or gates | Amplitude and timbre articulation |
+| **EnvFollow** | Tracks the level of a signal | Auto-wah, ducking, dynamics control |
+| **Random / S&H** | Unpredictable values or sampled steps | Variation, generative motion |
+| **Timer / TempoSync / PPQ** | Clock and transport relationships | Rhythmic, host-synchronized changes |
+| **KeyTrack / Velocity / MidiCC** | Performance-derived control | Expressive response and mapping |
+
+## Patch modulation without dragging
+
+Right-click a parameter row, open **Modulate**, then choose an existing compatible
+source or **New LFO**. PatchLab adds the connection to that parameter's modulation
+port. You can also drag a cable directly onto the parameter row.
+
+## Rate and smoothing
+
+Fast modulation can become part of the audible spectrum; slow modulation is usually
+perceived as movement. The distinction is contextual, not a hard boundary.
+
+Abrupt value changes can produce clicks or wideband energy. Use Smoother or a block's
+declared smoothing where a discontinuity is not musically intended. Do not smooth a
+signal blindly: triggers, gates, and precise timing can be destroyed by the wrong
+filtering.
+
+## Depth is a system property
+
+Useful modulation depth depends on all of these:
+
+- the source's output range and polarity;
+- the destination's base value and taper;
+- whether bipolar mode is enabled;
+- any mapping, gain, clamp, or smoothing between them; and
+- the acoustic sensitivity of the destination.
+
+A 10% movement in filter cutoff may be subtle in one range and dramatic in another.
+Judge depth in context and observe the live value rather than relying on a generic
+number.
+
+## A disciplined modulation experiment
+
+1. Set the destination to a useful static value.
+2. Add one known source, such as a slow sine LFO.
+3. Use a small depth and confirm the direction of movement.
+4. Decide whether unipolar or bipolar behavior matches the musical intent.
+5. Increase rate or depth one variable at a time.
+6. Add a meter, scope, or Debug view if the result differs from your prediction.
+
+This establishes the control path before creative complexity hides it.

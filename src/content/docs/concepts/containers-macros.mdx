@@ -1,0 +1,80 @@
+---
+title: Containers and macros
+description: Turn a group of blocks into a reusable subsystem with a clear public control surface.
+sidebar:
+  order: 4
+---
+
+A **Container** is a block whose interior is another patch. It lets you work at two
+levels at once: a detailed implementation inside and a concise module outside.
+
+## Why use a container?
+
+Use a container when a group of blocks forms one concept:
+
+- a compressor made from detection, gain-computation, VCA, and makeup stages;
+- a tape echo with delay, feedback filtering, saturation, and modulation;
+- one voice of a synthesizer; or
+- a reusable routing or measurement subsystem.
+
+Grouping is not only visual cleanup. A good container gives the subsystem a stable
+purpose, defined inputs and outputs, a readable internal flow, and a small intentional
+control surface.
+
+## Enter and leave
+
+Double-click a Container header to enter its graph. Use the breadcrumb or press Escape
+to move back to its parent.
+
+Inside a container, the endpoint labels change to **PORTS IN** and **PORTS OUT**. They
+represent signals crossing the container boundary.
+
+## Expose a macro
+
+Inside a container, right-click a parameter row and choose **Add as macro**. PatchLab
+creates a control on the parent-facing Container block.
+
+A container supports up to eight macro slots. A macro inherits the target parameter's
+range and units, and can be renamed to express musical intent.
+
+Use **Tone**, **Motion**, or **Space** when those are the intended decisions. Use the
+implementation name—such as **LP2 Cutoff**—when the technical mechanism is itself the
+public concept. Naming is interface design.
+
+## One macro, multiple targets
+
+A macro can address multiple interior parameters. Each target can have its own range,
+response curve, inversion, and display name.
+
+This makes a macro more than a remote knob. It can coordinate a designed transition:
+for example, increasing “Intensity” might raise drive, reduce makeup gain, and shift a
+filter at different rates.
+
+Test the entire travel. A useful midpoint does not guarantee safe or musical behavior
+at either endpoint.
+
+## Design the boundary before hiding the graph
+
+A container is ready to reuse when you can answer:
+
+- What enters and leaves?
+- What does it promise to do?
+- Which controls should a musician see?
+- Which interior details remain intentionally hidden?
+- What are its gain, latency, and feedback implications?
+- How will someone verify that it is working?
+
+If those answers are unclear, nesting the graph may make it harder—not easier—to
+understand.
+
+## Structural variants
+
+Oversample and Poly also contain graphs, but their boundaries change evaluation:
+
+- **Oversample** is appropriate around nonlinear or otherwise alias-sensitive
+  processing when the measured benefit justifies the CPU and latency cost.
+- **Poly** is appropriate around a note-driven voice that must be instantiated several
+  times for chords or overlapping notes.
+
+Do not use either as a decorative grouping tool. Use a plain Container when the goal
+is modular organization.
