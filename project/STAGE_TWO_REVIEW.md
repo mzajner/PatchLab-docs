@@ -6,17 +6,18 @@ Reviewed: 2026-07-18
 
 The standalone documentation is a local release candidate for the current PatchLab
 behavior. The product manual, category guidance, first recipe library, DSP curriculum,
-generated block reference, and first interactive lessons are implemented. Public
-publication remains intentionally blocked by the explicit decisions and external
-release evidence in `release-gates.json`.
+generated block reference, and first interactive lessons are implemented. The
+documentation preview is publicly deployed; the PatchLab product release remains
+blocked by the explicit external evidence in `release-gates.json`.
 
 ## Product baseline
 
 - PatchLab checkout: `/Users/ernest/HisePersonal/Personal/ModularFx/PatchLab`
-- Product HEAD: `d2693baee79099f244fa2427da40050f4a76da64`
+- Product HEAD: `7e84a02b4ca30564a909b4585079079de40c1300`
 - Registry-producing behavioral candidate:
   `99899b76e00666045f1b83a1f480926f2de97356`
-- Behavioral changes between those revisions: none
+- Behavioral changes between those revisions: none; the post-review delta only updates
+  backlog status and adds sampler verification evidence
 - Registry schema: 4
 - Registered blocks: 166 across 10 categories
 - Canonical registry SHA-256:

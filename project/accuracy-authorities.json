@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "productCommit": "d2693baee79099f244fa2427da40050f4a76da64",
+  "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
   "classes": {
     "generated-registry": {
       "description": "Generated from the running PatchLab registry and checked against its canonical hash.",

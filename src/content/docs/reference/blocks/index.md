@@ -30,10 +30,9 @@ Port counts, parameter values, CPU class, latency, and implementation notes come
 
 - Binary source candidate: `99899b76e00666045f1b83a1f480926f2de97356`
 - Binary modified: 2026-07-18T15:47:38.891Z
-- Source HEAD observed during generation: `d2693baee79099f244fa2427da40050f4a76da64`
+- Source HEAD observed during verification: `7e84a02b4ca30564a909b4585079079de40c1300`
 - Source advanced since binary: **yes**
 - Registry SHA-256: `3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300`
 - Product working tree dirty when observed: **no**
 
 The public documentation build fails if generated routes or required registry fields are inconsistent.
-
