@@ -2,7 +2,7 @@
 
 ## Preview
 
-1. Create a GitHub repository for this folder.
+1. Publish the GitHub repository for this folder.
 2. Push `main` and enable GitHub Pages with **GitHub Actions** as the source.
 3. The deploy workflow runs content checks, Astro checks, the production build, and
    uploads `dist/`.
@@ -10,7 +10,9 @@
 
 ## Official domain
 
-Recommended target: `docs.patchlab.dev`.
+Approved target: `docs.patchlab.dev`. Until its Vercel-managed DNS record exists, the
+workflow builds with `PATCHLAB_DOCS_SITE=https://mzajner.github.io` and
+`PATCHLAB_DOCS_BASE=/PatchLab-docs`; local builds keep the future canonical root.
 
 Before changing DNS:
 

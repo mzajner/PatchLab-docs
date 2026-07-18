@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.patchlab.dev/sitemap-index.xml
+Sitemap: https://mzajner.github.io/PatchLab-docs/sitemap-index.xml

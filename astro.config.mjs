@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { unified } from '@astrojs/markdown-remark';
 import registry from './src/data/registry.json' with { type: 'json' };
 
 /** @param {string} value */
@@ -14,10 +15,28 @@ const slugify = (value) =>
 const blockCategories = [...new Set(registry.blocks.map((block) => block.category))].map(
 	(category) => ({ label: category, slug: `reference/blocks/${slugify(category)}` }),
 );
+const site = process.env.PATCHLAB_DOCS_SITE ?? 'https://docs.patchlab.dev';
+const base = process.env.PATCHLAB_DOCS_BASE ?? '/';
+const basePrefix = base === '/' ? '' : `/${base.replace(/^\/+|\/+$/g, '')}`;
+const prefixInternalLinks = () => (tree) => {
+	if (!basePrefix) return;
+	const visit = (node) => {
+		if (node?.type === 'element' && node.tagName === 'a') {
+			const href = node.properties?.href;
+			if (typeof href === 'string' && href.startsWith('/') && !href.startsWith('//') && !href.startsWith(`${basePrefix}/`)) {
+				node.properties.href = `${basePrefix}${href}`;
+			}
+		}
+		for (const child of node?.children ?? []) visit(child);
+	};
+	visit(tree);
+};
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://docs.patchlab.dev',
+	site,
+	base,
+	markdown: { processor: unified({ rehypePlugins: [prefixInternalLinks] }) },
 	integrations: [
 		starlight({
 			title: 'PatchLab',

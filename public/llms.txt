@@ -2,11 +2,11 @@
 
 > PatchLab is a modular environment for building audio effects, instruments, and signal-processing systems. The documentation separates current product behavior, edited guidance, DSP learning, and generated registry facts.
 
-- Start here: https://docs.patchlab.dev/start-here/what-is-patchlab/
-- User manual: https://docs.patchlab.dev/manual/install-and-first-run/
-- Build and explore: https://docs.patchlab.dev/guides/example-library/
-- DSP curriculum: https://docs.patchlab.dev/learn/curriculum/
-- Block reference: https://docs.patchlab.dev/reference/blocks/
-- Documentation status: https://docs.patchlab.dev/reference/documentation-status/
+- Start here: https://mzajner.github.io/PatchLab-docs/start-here/what-is-patchlab/
+- User manual: https://mzajner.github.io/PatchLab-docs/manual/install-and-first-run/
+- Build and explore: https://mzajner.github.io/PatchLab-docs/guides/example-library/
+- DSP curriculum: https://mzajner.github.io/PatchLab-docs/learn/curriculum/
+- Block reference: https://mzajner.github.io/PatchLab-docs/reference/blocks/
+- Documentation status: https://mzajner.github.io/PatchLab-docs/reference/documentation-status/
 
-The canonical hostname is approved but must not be advertised until its DNS record and published artifact are verified.
+The canonical hostname is approved but pending DNS. These URLs remain the verified publication origin until cutover.
