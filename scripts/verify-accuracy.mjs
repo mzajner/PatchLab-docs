@@ -9,6 +9,8 @@ const productRoot = resolve(process.env.PATCHLAB_SOURCE ?? join(root, '..', 'Mod
 const authorities = JSON.parse(readFileSync(join(root, 'project', 'accuracy-authorities.json'), 'utf8'));
 const registry = JSON.parse(readFileSync(join(root, 'src', 'data', 'registry.json'), 'utf8'));
 const registryMeta = JSON.parse(readFileSync(join(root, 'src', 'data', 'registry-meta.json'), 'utf8'));
+const reportPath = join(root, 'project', 'accuracy-report.json');
+const hasProductSource = existsSync(join(productRoot, 'Source', 'PatchView.h'));
 const failures = [];
 
 const walk = (dir) => readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
@@ -27,29 +29,32 @@ const classify = (rel) => {
 	return 'site-governance';
 };
 
-const productHead = execFileSync('git', ['-C', productRoot, 'rev-parse', 'HEAD'], { encoding: 'utf8' }).trim();
-if (productHead !== authorities.productCommit) {
-	failures.push(`Pinned product ${authorities.productCommit.slice(0, 12)} differs from HEAD ${productHead.slice(0, 12)}; review and repin before publishing.`);
-}
-
-for (const path of authorities.classes['current-product'].authorities) {
-	if (!existsSync(join(productRoot, path))) failures.push(`Missing product authority: ${path}`);
-}
 for (const className of ['generated-registry', 'site-governance']) {
 	for (const path of authorities.classes[className].authorities) {
 		if (!existsSync(join(root, path))) failures.push(`Missing docs authority: ${path}`);
 	}
 }
 
-const productText = [
-	...authorities.classes['current-product'].authorities.map((path) => join(productRoot, path)),
-	...walk(join(productRoot, 'ui', 'src')),
-]
-	.filter((path) => !['.png', '.jpg', '.webp', '.woff', '.woff2'].includes(extname(path)))
-	.map((path) => readFileSync(path, 'utf8'))
-	.join('\n');
-for (const term of authorities.productTerms) {
-	if (!productText.includes(term)) failures.push(`Documented product term is absent from pinned source: ${term}`);
+if (hasProductSource) {
+	const productHead = execFileSync('git', ['-C', productRoot, 'rev-parse', 'HEAD'], { encoding: 'utf8' }).trim();
+	if (productHead !== authorities.productCommit) {
+		failures.push(`Pinned product ${authorities.productCommit.slice(0, 12)} differs from HEAD ${productHead.slice(0, 12)}; review and repin before publishing.`);
+	}
+
+	for (const path of authorities.classes['current-product'].authorities) {
+		if (!existsSync(join(productRoot, path))) failures.push(`Missing product authority: ${path}`);
+	}
+
+	const productText = [
+		...authorities.classes['current-product'].authorities.map((path) => join(productRoot, path)),
+		...walk(join(productRoot, 'ui', 'src')),
+	]
+		.filter((path) => !['.png', '.jpg', '.webp', '.woff', '.woff2'].includes(extname(path)))
+		.map((path) => readFileSync(path, 'utf8'))
+		.join('\n');
+	for (const term of authorities.productTerms) {
+		if (!productText.includes(term)) failures.push(`Documented product term is absent from pinned source: ${term}`);
+	}
 }
 
 for (const category of new Set(registry.blocks.map((block) => block.category))) {
@@ -94,11 +99,18 @@ const report = {
 	registryBlocks: registry.blocks.length,
 	pages: reportPages,
 };
-writeFileSync(join(root, 'project', 'accuracy-report.json'), `${JSON.stringify(report, null, 2)}\n`);
+const serializedReport = `${JSON.stringify(report, null, 2)}\n`;
+if (hasProductSource) {
+	writeFileSync(reportPath, serializedReport);
+} else if (!existsSync(reportPath) || readFileSync(reportPath, 'utf8') !== serializedReport) {
+	failures.push('Committed accuracy report is stale; regenerate it beside the pinned PatchLab source and commit the result.');
+}
 
 if (failures.length) {
 	console.error(`Accuracy verification failed (${failures.length}):`);
 	for (const failure of failures) console.error(`- ${failure}`);
 	process.exit(1);
 }
-console.log(`Accuracy authorities passed: ${pages.length} pages classified ${JSON.stringify(classCounts)}, ${authorities.productTerms.length} product terms found, ${registry.blocks.length} blocks covered.`);
+const mode = hasProductSource ? 'live product source' : 'pinned evidence snapshot';
+const productTermResult = hasProductSource ? `${authorities.productTerms.length} product terms found` : `${authorities.productTerms.length} product terms pinned`;
+console.log(`Accuracy authorities passed (${mode}): ${pages.length} pages classified ${JSON.stringify(classCounts)}, ${productTermResult}, ${registry.blocks.length} blocks covered.`);

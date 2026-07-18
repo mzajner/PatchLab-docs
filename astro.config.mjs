@@ -18,8 +18,10 @@ const blockCategories = [...new Set(registry.blocks.map((block) => block.categor
 const site = process.env.PATCHLAB_DOCS_SITE ?? 'https://docs.patchlab.dev';
 const base = process.env.PATCHLAB_DOCS_BASE ?? '/';
 const basePrefix = base === '/' ? '' : `/${base.replace(/^\/+|\/+$/g, '')}`;
+/** @returns {(tree: import('hast').Root) => void} */
 const prefixInternalLinks = () => (tree) => {
 	if (!basePrefix) return;
+	/** @param {import('hast').Nodes} node */
 	const visit = (node) => {
 		if (node?.type === 'element' && node.tagName === 'a') {
 			const href = node.properties?.href;
@@ -27,7 +29,9 @@ const prefixInternalLinks = () => (tree) => {
 				node.properties.href = `${basePrefix}${href}`;
 			}
 		}
-		for (const child of node?.children ?? []) visit(child);
+		if ('children' in node) {
+			for (const child of node.children) visit(child);
+		}
 	};
 	visit(tree);
 };
