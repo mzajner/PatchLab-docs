@@ -5,7 +5,7 @@ sidebar:
   order: 163
 ---
 
-<small>Generated from PatchLab binary source candidate `99899b76e006` · registry type 162</small>
+<small>Generated from PatchLab binary source candidate `96ae72bb5451` · registry type 162</small>
 
 ## At a glance
 
@@ -26,6 +26,7 @@ sidebar:
 | --- | --- | --- | --- | --- | ---: |
 | Window (time) | `window` | 4 to 60 | 8 | s | 1 |
 | Floor | `floor` | 0 to 2 | 1 | `-60`, `-90`, `-120` | 2 |
+| Res | `res` | 0 to 2 | 1 | `2048`, `4096`, `8192` | 3 |
 
 ## Declared ports
 

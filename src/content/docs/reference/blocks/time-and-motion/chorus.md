@@ -1,11 +1,11 @@
 ---
 title: "Chorus"
-description: "modulated-delay chorus"
+description: "modulated-delay chorus; Interp picks the sweep reader (Vintage = linear, subtle HF dulling - the shipped default; Smooth = Hermite, matches the sibling delay blocks)"
 sidebar:
   order: 10
 ---
 
-<small>Generated from PatchLab binary source candidate `99899b76e006` · registry type 9</small>
+<small>Generated from PatchLab binary source candidate `96ae72bb5451` · registry type 9</small>
 
 ## At a glance
 
@@ -29,6 +29,7 @@ sidebar:
 | Centre (time) | `centre` | 1 to 30 | 7 | ms | 3 |
 | Feedbk (feedback) | `fb` | -0.9 to 0.9 | 0 | — | 4 |
 | Mix (mix) | `mix` | 0 to 1 | 0.4 | — | 5 |
+| Interp | `interp` | 0 to 1 | 0 | `Vintage`, `Smooth` | 6 |
 
 ## Declared ports
 
@@ -37,7 +38,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-modulated-delay chorus
+modulated-delay chorus; Interp picks the sweep reader (Vintage = linear, subtle HF dulling - the shipped default; Smooth = Hermite, matches the sibling delay blocks)
 
 </details>
 

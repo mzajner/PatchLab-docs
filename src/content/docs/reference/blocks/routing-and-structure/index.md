@@ -1,11 +1,11 @@
 ---
 title: "Routing & Structure"
-description: "21 PatchLab blocks in Routing & Structure."
+description: "23 PatchLab blocks in Routing & Structure."
 sidebar:
   order: 12
 ---
 
-**21 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
+**23 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
 
 For selection advice, signal-flow patterns, and cautions, read [Using Routing & Structure blocks](/guides/block-families/routing-and-structure/).
 
@@ -32,4 +32,6 @@ For selection advice, signal-flow patterns, and cautions, read [Using Routing & 
 | [Feedback](./feedback/) | Structure | 1 in / 1 out | in |
 | [Branch](./branch/) | Modulation | 1 in / 4 out | — |
 | [Cmaj](./cmaj/) | Audio | 1 in / 1 out | — |
+| [PluginHost](./pluginhost/) | Audio | 1 in / 1 out | in |
+| [Modulation Rate](./modulation-rate/) | Structure | 1 in / 1 out | in |
 

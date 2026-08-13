@@ -1,11 +1,11 @@
 ---
 title: "Granular"
-description: "GRANULAR texture/cloud engine: a circular capture buffer + a grain scheduler firing overlapping Hann-windowed grains from a 64-voice pre-allocated pool (0 RT alloc)."
+description: "GRANULAR texture/cloud engine: a circular capture buffer + a grain scheduler firing overlapping windowed grains (Shape: Hann/Tukey/expodec/rexpodec, default Hann) from a 64-voice p"
 sidebar:
   order: 103
 ---
 
-<small>Generated from PatchLab binary source candidate `99899b76e006` · registry type 102</small>
+<small>Generated from PatchLab binary source candidate `96ae72bb5451` · registry type 102</small>
 
 ## At a glance
 
@@ -30,6 +30,7 @@ sidebar:
 | Position | `pos` | 0 to 1 | 0.3 | — | 4 |
 | Spray (time) | `spray` | 0 to 200 | 0 | ms | 5 |
 | Mix (mix) | `mix` | 0 to 1 | 1 | — | 6 |
+| Shape | `shape` | 0 to 3 | 0 | `Hann`, `Tukey`, `Expodec`, `Rexpodec` | 7 |
 
 ## Declared ports
 
@@ -42,7 +43,7 @@ per-grain params (Position, Pitch, Size, Spray) are LATCHED at each grain's onse
 <details>
 <summary>Registry implementation notes</summary>
 
-GRANULAR texture/cloud engine: a circular capture buffer + a grain scheduler firing overlapping Hann-windowed grains from a 64-voice pre-allocated pool (0 RT alloc). Density (grains/sec) sets the onset rate; Size (5-200 ms) the grain length; Pitch (+/-24 st, per-grain) the playback ratio; Position scans into the captured buffer; Spray jitters each grain's start (latched at onset - the granular sound); Mix blends dry. At 1x pitch + full Hann overlap the cloud replays the input flat (COLA floor); sparse + large = a textural shimmer, dense + small = a smooth wash. The async-granular workhorse (Roads, Microsound). Deterministic jitter RNG; denormal-flushed voice sum
+GRANULAR texture/cloud engine: a circular capture buffer + a grain scheduler firing overlapping windowed grains (Shape: Hann/Tukey/expodec/rexpodec, default Hann) from a 64-voice pre-allocated pool (0 RT alloc). Density (grains/sec) sets the onset rate; Size (5-200 ms) the grain length; Pitch (+/-24 st, per-grain) the playback ratio; Position scans into the captured buffer; Spray jitters each grain's start (latched at onset - the granular sound); Mix blends dry. At 1x pitch + full Hann overlap the cloud replays the input flat (COLA floor); sparse + large = a textural shimmer, dense + small = a smooth wash. The async-granular workhorse (Roads, Microsound). Deterministic jitter RNG; denormal-flushed voice sum
 
 </details>
 

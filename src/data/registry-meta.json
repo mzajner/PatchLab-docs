@@ -1,15 +1,15 @@
 {
   "schemaVersion": 4,
-  "blockCount": 166,
-  "binarySourceCandidate": "99899b76e00666045f1b83a1f480926f2de97356",
-  "binarySourceCandidateShort": "99899b76e006",
-  "binarySourceCandidateDate": "2026-07-18T11:45:10-04:00",
-  "binaryModifiedAt": "2026-07-18T15:47:38.891Z",
-  "sourceHeadObserved": "7e84a02b4ca30564a909b4585079079de40c1300",
-  "sourceHeadObservedShort": "7e84a02b4ca3",
-  "sourceAdvancedSinceBinary": true,
-  "sourceWorkingTreeDirtyObserved": false,
-  "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300",
-  "generatedAt": "2026-07-18T14:17:32.806Z",
-  "binary": "/Users/ernest/HisePersonal/Personal/ModularFx/PatchLab/build/PatchLab_artefacts/Release/ModFx PatchLab.app/Contents/MacOS/ModFx PatchLab"
+  "blockCount": 171,
+  "binarySourceCandidate": "96ae72bb5451f6ea36fe7996a1caba277144f9bd",
+  "binarySourceCandidateShort": "96ae72bb5451",
+  "binarySourceCandidateDate": "2026-08-13T09:48:26-04:00",
+  "binaryModifiedAt": "2026-08-13T13:50:42.684Z",
+  "sourceHeadObserved": "96ae72bb5451f6ea36fe7996a1caba277144f9bd",
+  "sourceHeadObservedShort": "96ae72bb5451",
+  "sourceAdvancedSinceBinary": false,
+  "sourceWorkingTreeDirtyObserved": true,
+  "registrySha256": "5a806a948f6a7f22abbaef58a9e11aa901d09530d713cba2ca29e10019422961",
+  "generatedAt": "2026-08-13T15:22:54.341Z",
+  "binary": "/Users/ernest/openPatch/PatchLab/build/PatchLab_artefacts/Release/ModFx PatchLab.app/Contents/MacOS/ModFx PatchLab"
 }

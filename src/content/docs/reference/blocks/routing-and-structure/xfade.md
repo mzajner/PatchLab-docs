@@ -5,7 +5,7 @@ sidebar:
   order: 14
 ---
 
-<small>Generated from PatchLab binary source candidate `99899b76e006` · registry type 13</small>
+<small>Generated from PatchLab binary source candidate `96ae72bb5451` · registry type 13</small>
 
 ## At a glance
 
@@ -25,7 +25,7 @@ sidebar:
 | Parameter | ID | Range | Default | Unit / choices | Mod port |
 | --- | --- | --- | --- | --- | ---: |
 | A <> B (mix) | `mix` | 0 to 1 | 0.5 | — | 2 |
-| Mode | `mode` | 0 to 4 | 0 | `Equal Power`, `Linear`, `RMS`, `Switch`, `Squared` | 3 |
+| Mode | `mode` | 0 to 8 | 0 | `Equal Power`, `Linear`, `RMS`, `Switch`, `Squared`, `Overlap`, `Cosine`, `Harmonics`, `Threshold` | 3 |
 
 ## Declared ports
 

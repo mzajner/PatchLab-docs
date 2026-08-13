@@ -29,6 +29,9 @@
           "mid": 440,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -41,6 +44,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level"
         },
         {
@@ -53,6 +59,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:shape",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Sine",
             "Tri",
@@ -74,6 +83,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:modoct",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         },
         {
@@ -86,6 +98,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:pw",
+          "skew": false,
+          "symK": 0,
           "role": "width"
         }
       ]
@@ -116,6 +131,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level"
         },
         {
@@ -128,6 +146,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:color",
+          "skew": false,
+          "symK": 0,
           "items": [
             "White",
             "Pink",
@@ -162,6 +183,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:shape",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Sine",
             "Tri",
@@ -182,6 +206,9 @@
           "mid": 2,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -194,6 +221,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:depth",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         },
         {
@@ -205,7 +235,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:center",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "sync",
@@ -217,6 +250,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:sync",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "4/1",
@@ -247,6 +283,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:phase",
+          "skew": false,
+          "symK": 0,
           "role": "phase"
         },
         {
@@ -259,6 +298,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:polar",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Uni",
             "Bi"
@@ -273,7 +315,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 7
+          "modPort": 7,
+          "dataPort": "param:retrig",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -305,6 +350,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:gain",
+          "skew": true,
+          "symK": 0,
           "role": "gain",
           "smoothMs": 20
         }
@@ -338,6 +386,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:width",
+          "skew": false,
+          "symK": 0,
           "role": "width"
         },
         {
@@ -350,6 +401,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:pan",
+          "skew": false,
+          "symK": 0,
           "role": "pan"
         }
       ]
@@ -383,6 +437,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:type",
+          "skew": false,
+          "symK": 0,
           "items": [
             "LP",
             "HP",
@@ -402,6 +459,9 @@
           "mid": 1000,
           "suffix": " Hz",
           "modPort": 3,
+          "dataPort": "param:cutoff",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -414,6 +474,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:res",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         },
         {
@@ -426,6 +489,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:modoct",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         }
       ]
@@ -458,6 +524,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:thresh",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         },
         {
@@ -470,6 +539,9 @@
           "mid": 4,
           "suffix": ":1",
           "modPort": 2,
+          "dataPort": "param:ratio",
+          "skew": true,
+          "symK": 0,
           "role": "ratio"
         },
         {
@@ -482,6 +554,9 @@
           "mid": 10,
           "suffix": " ms",
           "modPort": 3,
+          "dataPort": "param:attack",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -494,6 +569,9 @@
           "mid": 100,
           "suffix": " ms",
           "modPort": 4,
+          "dataPort": "param:release",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -506,6 +584,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 5,
+          "dataPort": "param:makeup",
+          "skew": false,
+          "symK": 0,
           "role": "gain",
           "smoothMs": 10
         }
@@ -539,6 +620,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:drive",
+          "skew": false,
+          "symK": 0,
           "role": "drive",
           "smoothMs": 10
         },
@@ -552,6 +636,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -584,7 +671,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "x",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:down",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "bits",
@@ -595,7 +685,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:bits",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mix",
@@ -607,6 +700,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -617,7 +713,7 @@
       "category": "Time & Motion",
       "signal": "audio",
       "level": 3,
-      "blurb": "modulated-delay chorus",
+      "blurb": "modulated-delay chorus; Interp picks the sweep reader (Vintage = linear, subtle HF dulling - the shipped default; Smooth = Hermite, matches the sibling delay blocks)",
       "cpu": "light",
       "latency": "0",
       "audioIns": 1,
@@ -639,6 +735,9 @@
           "mid": 1,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -651,6 +750,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:depth",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         },
         {
@@ -663,6 +765,9 @@
           "mid": 7,
           "suffix": " ms",
           "modPort": 3,
+          "dataPort": "param:centre",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -675,6 +780,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:fb",
+          "skew": false,
+          "symK": 0,
           "role": "feedback"
         },
         {
@@ -687,7 +795,28 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
+        },
+        {
+          "id": "interp",
+          "name": "Interp",
+          "min": 0,
+          "max": 1,
+          "def": 0,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 6,
+          "dataPort": "param:interp",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "Vintage",
+            "Smooth"
+          ]
         }
       ]
     },
@@ -697,7 +826,7 @@
       "category": "Time & Motion",
       "signal": "audio",
       "level": 2,
-      "blurb": "feedback delay; smoothed time bends pitch tape-style when modulated; Mode PingPong cross-feeds the L/R feedback (stereo bounce)",
+      "blurb": "feedback delay; smoothed time bends pitch tape-style when modulated; Mode PingPong cross-feeds the L/R feedback (stereo bounce); Sync (Off = the ms knob) locks Time to a host-tempo division (1/4, 1/8., 1/16T ...)",
       "cpu": "trivial",
       "latency": "0",
       "safety": "feedback param clamped <= 0.95",
@@ -720,6 +849,9 @@
           "mid": 250,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:time",
+          "skew": true,
+          "symK": 0,
           "role": "time",
           "smoothMs": 80
         },
@@ -733,6 +865,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:fb",
+          "skew": false,
+          "symK": 0,
           "role": "feedback"
         },
         {
@@ -745,6 +880,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         },
         {
@@ -757,9 +895,45 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Stereo",
             "PingPong"
+          ]
+        },
+        {
+          "id": "sync",
+          "name": "Sync",
+          "min": 0,
+          "max": 16,
+          "def": 0,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 5,
+          "dataPort": "param:sync",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "Off",
+            "4/1",
+            "2/1",
+            "1/1",
+            "1/2D",
+            "1/2",
+            "1/2T",
+            "1/4D",
+            "1/4",
+            "1/4T",
+            "1/8D",
+            "1/8",
+            "1/8T",
+            "1/16D",
+            "1/16",
+            "1/16T",
+            "1/32"
           ]
         }
       ]
@@ -770,7 +944,7 @@
       "category": "Time & Motion",
       "signal": "audio",
       "level": 3,
-      "blurb": "algorithmic room reverb",
+      "blurb": "algorithmic room reverb (Freeverb); Time > 0 sets the decay in SECONDS (measured RT60 at Damp 0, ~0.7..11 s) and overrides Size; Time 0 = Size rules",
       "cpu": "light",
       "latency": "0",
       "audioIns": 1,
@@ -791,7 +965,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:size",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "damp",
@@ -802,7 +979,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:damp",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "width",
@@ -814,6 +994,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:width",
+          "skew": false,
+          "symK": 0,
           "role": "width"
         },
         {
@@ -826,7 +1009,25 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
+        },
+        {
+          "id": "timeS",
+          "name": "Time",
+          "min": 0,
+          "max": 12,
+          "def": 0,
+          "step": 0,
+          "mid": 3,
+          "suffix": " s",
+          "modPort": 5,
+          "dataPort": "param:timeS",
+          "skew": true,
+          "symK": 0,
+          "role": "time"
         }
       ]
     },
@@ -879,6 +1080,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix",
           "smoothMs": 20
         },
@@ -886,18 +1090,25 @@
           "id": "mode",
           "name": "Mode",
           "min": 0,
-          "max": 4,
+          "max": 8,
           "def": 0,
           "step": 1,
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Equal Power",
             "Linear",
             "RMS",
             "Switch",
-            "Squared"
+            "Squared",
+            "Overlap",
+            "Cosine",
+            "Harmonics",
+            "Threshold"
           ]
         }
       ]
@@ -931,6 +1142,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:a",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -943,6 +1157,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:b",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -954,7 +1171,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:off",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -983,7 +1203,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 0
+          "modPort": 0,
+          "dataPort": "param:value",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -1015,6 +1238,9 @@
           "mid": 20,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:attack",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -1027,6 +1253,9 @@
           "mid": 150,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:release",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -1039,6 +1268,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:gain",
+          "skew": false,
+          "symK": 0,
           "role": "gain",
           "smoothMs": 10
         },
@@ -1052,6 +1284,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:invert",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Follow",
             "Duck"
@@ -1067,6 +1302,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:detect",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Peak",
             "RMS"
@@ -1082,6 +1320,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:relmode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Manual",
             "Auto"
@@ -1118,6 +1359,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:bus",
+          "skew": false,
+          "symK": 0,
           "items": [
             "1",
             "2",
@@ -1139,6 +1383,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 2,
+          "dataPort": "param:gain",
+          "skew": true,
+          "symK": 0,
           "role": "gain"
         }
       ]
@@ -1170,6 +1417,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:bus",
+          "skew": false,
+          "symK": 0,
           "items": [
             "1",
             "2",
@@ -1191,6 +1441,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:gain",
+          "skew": true,
+          "symK": 0,
           "role": "gain"
         }
       ]
@@ -1224,6 +1477,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Wave",
             "Spectrum"
@@ -1238,7 +1494,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:zoom",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "trig",
@@ -1250,6 +1509,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:trig",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         }
       ]
@@ -1303,6 +1565,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:thresh",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         },
         {
@@ -1315,6 +1580,9 @@
           "mid": 4,
           "suffix": ":1",
           "modPort": 2,
+          "dataPort": "param:ratio",
+          "skew": true,
+          "symK": 0,
           "role": "ratio"
         },
         {
@@ -1326,7 +1594,10 @@
           "step": 0.100000001490116,
           "mid": 0,
           "suffix": " dB",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:knee",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "curve",
@@ -1338,6 +1609,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:curve",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Comp",
             "Expand",
@@ -1375,6 +1649,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Abs",
             "Invert",
@@ -1403,6 +1680,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 2,
+          "dataPort": "param:pre",
+          "skew": false,
+          "symK": 2,
           "role": "gain"
         }
       ]
@@ -1435,6 +1715,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:type",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Peak",
             "LoShelf",
@@ -1457,6 +1740,9 @@
           "mid": 800,
           "suffix": " Hz",
           "modPort": 2,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -1469,6 +1755,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 3,
+          "dataPort": "param:gaindb",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -1481,6 +1770,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:q",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         },
         {
@@ -1493,6 +1785,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:channel",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Stereo",
             "M/S"
@@ -1508,6 +1803,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:b0on",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -1523,6 +1821,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 7,
+          "dataPort": "param:b0chan",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Both",
             "L/M",
@@ -1539,6 +1840,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 8,
+          "dataPort": "param:on2",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -1554,6 +1858,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 9,
+          "dataPort": "param:type2",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Peak",
             "LoShelf",
@@ -1576,6 +1883,9 @@
           "mid": 800,
           "suffix": " Hz",
           "modPort": 10,
+          "dataPort": "param:freq2",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -1588,6 +1898,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 11,
+          "dataPort": "param:gain2",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -1600,6 +1913,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 12,
+          "dataPort": "param:q2",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         },
         {
@@ -1612,6 +1928,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 13,
+          "dataPort": "param:chan2",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Both",
             "L/M",
@@ -1628,6 +1947,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 14,
+          "dataPort": "param:on3",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -1643,6 +1965,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 15,
+          "dataPort": "param:type3",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Peak",
             "LoShelf",
@@ -1665,6 +1990,9 @@
           "mid": 800,
           "suffix": " Hz",
           "modPort": 16,
+          "dataPort": "param:freq3",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -1677,6 +2005,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 17,
+          "dataPort": "param:gain3",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -1689,6 +2020,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 18,
+          "dataPort": "param:q3",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         },
         {
@@ -1701,6 +2035,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 19,
+          "dataPort": "param:chan3",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Both",
             "L/M",
@@ -1717,6 +2054,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 20,
+          "dataPort": "param:on4",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -1732,6 +2072,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 21,
+          "dataPort": "param:type4",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Peak",
             "LoShelf",
@@ -1754,6 +2097,9 @@
           "mid": 800,
           "suffix": " Hz",
           "modPort": 22,
+          "dataPort": "param:freq4",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -1766,6 +2112,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 23,
+          "dataPort": "param:gain4",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -1778,6 +2127,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 24,
+          "dataPort": "param:q4",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         },
         {
@@ -1790,6 +2142,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 25,
+          "dataPort": "param:chan4",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Both",
             "L/M",
@@ -1806,6 +2161,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 26,
+          "dataPort": "param:on5",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -1821,6 +2179,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 27,
+          "dataPort": "param:type5",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Peak",
             "LoShelf",
@@ -1843,6 +2204,9 @@
           "mid": 800,
           "suffix": " Hz",
           "modPort": 28,
+          "dataPort": "param:freq5",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -1855,6 +2219,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 29,
+          "dataPort": "param:gain5",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -1867,6 +2234,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 30,
+          "dataPort": "param:q5",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         },
         {
@@ -1879,6 +2249,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 31,
+          "dataPort": "param:chan5",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Both",
             "L/M",
@@ -1895,6 +2268,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 32,
+          "dataPort": "param:on6",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -1910,6 +2286,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 33,
+          "dataPort": "param:type6",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Peak",
             "LoShelf",
@@ -1932,6 +2311,9 @@
           "mid": 800,
           "suffix": " Hz",
           "modPort": 34,
+          "dataPort": "param:freq6",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -1944,6 +2326,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 35,
+          "dataPort": "param:gain6",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -1956,6 +2341,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 36,
+          "dataPort": "param:q6",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         },
         {
@@ -1968,6 +2356,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 37,
+          "dataPort": "param:chan6",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Both",
             "L/M",
@@ -2005,6 +2396,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:thresh",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         },
         {
@@ -2017,6 +2411,9 @@
           "mid": 100,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:release",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -2029,6 +2426,9 @@
           "mid": 3,
           "suffix": " ms",
           "modPort": 3,
+          "dataPort": "param:lookahd",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         }
       ]
@@ -2097,6 +2497,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:shape",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Sine",
             "Tri",
@@ -2114,6 +2517,9 @@
           "mid": 20,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:attack",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -2126,6 +2532,9 @@
           "mid": 200,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:release",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -2138,6 +2547,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level"
         }
       ]
@@ -2148,7 +2560,7 @@
       "category": "Modulators",
       "signal": "event",
       "level": 2,
-      "blurb": "MIDI-gated ADSR -> control out (VCA / filter envelopes)",
+      "blurb": "MIDI-gated ADSR -> control out (VCA / filter envelopes); Mode Analog (default) = one-pole time constants (~63% at the knob time, analogue tail), Mode Exact = each stage completes in the set duration",
       "cpu": "trivial",
       "latency": "0",
       "audioIns": 0,
@@ -2168,6 +2580,9 @@
           "mid": 50,
           "suffix": " ms",
           "modPort": 0,
+          "dataPort": "param:a",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -2180,6 +2595,9 @@
           "mid": 120,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:d",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -2192,6 +2610,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:s",
+          "skew": false,
+          "symK": 0,
           "role": "level"
         },
         {
@@ -2204,7 +2625,28 @@
           "mid": 300,
           "suffix": " ms",
           "modPort": 3,
+          "dataPort": "param:r",
+          "skew": true,
+          "symK": 0,
           "role": "time"
+        },
+        {
+          "id": "mode",
+          "name": "Mode",
+          "min": 0,
+          "max": 1,
+          "def": 1,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 4,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "Analog",
+            "Exact"
+          ]
         }
       ]
     },
@@ -2237,6 +2679,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:thresh",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         }
       ]
@@ -2266,7 +2711,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 0
+          "modPort": 0,
+          "dataPort": "param:lo",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "hi",
@@ -2277,7 +2725,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:hi",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "tr",
@@ -2288,7 +2739,10 @@
           "step": 1,
           "mid": 0,
           "suffix": " st",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:tr",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "ch",
@@ -2299,7 +2753,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:ch",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -2331,6 +2788,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "LP",
             "HP",
@@ -2347,6 +2807,9 @@
           "mid": 1000,
           "suffix": " Hz",
           "modPort": 2,
+          "dataPort": "param:cutoff",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         }
       ]
@@ -2379,6 +2842,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:order",
+          "skew": false,
+          "symK": 0,
           "items": [
             "1st",
             "2nd"
@@ -2394,6 +2860,9 @@
           "mid": 1000,
           "suffix": " Hz",
           "modPort": 2,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -2406,6 +2875,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:q",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         }
       ]
@@ -2438,6 +2910,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "LP",
             "HP",
@@ -2459,6 +2934,9 @@
           "mid": 1000,
           "suffix": " Hz",
           "modPort": 2,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -2471,6 +2949,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 3,
+          "dataPort": "param:gaindb",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -2483,6 +2964,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:q",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         }
       ]
@@ -2515,6 +2999,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "LR4",
             "LR2"
@@ -2530,6 +3017,9 @@
           "mid": 1000,
           "suffix": " Hz",
           "modPort": 2,
+          "dataPort": "param:xover",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         }
       ]
@@ -2562,6 +3052,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "FF",
             "FB"
@@ -2577,6 +3070,9 @@
           "mid": 440,
           "suffix": " Hz",
           "modPort": 2,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency",
           "smoothMs": 20
         },
@@ -2590,6 +3086,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:amount",
+          "skew": false,
+          "symK": 0,
           "role": "amount"
         },
         {
@@ -2602,6 +3101,9 @@
           "mid": 4000,
           "suffix": " Hz",
           "modPort": 4,
+          "dataPort": "param:damp",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         }
       ]
@@ -2634,6 +3136,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Bell",
             "LoShelf",
@@ -2650,6 +3155,9 @@
           "mid": 800,
           "suffix": " Hz",
           "modPort": 2,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -2662,6 +3170,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 3,
+          "dataPort": "param:gaindb",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -2674,6 +3185,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:q",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         }
       ]
@@ -2708,6 +3222,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Sub",
             "Div",
@@ -2726,7 +3243,10 @@
           "step": 0.009999999776483,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:boff",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -2759,6 +3279,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "dB>Lin",
             "Lin>dB",
@@ -2802,6 +3325,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "A > B",
             "A < B",
@@ -2818,6 +3344,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:thresh",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         },
         {
@@ -2829,7 +3358,10 @@
           "step": 0.001000000047497,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:hyst",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -2862,6 +3394,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "AND",
             "OR",
@@ -2898,7 +3433,10 @@
           "step": 0.001000000047497,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:step",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -2930,7 +3468,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:inlo",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "inhi",
@@ -2941,7 +3482,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:inhi",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "outlo",
@@ -2952,7 +3496,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:outlo",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "outhi",
@@ -2963,7 +3510,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:outhi",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "clamp",
@@ -2975,6 +3525,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:clamp",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -3009,6 +3562,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:div",
+          "skew": false,
+          "symK": 0,
           "items": [
             "4/1",
             "2/1",
@@ -3038,6 +3594,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:out",
+          "skew": false,
+          "symK": 0,
           "items": [
             "ms",
             "Hz"
@@ -3073,6 +3632,9 @@
           "mid": 200,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:time",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -3085,6 +3647,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Lag",
             "Slew"
@@ -3120,7 +3685,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:seed",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "slew",
@@ -3132,6 +3700,9 @@
           "mid": 100,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:slew",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         }
       ]
@@ -3162,6 +3733,9 @@
           "mid": 4,
           "suffix": " Hz",
           "modPort": 0,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -3174,6 +3748,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:sync",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "4/1",
@@ -3204,6 +3781,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:width",
+          "skew": false,
+          "symK": 0,
           "role": "width"
         }
       ]
@@ -3235,7 +3815,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:y0",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y1",
@@ -3246,7 +3829,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:y1",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y2",
@@ -3257,7 +3843,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:y2",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y3",
@@ -3268,7 +3857,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:y3",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y4",
@@ -3279,7 +3871,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:y4",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "interp",
@@ -3291,6 +3886,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:interp",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Linear",
             "Smooth"
@@ -3324,6 +3922,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "CC",
             "PitchBend",
@@ -3339,7 +3940,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:cc",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "smooth",
@@ -3351,6 +3955,9 @@
           "mid": 50,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:smooth",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         }
       ]
@@ -3381,6 +3988,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:lo",
+          "skew": false,
+          "symK": 0,
           "items": [
             "C-2",
             "C#-2",
@@ -3522,6 +4132,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:hi",
+          "skew": false,
+          "symK": 0,
           "items": [
             "C-2",
             "C#-2",
@@ -3663,6 +4276,9 @@
           "mid": 100,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:glide",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         }
       ]
@@ -3695,6 +4311,9 @@
           "mid": 50,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:a",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -3707,6 +4326,9 @@
           "mid": 300,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:r",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -3719,6 +4341,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Gate",
             "Trig"
@@ -3752,6 +4377,9 @@
           "mid": 50,
           "suffix": " ms",
           "modPort": 0,
+          "dataPort": "param:a",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -3764,6 +4392,9 @@
           "mid": 50,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:h",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -3776,6 +4407,9 @@
           "mid": 120,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:d",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -3788,6 +4422,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:s",
+          "skew": false,
+          "symK": 0,
           "role": "level"
         },
         {
@@ -3800,6 +4437,9 @@
           "mid": 300,
           "suffix": " ms",
           "modPort": 4,
+          "dataPort": "param:r",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -3811,7 +4451,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:ac",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "dc",
@@ -3822,7 +4465,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 6
+          "modPort": 6,
+          "dataPort": "param:dc",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "rc",
@@ -3833,7 +4479,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 7
+          "modPort": 7,
+          "dataPort": "param:rc",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -3866,6 +4515,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:n",
+          "skew": false,
+          "symK": 0,
           "role": "time"
         }
       ]
@@ -3899,6 +4551,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:dry",
+          "skew": false,
+          "symK": 0,
           "role": "level",
           "smoothMs": 20
         },
@@ -3912,6 +4567,9 @@
           "mid": 250,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:t1",
+          "skew": true,
+          "symK": 0,
           "role": "time",
           "smoothMs": 20
         },
@@ -3920,11 +4578,14 @@
           "name": "T1 Gain",
           "min": 0,
           "max": 1,
-          "def": 0.699999988079071,
+          "def": 0.25,
           "step": 0,
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:g1",
+          "skew": false,
+          "symK": 0,
           "role": "gain",
           "smoothMs": 20
         },
@@ -3938,6 +4599,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:p1",
+          "skew": false,
+          "symK": 0,
           "role": "pan",
           "smoothMs": 20
         },
@@ -3951,6 +4615,9 @@
           "mid": 250,
           "suffix": " ms",
           "modPort": 5,
+          "dataPort": "param:t2",
+          "skew": true,
+          "symK": 0,
           "role": "time",
           "smoothMs": 20
         },
@@ -3959,11 +4626,14 @@
           "name": "T2 Gain",
           "min": 0,
           "max": 1,
-          "def": 0.550000011920929,
+          "def": 0.200000002980232,
           "step": 0,
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:g2",
+          "skew": false,
+          "symK": 0,
           "role": "gain",
           "smoothMs": 20
         },
@@ -3977,6 +4647,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 7,
+          "dataPort": "param:p2",
+          "skew": false,
+          "symK": 0,
           "role": "pan",
           "smoothMs": 20
         },
@@ -3990,6 +4663,9 @@
           "mid": 250,
           "suffix": " ms",
           "modPort": 8,
+          "dataPort": "param:t3",
+          "skew": true,
+          "symK": 0,
           "role": "time",
           "smoothMs": 20
         },
@@ -3998,11 +4674,14 @@
           "name": "T3 Gain",
           "min": 0,
           "max": 1,
-          "def": 0.400000005960464,
+          "def": 0.140000000596046,
           "step": 0,
           "mid": 0,
           "suffix": "",
           "modPort": 9,
+          "dataPort": "param:g3",
+          "skew": false,
+          "symK": 0,
           "role": "gain",
           "smoothMs": 20
         },
@@ -4016,6 +4695,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 10,
+          "dataPort": "param:p3",
+          "skew": false,
+          "symK": 0,
           "role": "pan",
           "smoothMs": 20
         },
@@ -4029,6 +4711,9 @@
           "mid": 250,
           "suffix": " ms",
           "modPort": 11,
+          "dataPort": "param:t4",
+          "skew": true,
+          "symK": 0,
           "role": "time",
           "smoothMs": 20
         },
@@ -4037,11 +4722,14 @@
           "name": "T4 Gain",
           "min": 0,
           "max": 1,
-          "def": 0.300000011920929,
+          "def": 0.109999999403954,
           "step": 0,
           "mid": 0,
           "suffix": "",
           "modPort": 12,
+          "dataPort": "param:g4",
+          "skew": false,
+          "symK": 0,
           "role": "gain",
           "smoothMs": 20
         },
@@ -4055,6 +4743,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 13,
+          "dataPort": "param:p4",
+          "skew": false,
+          "symK": 0,
           "role": "pan",
           "smoothMs": 20
         }
@@ -4089,6 +4780,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:interp",
+          "skew": false,
+          "symK": 0,
           "items": [
             "None",
             "Linear",
@@ -4107,6 +4801,9 @@
           "mid": 100,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:time",
+          "skew": true,
+          "symK": 0,
           "role": "time",
           "smoothMs": 20
         },
@@ -4120,6 +4817,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -4153,6 +4853,9 @@
           "mid": 100,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -4165,6 +4868,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level",
           "smoothMs": 20
         }
@@ -4199,6 +4905,9 @@
           "mid": 500,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:time",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -4210,7 +4919,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:curve",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "from",
@@ -4221,7 +4933,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:from",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "to",
@@ -4232,7 +4947,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:to",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -4265,6 +4983,9 @@
           "mid": 0,
           "suffix": " x",
           "modPort": 1,
+          "dataPort": "param:ratio",
+          "skew": false,
+          "symK": 0,
           "role": "ratio"
         },
         {
@@ -4276,7 +4997,10 @@
           "step": 1,
           "mid": 0,
           "suffix": " ct",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:fine",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "index",
@@ -4288,6 +5012,9 @@
           "mid": 1,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:index",
+          "skew": true,
+          "symK": 0,
           "role": "depth",
           "smoothMs": 20
         },
@@ -4301,6 +5028,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:fb",
+          "skew": false,
+          "symK": 0,
           "role": "feedback",
           "smoothMs": 20
         },
@@ -4314,6 +5044,9 @@
           "mid": 440,
           "suffix": " Hz",
           "modPort": 5,
+          "dataPort": "param:base",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -4326,6 +5059,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level",
           "smoothMs": 20
         },
@@ -4339,6 +5075,9 @@
           "mid": 200,
           "suffix": " ms",
           "modPort": 7,
+          "dataPort": "param:release",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         }
       ]
@@ -4372,6 +5111,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:thresh",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         },
         {
@@ -4383,7 +5125,10 @@
           "step": 0.100000001490116,
           "mid": 0,
           "suffix": " dB",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:hyst",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "attack",
@@ -4395,6 +5140,9 @@
           "mid": 5,
           "suffix": " ms",
           "modPort": 3,
+          "dataPort": "param:attack",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -4407,6 +5155,9 @@
           "mid": 100,
           "suffix": " ms",
           "modPort": 4,
+          "dataPort": "param:hold",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -4419,6 +5170,9 @@
           "mid": 150,
           "suffix": " ms",
           "modPort": 5,
+          "dataPort": "param:release",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -4430,7 +5184,10 @@
           "step": 0.100000001490116,
           "mid": 0,
           "suffix": " dB",
-          "modPort": 6
+          "modPort": 6,
+          "dataPort": "param:range",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -4463,6 +5220,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:ceiling",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         },
         {
@@ -4475,6 +5235,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Hard",
             "Soft"
@@ -4511,6 +5274,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:hithresh",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         },
         {
@@ -4523,6 +5289,9 @@
           "mid": 4,
           "suffix": ":1",
           "modPort": 2,
+          "dataPort": "param:hiratio",
+          "skew": true,
+          "symK": 0,
           "role": "ratio"
         },
         {
@@ -4535,6 +5304,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 3,
+          "dataPort": "param:lothresh",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         },
         {
@@ -4547,6 +5319,9 @@
           "mid": 4,
           "suffix": ":1",
           "modPort": 4,
+          "dataPort": "param:loratio",
+          "skew": true,
+          "symK": 0,
           "role": "ratio"
         },
         {
@@ -4558,7 +5333,10 @@
           "step": 0.100000001490116,
           "mid": 0,
           "suffix": " dB",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:knee",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "attack",
@@ -4570,6 +5348,9 @@
           "mid": 20,
           "suffix": " ms",
           "modPort": 6,
+          "dataPort": "param:attack",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -4582,6 +5363,9 @@
           "mid": 150,
           "suffix": " ms",
           "modPort": 7,
+          "dataPort": "param:release",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         }
       ]
@@ -4615,6 +5399,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:attack",
+          "skew": false,
+          "symK": 2,
           "role": "gain"
         },
         {
@@ -4627,6 +5414,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 2,
+          "dataPort": "param:sustain",
+          "skew": false,
+          "symK": 2,
           "role": "gain"
         },
         {
@@ -4639,6 +5429,9 @@
           "mid": 5,
           "suffix": " ms",
           "modPort": 3,
+          "dataPort": "param:speed",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         }
       ]
@@ -4672,6 +5465,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:drive",
+          "skew": false,
+          "symK": 0,
           "role": "drive",
           "smoothMs": 10
         },
@@ -4685,6 +5481,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:shape",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Tanh",
             "Atan",
@@ -4707,6 +5506,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:bias",
+          "skew": false,
+          "symK": 0,
           "role": "amount"
         },
         {
@@ -4719,6 +5521,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:chord",
+          "skew": false,
+          "symK": 0,
           "items": [
             "2nd",
             "3rd",
@@ -4737,6 +5542,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 5,
+          "dataPort": "param:out",
+          "skew": false,
+          "symK": 0,
           "role": "gain",
           "smoothMs": 10
         },
@@ -4750,6 +5558,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -4783,6 +5594,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:drive",
+          "skew": false,
+          "symK": 0,
           "role": "drive",
           "smoothMs": 10
         },
@@ -4795,7 +5609,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:y0",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y1",
@@ -4806,7 +5623,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:y1",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y2",
@@ -4817,7 +5637,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:y2",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y3",
@@ -4828,7 +5651,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:y3",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y4",
@@ -4839,7 +5665,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 6
+          "modPort": 6,
+          "dataPort": "param:y4",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mix",
@@ -4851,6 +5680,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 7,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -4884,6 +5716,9 @@
           "mid": 200,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency",
           "smoothMs": 10
         },
@@ -4897,6 +5732,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -4930,6 +5768,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 9,
+          "dataPort": "param:os",
+          "skew": false,
+          "symK": 0,
           "items": [
             "1x",
             "2x",
@@ -4969,6 +5810,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:pan",
+          "skew": false,
+          "symK": 0,
           "role": "pan",
           "smoothMs": 10
         }
@@ -5047,6 +5891,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:sel",
+          "skew": false,
+          "symK": 0,
           "items": [
             "In 1",
             "In 2",
@@ -5064,6 +5911,9 @@
           "mid": 5,
           "suffix": " ms",
           "modPort": 5,
+          "dataPort": "param:ramp",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         }
       ]
@@ -5094,7 +5944,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 0
+          "modPort": 0,
+          "dataPort": "param:retrig",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -5103,7 +5956,7 @@
       "name": "Transpose",
       "category": "Notes & Sequencing",
       "signal": "event",
-      "level": 2,
+      "level": 1,
       "blurb": "transposes note events by Semis (-48..+48 st, clamped 0..127), events thru: the single-purpose shifter - chain before NoteOsc/ADSR for octave/interval splits (MidiFilt also transposes alongside range/channel)",
       "cpu": "trivial",
       "latency": "0",
@@ -5125,6 +5978,9 @@
           "mid": 0,
           "suffix": " st",
           "modPort": 0,
+          "dataPort": "param:semi",
+          "skew": false,
+          "symK": 0,
           "role": "pitch"
         }
       ]
@@ -5158,6 +6014,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Peak",
             "RMS"
@@ -5173,6 +6032,9 @@
           "mid": 100,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:time",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         }
       ]
@@ -5246,6 +6108,9 @@
           "mid": 440,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -5258,6 +6123,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level"
         },
         {
@@ -5269,7 +6137,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:position",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "modoct",
@@ -5281,6 +6152,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:modoct",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         },
         {
@@ -5292,7 +6166,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:unison",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "detune",
@@ -5304,6 +6181,9 @@
           "mid": 30,
           "suffix": " c",
           "modPort": 6,
+          "dataPort": "param:detune",
+          "skew": true,
+          "symK": 0,
           "role": "depth"
         },
         {
@@ -5315,7 +6195,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 7
+          "modPort": 7,
+          "dataPort": "param:spread",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "pm",
@@ -5327,6 +6210,46 @@
           "mid": 0,
           "suffix": "",
           "modPort": 8,
+          "dataPort": "param:pm",
+          "skew": false,
+          "symK": 0,
+          "role": "depth"
+        },
+        {
+          "id": "morphmode",
+          "name": "Morph",
+          "min": 0,
+          "max": 5,
+          "def": 0,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 9,
+          "dataPort": "param:morphmode",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "Time",
+            "Spectral",
+            "H.Stretch",
+            "Formant",
+            "Smear",
+            "Skew"
+          ]
+        },
+        {
+          "id": "morphamount",
+          "name": "Amount",
+          "min": 0,
+          "max": 1,
+          "def": 0,
+          "step": 0,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 10,
+          "dataPort": "param:morphamount",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         }
       ]
@@ -5357,7 +6280,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 0
+          "modPort": 0,
+          "dataPort": "param:root",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "level",
@@ -5369,6 +6295,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level"
         },
         {
@@ -5381,6 +6310,9 @@
           "mid": 20,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:attack",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -5393,6 +6325,9 @@
           "mid": 200,
           "suffix": " ms",
           "modPort": 3,
+          "dataPort": "param:release",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -5404,7 +6339,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:start",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "loop",
@@ -5416,6 +6354,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:loop",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -5430,7 +6371,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 6
+          "modPort": 6,
+          "dataPort": "param:loopstart",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "loopend",
@@ -5441,7 +6385,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 7
+          "modPort": 7,
+          "dataPort": "param:loopend",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "end",
@@ -5452,7 +6399,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 8
+          "modPort": 8,
+          "dataPort": "param:end",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "rrmode",
@@ -5464,6 +6414,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 9,
+          "dataPort": "param:rrmode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Round Robin",
             "Random",
@@ -5479,7 +6432,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 10
+          "modPort": 10,
+          "dataPort": "param:startmod",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "preload",
@@ -5490,7 +6446,10 @@
           "step": 0,
           "mid": 5,
           "suffix": " s",
-          "modPort": 11
+          "modPort": 11,
+          "dataPort": "param:preload",
+          "skew": true,
+          "symK": 0
         },
         {
           "id": "stream",
@@ -5502,6 +6461,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 12,
+          "dataPort": "param:stream",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -5517,6 +6479,9 @@
           "mid": 200,
           "suffix": " ms",
           "modPort": 13,
+          "dataPort": "param:decay",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -5528,7 +6493,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 14
+          "modPort": 14,
+          "dataPort": "param:sustain",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "groupxf",
@@ -5539,7 +6507,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 15
+          "modPort": 15,
+          "dataPort": "param:groupxf",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -5569,6 +6540,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Up",
             "Down",
@@ -5586,6 +6560,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:div",
+          "skew": false,
+          "symK": 0,
           "items": [
             "4/1",
             "2/1",
@@ -5614,7 +6591,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:gate",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "oct",
@@ -5625,7 +6605,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:oct",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -5655,6 +6638,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:type",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Maj",
             "Min",
@@ -5698,7 +6684,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 9
+          "modPort": 9,
+          "dataPort": "param:voices",
+          "skew": false,
+          "symK": 0
         }
       ],
       "macroSlots": 8
@@ -5734,6 +6723,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:type",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Hadamard",
             "Householdr",
@@ -5750,6 +6742,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:size",
+          "skew": false,
+          "symK": 0,
           "items": [
             "2",
             "4"
@@ -5788,6 +6783,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:w00",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5800,6 +6798,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:w01",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5812,6 +6813,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:w02",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5824,6 +6828,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 7,
+          "dataPort": "param:w03",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5836,6 +6843,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 8,
+          "dataPort": "param:w10",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5848,6 +6858,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 9,
+          "dataPort": "param:w11",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5860,6 +6873,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 10,
+          "dataPort": "param:w12",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5872,6 +6888,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 11,
+          "dataPort": "param:w13",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5884,6 +6903,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 12,
+          "dataPort": "param:w20",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5896,6 +6918,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 13,
+          "dataPort": "param:w21",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5908,6 +6933,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 14,
+          "dataPort": "param:w22",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5920,6 +6948,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 15,
+          "dataPort": "param:w23",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5932,6 +6963,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 16,
+          "dataPort": "param:w30",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5944,6 +6978,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 17,
+          "dataPort": "param:w31",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5956,6 +6993,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 18,
+          "dataPort": "param:w32",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -5968,6 +7008,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 19,
+          "dataPort": "param:w33",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         }
       ]
@@ -6000,6 +7043,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 9,
+          "dataPort": "param:fb",
+          "skew": false,
+          "symK": 0,
           "role": "feedback"
         },
         {
@@ -6011,7 +7057,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 10
+          "modPort": 10,
+          "dataPort": "param:damp",
+          "skew": false,
+          "symK": 0
         }
       ],
       "macroSlots": 8
@@ -6045,6 +7094,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:poles",
+          "skew": false,
+          "symK": 0,
           "items": [
             "1 (6)",
             "2 (12)",
@@ -6061,6 +7113,9 @@
           "mid": 1000,
           "suffix": " Hz",
           "modPort": 3,
+          "dataPort": "param:cutoff",
+          "skew": true,
+          "symK": 0,
           "role": "frequency",
           "smoothMs": 10
         },
@@ -6074,6 +7129,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:res",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         },
         {
@@ -6086,6 +7144,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:drive",
+          "skew": false,
+          "symK": 0,
           "role": "drive"
         },
         {
@@ -6098,6 +7159,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:nl",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Linear",
             "Tanh"
@@ -6113,6 +7177,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 7,
+          "dataPort": "param:modoct",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         }
       ]
@@ -6145,6 +7212,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:family",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Butterwth",
             "ChebyI",
@@ -6164,6 +7234,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:shape",
+          "skew": false,
+          "symK": 0,
           "items": [
             "LP",
             "HP"
@@ -6178,7 +7251,10 @@
           "step": 2,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:order",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "cutoff",
@@ -6190,6 +7266,9 @@
           "mid": 1000,
           "suffix": " Hz",
           "modPort": 4,
+          "dataPort": "param:cutoff",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -6201,7 +7280,10 @@
           "step": 0,
           "mid": 0,
           "suffix": " dB",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:ripple",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "stop",
@@ -6212,7 +7294,10 @@
           "step": 0,
           "mid": 0,
           "suffix": " dB",
-          "modPort": 6
+          "modPort": 6,
+          "dataPort": "param:stop",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -6244,6 +7329,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:type",
+          "skew": false,
+          "symK": 0,
           "items": [
             "LP",
             "HP",
@@ -6261,6 +7349,9 @@
           "mid": 1000,
           "suffix": " Hz",
           "modPort": 2,
+          "dataPort": "param:cutoff",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -6273,6 +7364,9 @@
           "mid": 0,
           "suffix": " Hz",
           "modPort": 3,
+          "dataPort": "param:bw",
+          "skew": false,
+          "symK": 0,
           "role": "width"
         },
         {
@@ -6284,7 +7378,10 @@
           "step": 2,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:taps",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "window",
@@ -6296,6 +7393,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:window",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Rect",
             "Hann",
@@ -6313,7 +7413,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 6
+          "modPort": 6,
+          "dataPort": "param:beta",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -6345,6 +7448,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "ParBP",
             "LRTree"
@@ -6359,7 +7465,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:bands",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "layout",
@@ -6371,6 +7480,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:layout",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Octave",
             "Third",
@@ -6387,6 +7499,9 @@
           "mid": 200,
           "suffix": " Hz",
           "modPort": 4,
+          "dataPort": "param:low",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -6399,6 +7514,9 @@
           "mid": 4000,
           "suffix": " Hz",
           "modPort": 5,
+          "dataPort": "param:high",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -6411,6 +7529,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:q",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         }
       ]
@@ -6443,6 +7564,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:voice",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Soprano",
             "Alto",
@@ -6460,6 +7584,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:vowel",
+          "skew": false,
+          "symK": 0,
           "smoothMs": 30
         },
         {
@@ -6471,7 +7598,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:shift",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "q",
@@ -6483,6 +7613,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:q",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         },
         {
@@ -6495,6 +7628,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -6527,6 +7663,9 @@
           "mid": 20,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:time",
+          "skew": true,
+          "symK": 0,
           "role": "time",
           "smoothMs": 20
         },
@@ -6540,6 +7679,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:g",
+          "skew": false,
+          "symK": 0,
           "role": "amount"
         },
         {
@@ -6552,6 +7694,9 @@
           "mid": 4000,
           "suffix": " Hz",
           "modPort": 3,
+          "dataPort": "param:damp",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -6564,6 +7709,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:moddepth",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         },
         {
@@ -6576,6 +7724,9 @@
           "mid": 1,
           "suffix": " Hz",
           "modPort": 5,
+          "dataPort": "param:modrate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -6588,6 +7739,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -6619,7 +7773,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:combs",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "rt60",
@@ -6631,6 +7788,9 @@
           "mid": 2,
           "suffix": " s",
           "modPort": 2,
+          "dataPort": "param:rt60",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -6642,7 +7802,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:damp",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mix",
@@ -6654,6 +7817,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -6686,6 +7852,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:lines",
+          "skew": false,
+          "symK": 0,
           "items": [
             "2",
             "4",
@@ -6702,6 +7871,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:matrix",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Hadamard",
             "Householder",
@@ -6718,6 +7890,9 @@
           "mid": 2.5,
           "suffix": " s",
           "modPort": 3,
+          "dataPort": "param:rt60",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -6729,7 +7904,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:size",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "damp",
@@ -6741,6 +7919,9 @@
           "mid": 6000,
           "suffix": " Hz",
           "modPort": 5,
+          "dataPort": "param:damp",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -6753,6 +7934,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -6785,6 +7969,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:stages",
+          "skew": false,
+          "symK": 0,
           "items": [
             "2",
             "3",
@@ -6805,6 +7992,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:diffuse",
+          "skew": false,
+          "symK": 0,
           "role": "amount"
         },
         {
@@ -6816,7 +8006,10 @@
           "step": 0,
           "mid": 1,
           "suffix": "x",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:size",
+          "skew": true,
+          "symK": 0
         },
         {
           "id": "mix",
@@ -6828,6 +8021,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -6860,6 +8056,9 @@
           "mid": 440,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:pitch",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -6871,7 +8070,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:decay",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "damp",
@@ -6883,6 +8085,9 @@
           "mid": 4000,
           "suffix": " Hz",
           "modPort": 3,
+          "dataPort": "param:damp",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -6894,7 +8099,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:stiff",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mix",
@@ -6906,6 +8114,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -6938,6 +8149,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:material",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Wood",
             "Membrane",
@@ -6955,6 +8169,9 @@
           "mid": 220,
           "suffix": " Hz",
           "modPort": 2,
+          "dataPort": "param:pitch",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -6966,7 +8183,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:modes",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "decay",
@@ -6978,6 +8198,9 @@
           "mid": 1.5,
           "suffix": " s",
           "modPort": 4,
+          "dataPort": "param:decay",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -6989,7 +8212,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:damp",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mix",
@@ -7001,6 +8227,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -7034,6 +8263,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 9,
+          "dataPort": "param:size",
+          "skew": false,
+          "symK": 0,
           "items": [
             "512",
             "1024",
@@ -7051,6 +8283,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 10,
+          "dataPort": "param:overlap",
+          "skew": false,
+          "symK": 0,
           "items": [
             "2x",
             "4x",
@@ -7067,6 +8302,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 11,
+          "dataPort": "param:window",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Hann",
             "Hamming",
@@ -7104,6 +8342,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mag",
+          "skew": false,
+          "symK": 0,
           "role": "gain"
         },
         {
@@ -7116,6 +8357,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:rot",
+          "skew": false,
+          "symK": 0,
           "role": "phase"
         }
       ]
@@ -7149,6 +8393,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 1,
+          "dataPort": "param:thr",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         },
         {
@@ -7160,7 +8407,10 @@
           "step": 0,
           "mid": 0,
           "suffix": " dB",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:floor",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "knee",
@@ -7171,7 +8421,10 @@
           "step": 0,
           "mid": 0,
           "suffix": " dB",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:knee",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "tilt",
@@ -7183,6 +8436,9 @@
           "mid": 0,
           "suffix": " dB",
           "modPort": 4,
+          "dataPort": "param:tilt",
+          "skew": false,
+          "symK": 2,
           "role": "tone"
         },
         {
@@ -7194,7 +8450,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:atk",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "rel",
@@ -7205,7 +8464,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 6
+          "modPort": 6,
+          "dataPort": "param:rel",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -7238,6 +8500,9 @@
           "mid": 0,
           "suffix": " ct",
           "modPort": 1,
+          "dataPort": "param:cents",
+          "skew": false,
+          "symK": 0,
           "role": "pitch"
         },
         {
@@ -7250,6 +8515,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -7282,7 +8550,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:freeze",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "xfade",
@@ -7293,7 +8564,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:xfade",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -7324,7 +8598,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:time",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "freq",
@@ -7335,7 +8612,10 @@
           "step": 1,
           "mid": 0,
           "suffix": " bin",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:freq",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mix",
@@ -7347,6 +8627,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -7381,6 +8664,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:depth",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         },
         {
@@ -7392,7 +8678,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:smooth",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mix",
@@ -7404,6 +8693,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -7437,6 +8729,9 @@
           "mid": 0,
           "suffix": " st",
           "modPort": 1,
+          "dataPort": "param:pitch",
+          "skew": false,
+          "symK": 0,
           "role": "pitch"
         },
         {
@@ -7449,6 +8744,9 @@
           "mid": 0,
           "suffix": " ct",
           "modPort": 2,
+          "dataPort": "param:fine",
+          "skew": false,
+          "symK": 0,
           "role": "pitch"
         },
         {
@@ -7461,6 +8759,9 @@
           "mid": 0,
           "suffix": " ms",
           "modPort": 3,
+          "dataPort": "param:window",
+          "skew": false,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -7473,6 +8774,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         },
         {
@@ -7485,6 +8789,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Spectral",
             "Time"
@@ -7498,7 +8805,7 @@
       "category": "Time & Motion",
       "signal": "audio",
       "level": 2,
-      "blurb": "GRANULAR texture/cloud engine: a circular capture buffer + a grain scheduler firing overlapping Hann-windowed grains from a 64-voice pre-allocated pool (0 RT alloc). Density (grains/sec) sets the onset rate; Size (5-200 ms) the grain length; Pitch (+/-24 st, per-grain) the playback ratio; Position scans into the captured buffer; Spray jitters each grain's start (latched at onset - the granular sound); Mix blends dry. At 1x pitch + full Hann overlap the cloud replays the input flat (COLA floor); sparse + large = a textural shimmer, dense + small = a smooth wash. The async-granular workhorse (Roads, Microsound). Deterministic jitter RNG; denormal-flushed voice sum",
+      "blurb": "GRANULAR texture/cloud engine: a circular capture buffer + a grain scheduler firing overlapping windowed grains (Shape: Hann/Tukey/expodec/rexpodec, default Hann) from a 64-voice pre-allocated pool (0 RT alloc). Density (grains/sec) sets the onset rate; Size (5-200 ms) the grain length; Pitch (+/-24 st, per-grain) the playback ratio; Position scans into the captured buffer; Spray jitters each grain's start (latched at onset - the granular sound); Mix blends dry. At 1x pitch + full Hann overlap the cloud replays the input flat (COLA floor); sparse + large = a textural shimmer, dense + small = a smooth wash. The async-granular workhorse (Roads, Microsound). Deterministic jitter RNG; denormal-flushed voice sum",
       "cpu": "medium",
       "latency": "0",
       "safety": "per-grain params (Position, Pitch, Size, Spray) are LATCHED at each grain's onset - they do NOT smooth mid-grain (that is the granular sound). 64-voice pool, steal-oldest when full -> very high Density x long Size thins (grains get stolen before they finish). 0 RT allocation (pool/window/ring built in prepare). Jitter RNG is seeded -> deterministic. At 1x Pitch + full Hann overlap the cloud replays the input flat; Mix 0 = dry only. Capture buffer is 2 s - Position reaches ~1 s back",
@@ -7521,6 +8828,9 @@
           "mid": 0,
           "suffix": " /s",
           "modPort": 1,
+          "dataPort": "param:density",
+          "skew": false,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -7533,6 +8843,9 @@
           "mid": 0,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:size",
+          "skew": false,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -7545,6 +8858,9 @@
           "mid": 0,
           "suffix": " st",
           "modPort": 3,
+          "dataPort": "param:pitch",
+          "skew": false,
+          "symK": 0,
           "role": "pitch"
         },
         {
@@ -7556,7 +8872,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:pos",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "spray",
@@ -7568,6 +8887,9 @@
           "mid": 0,
           "suffix": " ms",
           "modPort": 5,
+          "dataPort": "param:spray",
+          "skew": false,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -7580,7 +8902,30 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
+        },
+        {
+          "id": "shape",
+          "name": "Shape",
+          "min": 0,
+          "max": 3,
+          "def": 0,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 7,
+          "dataPort": "param:shape",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "Hann",
+            "Tukey",
+            "Expodec",
+            "Rexpodec"
+          ]
         }
       ]
     },
@@ -7613,6 +8958,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:size",
+          "skew": false,
+          "symK": 0,
           "items": [
             "S",
             "M",
@@ -7630,6 +8978,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -7663,6 +9014,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:range",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Bass",
             "Full",
@@ -7679,6 +9033,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:thresh",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         },
         {
@@ -7691,6 +9048,9 @@
           "mid": 440,
           "suffix": " Hz",
           "modPort": 3,
+          "dataPort": "param:ref",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -7703,6 +9063,9 @@
           "mid": 60,
           "suffix": " ms",
           "modPort": 4,
+          "dataPort": "param:smooth",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -7715,6 +9078,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:modmode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "Hz",
@@ -7751,6 +9117,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Free",
             "Sync"
@@ -7766,6 +9135,9 @@
           "mid": 250,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:time",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -7778,6 +9150,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:div",
+          "skew": false,
+          "symK": 0,
           "items": [
             "4/1",
             "2/1",
@@ -7829,6 +9204,9 @@
           "mid": 0,
           "suffix": " x",
           "modPort": 2,
+          "dataPort": "param:rate",
+          "skew": false,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -7840,7 +9218,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:leak",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mode",
@@ -7852,6 +9233,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Integrate",
             "Count"
@@ -7885,7 +9269,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 0
+          "modPort": 0,
+          "dataPort": "param:y0",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y1",
@@ -7896,7 +9283,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:y1",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y2",
@@ -7907,7 +9297,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:y2",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y3",
@@ -7918,7 +9311,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:y3",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y4",
@@ -7929,7 +9325,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:y4",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "interp",
@@ -7941,6 +9340,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:interp",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Linear",
             "Smooth"
@@ -7956,6 +9358,9 @@
           "mid": 100,
           "suffix": " ms",
           "modPort": 6,
+          "dataPort": "param:glide",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         }
       ]
@@ -7965,7 +9370,7 @@
       "name": "Change",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 0,
       "blurb": "edge detector -> trigger BANG: fires a one-sample 1.0 pulse when the input crosses Thresh (Schmitt window Hyst = chatter-free) in the chosen direction (Rising/Falling/Both). Distinct from Compare, which HOLDS a gate high while above - Change fires only on the TRANSITION, the trigger source for AR/Ramp/S&H/Sequencer (EnvFollow -> Change -> AR re-triggers on every onset; LFO/Phasor -> Change = a clock from any shape)",
       "cpu": "trivial",
       "latency": "0",
@@ -7988,6 +9393,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Rising",
             "Falling",
@@ -8004,6 +9412,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:thresh",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         },
         {
@@ -8015,7 +9426,10 @@
           "step": 0.001000000047497,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:hyst",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8024,7 +9438,7 @@
       "name": "ScaleQuant",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "MUSICAL scale quantizer (the melody-maker): snaps a 0..1 control wire to the nearest in-scale MIDI note. Scale = Chromatic/Major/Minor/the modes/pentatonics, Key = tonic pitch class, Base = the note at input 0, Range = span in semitones. Output is a MIDI NOTE NUMBER - chain Convert(Note>Hz) -> Osc/Filter freq. Random/LFO -> ScaleQuant = in-key generative melodies (vs Quantize's bare numeric step snap); quantizes per sample so a swept input glides through the scale degrees",
       "cpu": "trivial",
       "latency": "0",
@@ -8047,6 +9461,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:scale",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Chromatic",
             "Major",
@@ -8070,6 +9487,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:key",
+          "skew": false,
+          "symK": 0,
           "items": [
             "C",
             "C#",
@@ -8094,7 +9514,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:base",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "range",
@@ -8105,7 +9528,10 @@
           "step": 1,
           "mid": 0,
           "suffix": " st",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:range",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8114,7 +9540,7 @@
       "name": "Formula",
       "category": "Modulators",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "VALUE REMAPPER, out = f(X,Y,A,B,C,D,t): pick a baked Formula (Linear a*x+b / Power skew / Exp / Sigmoid tanh / Smoothstep / Sine sin(2pi(a*x+b)) / Rectify / Wrap / Fold / dB>Gain / Gain>dB / Crossfade x<->y / Clamp / Quadratic / Chebyshev) or Custom = a typed expression (vars x y z a b c d t, consts pi e; funcs sin cos tan atan abs exp log sqrt floor ceil round tanh sign frac min max pow mod step clamp lerp smoothstep) stored in the patch and parsed ONCE into a sandboxed RT-safe evaluator (no SNEX/JIT). A/B/C/D are coefficient knobs AND mod targets (LFO -> A sweeps the curve); t is a 1 Hz phase so Custom can self-generate. The 'remap any value any way' cell - bespoke velocity/sidechain curves, custom LFO shapes, unit math",
       "cpu": "trivial",
       "latency": "0",
@@ -8138,6 +9564,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:preset",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Linear",
             "Power",
@@ -8166,7 +9595,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:a",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "b",
@@ -8177,7 +9609,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:b",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "c",
@@ -8188,7 +9623,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:c",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "d",
@@ -8199,7 +9637,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 6
+          "modPort": 6,
+          "dataPort": "param:d",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8208,7 +9649,7 @@
       "name": "Button",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "manual + programmatic TRIGGER source (fires AR/Ramp/S&H/Sequencer on demand): Mode Bang = a one-sample pulse on each rising edge, Toggle = a latch that flips per edge, Gate = Value while held. An edge is the Press param (UI-clickable 0/1) OR a rising Trig cable edge (Schmitt). Out level = Value. The performable trigger the engine's Trig ports had no clean way to drive (Wave 1: Press via the param row; a big clickable face is a later UI step)",
       "cpu": "trivial",
       "latency": "0",
@@ -8231,6 +9672,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Bang",
             "Toggle",
@@ -8246,7 +9690,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:press",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "value",
@@ -8257,7 +9704,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:value",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8266,7 +9716,7 @@
       "name": "Sequencer",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "STEP SEQUENCER (value + gate): a rising Clock edge advances the step (Dir Fwd/Rev/PingPong/Random); Value out = the current step's 0..1 level (held), Gate out = a one-sample pulse on each enabled step. Steps (1-16) = length; the 16 step values + per-step gate mask persist in the patch (props bag). The pattern source nothing else made - Timer/Button -> Clock; Sequencer.Value -> ScaleQuant -> Convert -> Osc for melodies, Sequencer.Gate -> AR for rhythmic envelopes. Wave 1: step data via patch JSON; the editable step-grid face is a later UI increment",
       "cpu": "trivial",
       "latency": "0",
@@ -8296,7 +9746,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:steps",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "dir",
@@ -8308,6 +9761,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:dir",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Fwd",
             "Rev",
@@ -8324,7 +9780,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:seed",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8333,7 +9792,7 @@
       "name": "Dice",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "Bernoulli PROBABILITY GATE: on each rising Trig edge, passes the trigger (a one-sample pulse) with probability Prob, seeded so the pattern is deterministic/repeatable. The cheapest 'make it alive' cell - Timer -> Dice -> AR = randomly-skipped hits, Sequencer.Gate -> Dice = probabilistic steps. Prob 1 = always, 0 = never",
       "cpu": "trivial",
       "latency": "0",
@@ -8355,7 +9814,10 @@
           "step": 0,
           "mid": 0,
           "suffix": " %",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:prob",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "seed",
@@ -8366,7 +9828,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:seed",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8375,7 +9840,7 @@
       "name": "ClockDiv",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "CLOCK DIVIDER: passes every Div-th rising Clock edge (a slower clock); Offset shifts which edge in the cycle passes. One master Timer feeding several ClockDivs gives related pulse streams (1/4 vs 1/8 vs 1/16) locked to one clock - polyrhythms and nested grooves from a single source",
       "cpu": "trivial",
       "latency": "0",
@@ -8398,6 +9863,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:div",
+          "skew": false,
+          "symK": 0,
           "items": [
             "/1",
             "/2",
@@ -8426,7 +9894,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:off",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8435,7 +9906,7 @@
       "name": "Burst",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "RATCHET / burst generator: on each rising Trig edge, fires Count sub-pulses spaced at Rate Hz (the first lands on the edge). Timer -> Burst -> AR = drum rolls / ratcheted hits; Sequencer.Gate -> Burst = per-step ratchets. Count 1 = passthrough - a controllable clock multiplier on demand",
       "cpu": "trivial",
       "latency": "0",
@@ -8457,7 +9928,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:count",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "rate",
@@ -8469,6 +9943,9 @@
           "mid": 20,
           "suffix": " Hz",
           "modPort": 2,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         }
       ]
@@ -8478,7 +9955,7 @@
       "name": "Euclidean",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "EUCLIDEAN RHYTHM generator: a rising Clock edge advances a step (mod Steps); Gate out pulses on each Euclidean onset - Fills hits distributed as evenly as possible over Steps (Bjorklund/Bresenham), Rotate shifts the pattern. E(3,8) = the tresillo, E(5,8) the cinquillo, E(4,16) four-on-the-floor - generative grooves from three knobs (Timer -> Euclidean -> AR/drum)",
       "cpu": "trivial",
       "latency": "0",
@@ -8500,7 +9977,10 @@
           "step": 1,
           "mid": 0,
           "suffix": " steps",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:steps",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "fills",
@@ -8511,7 +9991,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:fills",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "rot",
@@ -8522,7 +10005,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:rot",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8531,7 +10017,7 @@
       "name": "Turing",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "LOOPING SHIFT-REGISTER random (Music Thing Turing Machine): a rising Clock edge rotates a Length-bit loop; Mutate = the per-step probability the recycled bit is replaced by a fresh random one - Mutate 0 = a LOCKED loop of period Length (a stable evolving-then-repeating pattern), 1 = fully random, in between = a slowly-mutating sequence. Value out = the register's low 8 bits as a 0..1 control (held), Seeded for repeatability. The self-evolving melody/CV source - Turing -> ScaleQuant -> Osc = generative-but-coherent lines",
       "cpu": "trivial",
       "latency": "0",
@@ -8553,7 +10039,10 @@
           "step": 1,
           "mid": 0,
           "suffix": " steps",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:length",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mutate",
@@ -8564,7 +10053,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:mutate",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "seed",
@@ -8575,7 +10067,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:seed",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8584,7 +10079,7 @@
       "name": "Transport",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "DAW PLAY STATE -> gate: outputs 1.0 while the host transport is running, else 0.0. Gate a chain to only run during playback, or fire envelopes on play. Reads the playhead the graph forwards (the TempoSync plumbing); unhosted/offline = 0",
       "cpu": "trivial",
       "latency": "0",
@@ -8601,7 +10096,7 @@
       "name": "PPQ",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "SONG-POSITION ramp: the host beat position folded to a 0..1 ramp repeating every Beats beats (Beats 4 = one bar in 4/4), locked to the DAW timeline - song-position modulation for intros/builds and bar-synced sweeps (vs a free LFO). Block-rate; unhosted/offline = 0",
       "cpu": "trivial",
       "latency": "0",
@@ -8621,7 +10116,10 @@
           "step": 1,
           "mid": 0,
           "suffix": " beats",
-          "modPort": 0
+          "modPort": 0,
+          "dataPort": "param:beats",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8630,7 +10128,7 @@
       "name": "Branch",
       "category": "Routing & Structure",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "control DEMUX: routes the In signal to ONE of 4 outputs (Route, a mod target); unselected outputs read 0 (Zero) or hold their last routed value (Hold). 'Send this mod/trigger to a chosen destination' - and with a counter/Sequencer/Turing into Route it becomes a sequential switch (the 4015 idiom). The selectable counterpart to free DAG fan-out (one out -> many ins, which needs no block)",
       "cpu": "trivial",
       "latency": "0",
@@ -8653,6 +10151,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:route",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Out 1",
             "Out 2",
@@ -8670,6 +10171,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Zero",
             "Hold"
@@ -8682,7 +10186,7 @@
       "name": "Faders",
       "category": "Modulators",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "CROSSFADE / MORPH bank: one Pos input (0..1) -> Count output gains that crossfade as Pos sweeps (triangular windows - Linear sums to 1, EqPower keeps constant power). Multiply N sources by these gains for a smooth scene/timbre morph from a single knob/LFO/XY/Sequencer. The morph-macro cell (one position blends across many destinations)",
       "cpu": "trivial",
       "latency": "0",
@@ -8704,7 +10208,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:count",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "curve",
@@ -8716,6 +10223,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:curve",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Linear",
             "EqPower"
@@ -8728,7 +10238,7 @@
       "name": "XY",
       "category": "Modulators",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "PERFORMANCE 2D PAD: drag the node face to set X (out 1) and Y (out 2), each a 0..1 control and a mod target - one gesture drives two destinations (filter cutoff+reso, Faders position+amount, vector-macro morphs). The value is the surface; persists with the patch",
       "cpu": "trivial",
       "latency": "0",
@@ -8748,7 +10258,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 0
+          "modPort": 0,
+          "dataPort": "param:x",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "y",
@@ -8759,7 +10272,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:y",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8768,7 +10284,7 @@
       "name": "Track&Hold",
       "category": "Modulators",
       "signal": "mod",
-      "level": 2,
+      "level": 0,
       "blurb": "TRACK & HOLD: while the Gate is high (> Gate Lvl) the output TRACKS the In; when it falls the output HOLDS the last value. The continuous cousin of S&H (which samples only at a rising edge) - freeze a moving CV, hold an envelope, glide-then-freeze",
       "cpu": "trivial",
       "latency": "0",
@@ -8792,6 +10308,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:thresh",
+          "skew": false,
+          "symK": 0,
           "role": "threshold"
         }
       ]
@@ -8801,7 +10320,7 @@
       "name": "Chaos",
       "category": "Modulators",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "CHAOTIC mod source: iterates a strange attractor at Rate Hz and smooths between steps (Smooth). Mode Logistic / Lorenz / Henon, Seed for repeatability. Bounded + escape-scrubbed so it never settles or blows up - organic, never-exactly-repeating modulation (vs Random's flat draws or the LFO's strict periodicity). Chaos -> filter cutoff / pan / ScaleQuant for living, evolving movement",
       "cpu": "trivial",
       "latency": "0",
@@ -8822,6 +10341,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Logistic",
             "Lorenz",
@@ -8838,6 +10360,9 @@
           "mid": 4,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -8850,6 +10375,9 @@
           "mid": 50,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:smooth",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -8861,7 +10389,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:seed",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -8870,7 +10401,7 @@
       "name": "Function",
       "category": "Modulators",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "FUNCTION GENERATOR (Maths/DAHDSR cell): a rising Trig ramps 0->1 over Rise then 1->0 over Fall, each through Curve (0.5 = linear, lower = slower start). Mode Trig (one-shot) / Loop (a shapeable ASYMMETRIC LFO - set Rise!=Fall for a ramp/saw-ish shape no fixed LFO has) / Gate (run while held). Beyond AR (adds curve + loop) and beyond the LFO's fixed symmetric shapes - the do-anything envelope/LFO",
       "cpu": "trivial",
       "latency": "0",
@@ -8893,6 +10424,9 @@
           "mid": 300,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:rise",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -8905,6 +10439,9 @@
           "mid": 500,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:fall",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -8916,7 +10453,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:curve",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mode",
@@ -8928,6 +10468,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Trig",
             "Loop",
@@ -8964,6 +10507,9 @@
           "mid": 220,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -8975,7 +10521,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:harm",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "q",
@@ -8987,6 +10536,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:q",
+          "skew": false,
+          "symK": 0,
           "role": "resonance"
         },
         {
@@ -8999,6 +10551,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -9031,6 +10586,9 @@
           "mid": 1000,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -9042,7 +10600,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:stages",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mix",
@@ -9054,6 +10615,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -9086,6 +10650,9 @@
           "mid": 400,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:time",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -9098,6 +10665,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:fb",
+          "skew": false,
+          "symK": 0,
           "role": "feedback"
         },
         {
@@ -9110,6 +10680,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -9138,7 +10711,7 @@
       "name": "MicroQuant",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "MICROTONAL quantizer (the xenharmonic melody-maker): snaps a 0..1 control wire to the nearest tone of an N-EDO (Equal Divisions of the Octave) tuning. EDO = steps per octave (12 = standard chromatic, 24 = quarter-tones, 19/31/53 = historic temperaments), Base = the note at input 0, Range = span in semitones, Detune = a global cents offset. Output is a FRACTIONAL MIDI NOTE NUMBER - chain Convert(Note>Hz) -> Osc/Filter freq (the fraction carries the microtones). Random/LFO -> MicroQuant = in-tune xenharmonic melodies; the equal-temperament counterpart to ScaleQuant's 12-TET diatonic snap (the microtonality niche neither rival's scale node covers); quantizes per sample",
       "cpu": "trivial",
       "latency": "0",
@@ -9160,7 +10733,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:edo",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "base",
@@ -9171,7 +10747,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:base",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "range",
@@ -9182,7 +10761,10 @@
           "step": 1,
           "mid": 0,
           "suffix": " st",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:range",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "detune",
@@ -9194,6 +10776,9 @@
           "mid": 0,
           "suffix": " ct",
           "modPort": 4,
+          "dataPort": "param:detune",
+          "skew": false,
+          "symK": 0,
           "role": "pitch"
         },
         {
@@ -9206,6 +10791,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:system",
+          "skew": false,
+          "symK": 0,
           "items": [
             "EDO",
             "5-limit JI",
@@ -9221,7 +10809,7 @@
       "name": "Humanize",
       "category": "Notes & Sequencing",
       "signal": "event",
-      "level": 2,
+      "level": 1,
       "blurb": "HUMANIZE: adds natural per-note variation to a MIDI stream. Vel jitters each note-on's velocity by +/- its amount; Time jitters note-on timing by +/- ms (clamped to the block); Seed makes the feel repeatable (deterministic). Note-offs pass through untouched - only note-ons are perturbed. The 'play it like a human' event tool vs the rigid grid of Sequencer/Arp - drop it after Arp/ChordGen/Sequencer for groove. MIDI in -> MIDI out, allocation-free (out buffer pre-sized)",
       "cpu": "trivial",
       "latency": "0",
@@ -9241,7 +10829,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 0
+          "modPort": 0,
+          "dataPort": "param:vel",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "time",
@@ -9253,6 +10844,9 @@
           "mid": 0,
           "suffix": " ms",
           "modPort": 1,
+          "dataPort": "param:time",
+          "skew": false,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -9264,7 +10858,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:seed",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -9273,7 +10870,7 @@
       "name": "Probability",
       "category": "Notes & Sequencing",
       "signal": "event",
-      "level": 2,
+      "level": 1,
       "blurb": "PROBABILITY: a chance gate on a MIDI note stream. Each note-on passes with probability Chance (0..1); a dropped note-on is omitted (Chance 1.0 = pure passthrough). Note-offs + all non-note messages ALWAYS pass, so a dropped note leaves NO stuck note. Seed makes the pattern repeatable. The generative 'thinning / variation' tool - feed a busy Arp/Sequencer through it for evolving note dropouts (MNodes Math/Logic Probability gap). MIDI in -> MIDI out, allocation-free (out buffer pre-sized)",
       "cpu": "trivial",
       "latency": "0",
@@ -9293,7 +10890,10 @@
           "step": 0,
           "mid": 0,
           "suffix": " %",
-          "modPort": 0
+          "modPort": 0,
+          "dataPort": "param:chance",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "seed",
@@ -9304,7 +10904,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:seed",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -9313,7 +10916,7 @@
       "name": "CCTransform",
       "category": "Notes & Sequencing",
       "signal": "event",
-      "level": 2,
+      "level": 1,
       "blurb": "CC TRANSFORM: remaps + scales + offsets ONE MIDI CC to another. Controller events whose number == Src are rewritten to Dst with value = round(value*Scale)+Offset (clamped 0..127); every other message passes untouched. Default Src=Dst=1, Scale=1, Offset=0 = identity. The MIDI utility for 'wire the mod wheel to expression', invert/rescale a pedal, or narrow a controller's range (MNodes MIDI-depth gap). MIDI in -> MIDI out, allocation-free (out buffer pre-sized)",
       "cpu": "trivial",
       "latency": "0",
@@ -9333,7 +10936,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 0
+          "modPort": 0,
+          "dataPort": "param:src",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "dst",
@@ -9344,7 +10950,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:dst",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "scale",
@@ -9355,7 +10964,10 @@
           "step": 0,
           "mid": 0,
           "suffix": " x",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:scale",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "offset",
@@ -9366,7 +10978,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:offset",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -9396,6 +11011,9 @@
           "mid": 440,
           "suffix": " Hz",
           "modPort": 0,
+          "dataPort": "param:freq",
+          "skew": true,
+          "symK": 0,
           "role": "frequency"
         },
         {
@@ -9408,6 +11026,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level"
         },
         {
@@ -9419,7 +11040,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:voices",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "detune",
@@ -9430,7 +11054,10 @@
           "step": 0,
           "mid": 0,
           "suffix": " ct",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:detune",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "spread",
@@ -9442,6 +11069,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:spread",
+          "skew": false,
+          "symK": 0,
           "role": "width"
         }
       ]
@@ -9451,7 +11081,7 @@
       "name": "WowFlutter",
       "category": "Time & Motion",
       "signal": "audio",
-      "level": 2,
+      "level": 3,
       "blurb": "WOW & FLUTTER: tape pitch wobble via an LFO-modulated fractional delay. A slow 'wow' (Rate) plus a fixed fast 'flutter' (~6.3 Hz, scaled by Flutter) sweep the read head around a ~6 ms centre so the pitch drifts like worn tape; Depth sets the sweep, Mix blends dry/wet. Drop it after a delay/echo or on a full mix for lo-fi/tape character (MNodes tape-damage gap). Stereo in -> out, allocation-free (owned FracDelayLine per channel)",
       "cpu": "trivial",
       "latency": "0",
@@ -9474,6 +11104,9 @@
           "mid": 1,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -9486,6 +11119,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:depth",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         },
         {
@@ -9498,6 +11134,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:flutter",
+          "skew": false,
+          "symK": 0,
           "role": "amount"
         },
         {
@@ -9510,6 +11149,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -9519,7 +11161,7 @@
       "name": "DrumSynth",
       "category": "Generators",
       "signal": "audio",
-      "level": 2,
+      "level": 3,
       "blurb": "DRUMSYNTH: a curated one-shot drum VOICE (Voice = Kick / Snare / Hat), MIDI-note triggered like NoteOsc -- no samples, pure analog-model synthesis. KICK = a pitch-swept sine (Tune = body pitch) + exp amp decay + tanh Drive (Tone); SNARE = two detuned sines (tone) + a bandpassed noise burst, blended by Tone; HAT = highpassed noise (Tune = brightness) + short exp decay. Four macros -- Tune / Decay / Tone / Level -- drive all three voices; velocity scales the hit. SILENT until a note arrives (env-gated); a ~1.5 ms declick ramp kills the trigger click. Drop three for a kit, or sequence one from an Arp/Sequencer (the MNodes curated-drum-voice gap -- 136 processing blocks but no drum voice). Stereo out, 0 RT alloc.",
       "cpu": "trivial",
       "latency": "0",
@@ -9540,6 +11182,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:voice",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Kick",
             "Snare",
@@ -9555,7 +11200,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:tune",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "decay",
@@ -9567,6 +11215,9 @@
           "mid": 0.25,
           "suffix": " s",
           "modPort": 2,
+          "dataPort": "param:decay",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -9579,6 +11230,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:tone",
+          "skew": false,
+          "symK": 0,
           "role": "tone"
         },
         {
@@ -9591,6 +11245,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level"
         }
       ]
@@ -9600,7 +11257,7 @@
       "name": "Phaser",
       "category": "Time & Motion",
       "signal": "audio",
-      "level": 2,
+      "level": 3,
       "blurb": "PHASER: the classic swept-notch effect. Up to 8 cascaded first-order allpass stages have their break frequency swept by an LFO; summed with the dry signal that moving phase carves Stages/2 notches through the spectrum. Feedback (last stage -> first) sharpens the notches into a resonant, vocal sweep; Base sets the low sweep corner, Depth the sweep span (up to ~4 octaves), Rate the LFO speed, Mix the dry/wet. The staple modulation FX that sat alongside Chorus/Flanger yet was missing from the Motion set. Stereo in -> out, allocation-free (owned FirstOrderAllpass cascade per channel), one swept coefficient/sample.",
       "cpu": "trivial",
       "latency": "0",
@@ -9623,6 +11280,9 @@
           "mid": 1,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -9635,6 +11295,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:depth",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         },
         {
@@ -9647,6 +11310,9 @@
           "mid": 400,
           "suffix": " Hz",
           "modPort": 3,
+          "dataPort": "param:base",
+          "skew": true,
+          "symK": 0,
           "role": "frequency",
           "smoothMs": 20
         },
@@ -9660,6 +11326,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:fb",
+          "skew": false,
+          "symK": 0,
           "role": "feedback"
         },
         {
@@ -9671,7 +11340,10 @@
           "step": 2,
           "mid": 0,
           "suffix": "",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:stages",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mix",
@@ -9683,6 +11355,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 6,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -9692,7 +11367,7 @@
       "name": "Flanger",
       "category": "Time & Motion",
       "signal": "audio",
-      "level": 2,
+      "level": 3,
       "blurb": "FLANGER: the metallic swept-comb 'jet' effect. A single very short (0.1-10 ms) LFO-modulated delay summed with the dry signal makes a harmonically spaced comb; strong Feedback (delayed output -> line) resonates the teeth into the classic whoosh. Distinct from Chorus (longer/softer, no strong feedback) and Phaser (allpass notches, not a harmonic comb). Delay sets the centre/manual delay, Depth the sweep, Rate the LFO speed, Feedbk the resonance (+/- for tone), Mix the dry/wet. Completes the Chorus/Phaser/Flanger modulation trio. Stereo in -> out, allocation-free (owned FracDelayLine per channel), unconditionally-stable 1-sample feedback loop.",
       "cpu": "trivial",
       "latency": "0",
@@ -9715,6 +11390,9 @@
           "mid": 0.5,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -9727,6 +11405,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:depth",
+          "skew": false,
+          "symK": 0,
           "role": "depth"
         },
         {
@@ -9739,6 +11420,9 @@
           "mid": 2,
           "suffix": " ms",
           "modPort": 3,
+          "dataPort": "param:delay",
+          "skew": true,
+          "symK": 0,
           "role": "time",
           "smoothMs": 20
         },
@@ -9752,6 +11436,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:fb",
+          "skew": false,
+          "symK": 0,
           "role": "feedback"
         },
         {
@@ -9764,6 +11451,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix",
           "smoothMs": 20
         }
@@ -9774,7 +11464,7 @@
       "name": "Tremolo",
       "category": "Time & Motion",
       "signal": "audio",
-      "level": 2,
+      "level": 3,
       "blurb": "TREMOLO / AUTOPAN: rhythmic amplitude modulation by an LFO. Depth sets how far the level dips, Rate the LFO speed, Shape the LFO (Sine/Tri/Square), Mix the dry/wet. Stereo offsets the R-channel LFO phase up to half a cycle: at 0 it's classic mono-linked tremolo, at 1.0 the channels are anti-phase = AUTO-PAN (the sound swings L<->R). The staple amplitude-mod effect that sat alongside the Chorus/Phaser/Flanger set. Unity-safe by construction (gain in [1-depth, 1], never exceeds 1). Stereo in -> out, allocation-free (phase accumulator only).",
       "cpu": "trivial",
       "latency": "0",
@@ -9797,6 +11487,9 @@
           "mid": 4,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -9809,6 +11502,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:depth",
+          "skew": false,
+          "symK": 0,
           "role": "depth",
           "smoothMs": 20
         },
@@ -9821,7 +11517,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:shape",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "stereo",
@@ -9832,7 +11531,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:stereo",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "mix",
@@ -9844,6 +11546,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0,
           "role": "mix"
         }
       ]
@@ -9853,7 +11558,7 @@
       "name": "MultiEnv",
       "category": "Modulators",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "MULTIENV: a draw-your-own looping multi-segment envelope - up to 8 breakpoint levels (drag them on the node face) swept over Time. Loop mode free-runs = an LFO with a hand-drawn shape; OneShot plays once per Trig rising edge and holds its final level. Trig restarts the sweep in either mode (clock it from Timer/NoteToGate/Euclidean for rhythmic shapes). Breakpoints + per-segment time weights live in the props bag (the LIVE_NODE_BODIES array-props seam, like Sequencer steps) and serialize with the patch. Control 0..1 out on both channels - aim it at any param's mod port. Allocation-free (fixed arrays + a phase accumulator).",
       "cpu": "trivial",
       "latency": "0",
@@ -9875,7 +11580,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:segs",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "time",
@@ -9887,6 +11595,9 @@
           "mid": 1,
           "suffix": " s",
           "modPort": 2,
+          "dataPort": "param:time",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -9899,6 +11610,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "OneShot",
             "Loop"
@@ -9911,7 +11625,7 @@
       "name": "VoiceInfo",
       "category": "Modulators",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "VOICEINFO: per-voice identity + note CV - the poly-voice P1 keystone (POLY_VOICE_BRIEF.md). Inside a Poly zone every voice clone gets its own copy: Gate (0/1 while the voice's note is held), Pitch (the note mapped Lo..Hi -> 0..1, KeyTrack convention), Vel (0..1) and Index (this voice / voice count, 0..1) as four CV outs - aim them at mod ports for per-voice detune/pan/timbre spread (Index -> MapRange -> a cutoff mod port = classic voice fanning). Gate/Pitch/Vel read the clone's OWN per-voice MIDI stream; Index is stamped by the zone after cloning. Outside a Poly zone it degrades to mono (voice 1 of 1) - never invalid. Silent-safe (all outs 0 until a note arrives). Allocation-free.",
       "cpu": "trivial",
       "latency": "0",
@@ -9932,6 +11646,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:lo",
+          "skew": false,
+          "symK": 0,
           "items": [
             "C-2",
             "C#-2",
@@ -10073,6 +11790,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:hi",
+          "skew": false,
+          "symK": 0,
           "items": [
             "C-2",
             "C#-2",
@@ -10211,7 +11931,7 @@
       "name": "Print",
       "category": "Meters & Analysis",
       "signal": "visual",
-      "level": 2,
+      "level": 3,
       "blurb": "PRINT / VALUE MONITOR: a numeric readout of ANY wire - the current value (Mode = Raw / dB / Note), a recent-history sparkline, a running recent min/max, and a change-log ring of the last distinct values. The debug AND agent-legibility primitive: insert it inline to READ what a CV or audio wire is actually doing (CV = audio bus, so it monitors both). PASSTHROUGH - the audio is untouched; all capture is lock-free (atomics + SPSC rings), drawFace only reads. Pairs with ScaleQuant/MicroQuant (Note mode shows the fractional MIDI note). MNodes Print / HISE gap.",
       "cpu": "trivial",
       "latency": "0",
@@ -10234,6 +11954,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Raw",
             "dB",
@@ -10247,7 +11970,7 @@
       "name": "CVToMidiNote",
       "category": "Notes & Sequencing",
       "signal": "event",
-      "level": 2,
+      "level": 1,
       "blurb": "CV -> MIDI NOTE: the one missing MIDI-bridge direction (MNodes MIDI Note Trigger). Pitch-CV + Gate inputs -> MIDI note on/off out. A rising Gate edge (Schmitt at 0.5) latches the pitch and emits a note-on; the Gate falling emits the note-off; Retrig re-fires on a note change while held (mono legato). Pitch In = '0..1>Range' maps the CV across Lo..Hi (LFO/Random/Sequencer -> melodies) or 'Note# in' reads the CV as a raw MIDI note number (chain ScaleQuant/MicroQuant straight in). Velocity + Channel set the emitted note; two CV inputs + MIDI out (no audio out). Unlocks MIDI Scale / Riff / arpeggiated-CV patches. Allocation-free (out pre-sized).",
       "cpu": "trivial",
       "latency": "0",
@@ -10271,6 +11994,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:pmode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "0..1>Range",
             "Note# in"
@@ -10285,7 +12011,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:lo",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "hi",
@@ -10296,7 +12025,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:hi",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "vel",
@@ -10307,7 +12039,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:vel",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "ch",
@@ -10318,7 +12053,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 6
+          "modPort": 6,
+          "dataPort": "param:ch",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "retrig",
@@ -10330,6 +12068,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 7,
+          "dataPort": "param:retrig",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -10342,7 +12083,7 @@
       "name": "CVToMidiCC",
       "category": "Notes & Sequencing",
       "signal": "event",
-      "level": 2,
+      "level": 1,
       "blurb": "CV -> MIDI CC: injects an LFO/env/any-CV wire out as a MIDI CC, Pitch Bend or Channel Pressure (Aftertouch). Distinct from CCTransform (which REMAPS an existing CC) - this SOURCES a controller from the control plane. The CV (input 0) is read block-rate and mapped Lo..Hi across 0..127; a controller event is emitted ONLY when the value changes (rate-limited, no MIDI flooding). Type = CC / Pitch Bend / Aftertouch; CC# + Channel address it. One CV input, MIDI out (incoming messages pass thru). The 'wire an LFO to the mod wheel / automate a synth CC from modulation' utility (MNodes MIDI CC Inject gap). Allocation-free (out pre-sized).",
       "cpu": "trivial",
       "latency": "0",
@@ -10365,6 +12106,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:type",
+          "skew": false,
+          "symK": 0,
           "items": [
             "CC",
             "Pitch Bend",
@@ -10380,7 +12124,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:cc",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "ch",
@@ -10391,7 +12138,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:ch",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "lo",
@@ -10402,7 +12152,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:lo",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "hi",
@@ -10413,7 +12166,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:hi",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -10422,7 +12178,7 @@
       "name": "CVScope",
       "category": "Meters & Analysis",
       "signal": "visual",
-      "level": 2,
+      "level": 3,
       "blurb": "CV SCOPE: a SLOW time-base plot of a control signal over a seconds-scale Window (distinct from the audio Scope's millisecond frame). You can finally SEE modulation move - an LFO / env / random wire drawn as a scrolling history over Window (0.25-30 s). PASSTHROUGH (insert inline on a CV wire; CV = audio bus). The audio thread decimates the signal into a lock-free ring (one averaged point per decim samples); drawFace + the web viz plane (host.telemetry 'scope') only read it. Range = Uni 0..1 / Bi -1..1 / Auto (min..max of the window). The 'watch the modulation' analysis tool (MNodes CV Scope gap).",
       "cpu": "trivial",
       "latency": "0",
@@ -10445,6 +12201,9 @@
           "mid": 4,
           "suffix": " s",
           "modPort": 1,
+          "dataPort": "param:window",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -10457,6 +12216,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:range",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Uni",
             "Bi",
@@ -10470,7 +12232,7 @@
       "name": "Recorder",
       "category": "Meters & Analysis",
       "signal": "utility",
-      "level": 2,
+      "level": 3,
       "blurb": "RECORDER: taps the wire to a WAV file on disk (the maker-loop convenience - capture a patch without a DAW). PASSTHROUGH audio. AUDIO-THREAD SAFE: the audio thread only stores samples into a lock-free FIFO (juce::AudioFormatWriter::ThreadedWriter) via an atomic pointer; a background thread owns ALL file IO. Record is a param polled on the message thread (never opens a file on the audio thread); stopping RETIRES the writer for one tick before freeing it so no in-flight block writes to a freed object. Files -> ~/Documents/PatchLab Recordings/PatchLab_<timestamp>.wav (24-bit stereo). Face shows the armed/recording state + elapsed time (MNodes Recorder gap).",
       "cpu": "trivial",
       "latency": "0",
@@ -10493,6 +12255,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:arm",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Idle",
             "Rec"
@@ -10505,7 +12270,7 @@
       "name": "Scala",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "SCALA LOADER: a microtuning-TABLE quantizer - snaps a 0..1 control wire to the nearest tone of an ARBITRARY scale loaded from a Scala .scl file (MicroQuant is parametric N-EDO only). Same contract as MicroQuant: input 0..1 -> Base..Base+Range semitones above Base (the 1/1 tonic), snapped to the loaded tuning, out = a FRACTIONAL MIDI NOTE NUMBER (chain Convert(Note>Hz) -> Osc/Filter freq). The .scl path lives in the props bag (path-ref like Sampler): parsed ON THE MESSAGE THREAD into an inactive buffer then published by an ATOMIC POINTER SWAP the audio thread reads (double-buffer). No .scl -> a 12-EDO default (never dead). (.kbm is round-tripped in props but its keyboard mapping is reserved / not yet applied.) The Scala-standard xenharmonic tuning primitive (MNodes CV MicroQuantize Scala gap).",
       "cpu": "trivial",
       "latency": "0",
@@ -10527,7 +12292,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:base",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "range",
@@ -10538,7 +12306,10 @@
           "step": 1,
           "mid": 0,
           "suffix": " st",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:range",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "detune",
@@ -10550,6 +12321,9 @@
           "mid": 0,
           "suffix": " ct",
           "modPort": 3,
+          "dataPort": "param:detune",
+          "skew": false,
+          "symK": 0,
           "role": "pitch"
         }
       ]
@@ -10581,7 +12355,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:lo",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "hi",
@@ -10592,7 +12369,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 2
+          "modPort": 2,
+          "dataPort": "param:hi",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -10624,6 +12404,9 @@
           "mid": 0,
           "suffix": " st",
           "modPort": 1,
+          "dataPort": "param:semi",
+          "skew": false,
+          "symK": 0,
           "role": "pitch"
         },
         {
@@ -10636,6 +12419,9 @@
           "mid": 0,
           "suffix": " ct",
           "modPort": 2,
+          "dataPort": "param:cents",
+          "skew": false,
+          "symK": 0,
           "role": "pitch"
         }
       ]
@@ -10683,6 +12469,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level"
         },
         {
@@ -10695,6 +12484,9 @@
           "mid": 4,
           "suffix": " Hz",
           "modPort": 1,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -10707,6 +12499,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:pol",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Uni",
             "Bi"
@@ -10744,7 +12539,10 @@
           "step": 0,
           "mid": 0.009999999776483,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:sens",
+          "skew": true,
+          "symK": 0
         }
       ]
     },
@@ -10793,6 +12591,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:panic",
+          "skew": false,
+          "symK": 0,
           "items": [
             "-",
             "Fire"
@@ -10826,6 +12627,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:src",
+          "skew": false,
+          "symK": 0,
           "items": [
             "C-2",
             "C#-2",
@@ -10967,6 +12771,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:dst",
+          "skew": false,
+          "symK": 0,
           "items": [
             "C-2",
             "C#-2",
@@ -11108,6 +12915,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:others",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Pass",
             "Block"
@@ -11141,6 +12951,9 @@
           "mid": 500,
           "suffix": " ms",
           "modPort": 0,
+          "dataPort": "param:delay",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -11153,6 +12966,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:retrig",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Once",
             "Every Play"
@@ -11165,7 +12981,7 @@
       "name": "Looper",
       "category": "Time & Motion",
       "signal": "audio",
-      "level": 2,
+      "level": 3,
       "blurb": "LOOPER: record / overdub / play a loop buffer inline - the performance capture cell. Mode Stop / Play / Record / Overdub: the FIRST Record pass DEFINES the loop length (entering Record always starts a fresh loop; buffer caps at 60 s - the cap pins the length and keeps writing wrap-around). Play adds the loop under the dry input at Level; Overdub layers input on top with the previous pass kept at Decay (1 = layer forever, < 1 = older passes fade like tape sound-on-sound). Clear = a trigger param that drops the loop. Input always monitors through dry. Loop audio is RUNTIME-ONLY (never saved with the patch). Face = the loop as a waveform ring with a riding playhead + a REC tape strip while defining. Buffer allocated at prepare (never on the audio thread); lock-free face state. Stereo in -> out. (MNodes Looper)",
       "cpu": "light",
       "latency": "0",
@@ -11189,6 +13005,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Stop",
             "Play",
@@ -11206,6 +13025,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level",
           "smoothMs": 5
         },
@@ -11219,6 +13041,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:decay",
+          "skew": false,
+          "symK": 0,
           "role": "feedback"
         },
         {
@@ -11231,6 +13056,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:clear",
+          "skew": false,
+          "symK": 0,
           "items": [
             "-",
             "Clear"
@@ -11265,6 +13093,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:root",
+          "skew": false,
+          "symK": 0,
           "items": [
             "C",
             "C#",
@@ -11290,6 +13121,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:scale",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Chromatic",
             "Major",
@@ -11313,6 +13147,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Nearest",
             "Up",
@@ -11326,7 +13163,7 @@
       "name": "Pendulum",
       "category": "Notes & Sequencing",
       "signal": "mod",
-      "level": 2,
+      "level": 1,
       "blurb": "PENDULUM: a swinging trigger sequencer - the bob sweeps across Segments zones in harmonic (sine) motion; each zone CROSSING fires a one-sample trigger on Gate out while Pos out streams the bob position 0..1 (centre 0.5). Crossings bunch at the swing edges and stretch through the middle - the accelerate/decelerate feel a plain clock cannot make (Gate -> AR/DrumSynth/Dice for swung hits, Pos -> any mod port for the matching sweep). Rate = the full swing cycle in Hz, or a tempo division via Sync. Damp decays the swing toward rest at the centre (crossings slow, cluster, STOP); a rising Push edge (param click or Trig cable) re-excites to full width. Face = a live animated pendulum over the segment arc. Two outs (the Sequencer Gate+Value port model). Allocation-free (a phase + an amplitude). (MNodes Pendulum)",
       "cpu": "trivial",
       "latency": "0",
@@ -11349,7 +13186,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:segments",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "rate",
@@ -11361,6 +13201,9 @@
           "mid": 1,
           "suffix": " Hz",
           "modPort": 2,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0,
           "role": "rate"
         },
         {
@@ -11373,6 +13216,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:sync",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "4/1",
@@ -11403,6 +13249,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:damp",
+          "skew": false,
+          "symK": 0,
           "role": "amount"
         },
         {
@@ -11415,6 +13264,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 5,
+          "dataPort": "param:push",
+          "skew": false,
+          "symK": 0,
           "items": [
             "-",
             "Push"
@@ -11448,7 +13300,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 0
+          "modPort": 0,
+          "dataPort": "param:oct",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "vel",
@@ -11459,7 +13314,10 @@
           "step": 1,
           "mid": 0,
           "suffix": "",
-          "modPort": 1
+          "modPort": 1,
+          "dataPort": "param:vel",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "hold",
@@ -11471,6 +13329,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:hold",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -11483,7 +13344,7 @@
       "name": "VideoPlayer",
       "category": "Visual",
       "signal": "audio",
-      "level": 2,
+      "level": 3,
       "blurb": "VIDEO PLAYER: decodes a video file OFF the audio thread via AVFoundation (a macOS system framework - in-process, no external tool install, never silently inert) and exposes THREE stereo outs - Audio (the video's own audio track, transport-synced), Rate (a one-sample pulse on every DECODED frame boundary - read it with a Meter/Timer for the true frame rate), and Bright (the frame-to-frame luma delta, held per frame 0..1, from a REAL 16x9 grayscale downsample of every frame - picks up black/white differences). Silent/stopped by default (hard rule #2). FULL TRANSPORT on the face: play/pause button, click/drag the bottom bar to scrub (works while stopped - the preview frame follows), Rate 0.25x-4x VARISPEED (pitch shifts with speed like tape, by design - NOT pitch-corrected), Loop A/B set the wrap region while Loop = On. The preview is a sampled thumbnail strip (<= 40 frames) that refreshes with the playhead - honest granularity, not a full-rate video surface. File path persists as a project-relative path-ref (Sampler pattern); a video with no audio stream just leaves Audio silent, Rate/Bright are unaffected.",
       "cpu": "light",
       "latency": "0",
@@ -11504,6 +13365,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 0,
+          "dataPort": "param:play",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Stop",
             "Play"
@@ -11519,6 +13383,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:loop",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "On"
@@ -11534,6 +13401,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:level",
+          "skew": false,
+          "symK": 0,
           "role": "level"
         },
         {
@@ -11545,7 +13415,10 @@
           "step": 0,
           "mid": 1,
           "suffix": " x",
-          "modPort": 3
+          "modPort": 3,
+          "dataPort": "param:rate",
+          "skew": true,
+          "symK": 0
         },
         {
           "id": "lstart",
@@ -11556,7 +13429,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 4
+          "modPort": 4,
+          "dataPort": "param:lstart",
+          "skew": false,
+          "symK": 0
         },
         {
           "id": "lend",
@@ -11567,7 +13443,10 @@
           "step": 0,
           "mid": 0,
           "suffix": "",
-          "modPort": 5
+          "modPort": 5,
+          "dataPort": "param:lend",
+          "skew": false,
+          "symK": 0
         }
       ]
     },
@@ -11600,6 +13479,9 @@
           "mid": 12,
           "suffix": " s",
           "modPort": 1,
+          "dataPort": "param:window",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -11612,10 +13494,32 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:floor",
+          "skew": false,
+          "symK": 0,
           "items": [
             "-60",
             "-90",
             "-120"
+          ]
+        },
+        {
+          "id": "res",
+          "name": "Res",
+          "min": 0,
+          "max": 2,
+          "def": 1,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 3,
+          "dataPort": "param:res",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "2048",
+            "4096",
+            "8192"
           ]
         }
       ]
@@ -11625,7 +13529,7 @@
       "name": "AutoAlign",
       "category": "Meters & Analysis",
       "signal": "utility",
-      "level": 2,
+      "level": 3,
       "blurb": "AUTO-ALIGN: the phase/latency CORRECTOR - two paths ride the per-channel cable model (input L = path A, input R = path B); the block LIVE cross-correlates them (bounded incremental coarse->fine scan on the audio thread, deterministic under offline render) and applies a slewed FRACTIONAL delay (cubic read, sub-sample via parabolic peak refine) to whichever path LEADS, bringing parallel dry/wet chains, multiband recombinations or mic pairs back into time alignment - the in-patch Align-IT. Mode Auto tracks continuously; Freeze holds the last confident correction; Manual is a symmetric fractional stereo TRIM (Delay ms on both channels - what the Debug page's Apply Correction splices after the leading node to persist a measured lag). A low-confidence window (silence, unrelated signals) HOLDS instead of chasing noise. Face: who-leads headline, centre-zero lag bar, applied dA/dB ms + confidence; 'align' telemetry = [lag smp, conf, dA ms, dB ms].",
       "cpu": "trivial",
       "latency": "0",
@@ -11648,6 +13552,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 1,
+          "dataPort": "param:mode",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Auto",
             "Freeze",
@@ -11664,6 +13571,9 @@
           "mid": 0,
           "suffix": " ms",
           "modPort": 2,
+          "dataPort": "param:delay",
+          "skew": false,
+          "symK": 0,
           "role": "time",
           "smoothMs": 5
         }
@@ -11699,6 +13609,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 2,
+          "dataPort": "param:peak",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "Hold"
@@ -11714,6 +13627,9 @@
           "mid": 0,
           "suffix": "",
           "modPort": 3,
+          "dataPort": "param:avg",
+          "skew": false,
+          "symK": 0,
           "items": [
             "Off",
             "Fast",
@@ -11730,10 +13646,71 @@
           "mid": 0,
           "suffix": "",
           "modPort": 4,
+          "dataPort": "param:floor",
+          "skew": false,
+          "symK": 0,
           "items": [
             "-60",
             "-90",
             "-120"
+          ]
+        },
+        {
+          "id": "res",
+          "name": "Res",
+          "min": 0,
+          "max": 2,
+          "def": 1,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 5,
+          "dataPort": "param:res",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "2048",
+            "4096",
+            "8192"
+          ]
+        },
+        {
+          "id": "tilt",
+          "name": "Tilt",
+          "min": 0,
+          "max": 3,
+          "def": 2,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 6,
+          "dataPort": "param:tilt",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "0",
+            "3",
+            "4.5",
+            "6"
+          ]
+        },
+        {
+          "id": "smooth",
+          "name": "Smooth",
+          "min": 0,
+          "max": 2,
+          "def": 1,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 7,
+          "dataPort": "param:smooth",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "Off",
+            "Med",
+            "High"
           ]
         }
       ]
@@ -11767,6 +13744,9 @@
           "mid": 10,
           "suffix": " s",
           "modPort": 1,
+          "dataPort": "param:window",
+          "skew": true,
+          "symK": 0,
           "role": "time"
         },
         {
@@ -11779,7 +13759,318 @@
           "mid": 0,
           "suffix": "x",
           "modPort": 2,
+          "dataPort": "param:gain",
+          "skew": false,
+          "symK": 0,
           "role": "amount"
+        }
+      ]
+    },
+    {
+      "type": 166,
+      "name": "AudioPlayer",
+      "category": "Generators",
+      "signal": "audio",
+      "level": 2,
+      "blurb": "AUDIO PLAYER: the simple drag-and-drop audio-file player / looper - drop a WAV/AIFF/FLAC/MP3 onto the block (or right-click Load) and it decodes OFF the audio thread into RAM, then plays it back with a full transport on the face. Play/Stop, Loop On/Off with normalized Loop A/B, Speed 0.25x-4x (+/-2 octaves, VARISPEED - pitch shifts with speed like tape, by design), Gain, and a click/drag position scrubber. SILENT BY DEFAULT (Gain 0, hard rule #2): a loaded file makes no sound until you raise Gain and press Play. The loop wrap is sample-accurate with an equal-power CROSSFADE at the seam (Seam XF ms) so it never clicks. Distinct from the Looper node (which records/overdubs the live wire) - this loads and plays FILES. File path persists as a project-relative path-ref (Sampler pattern); a missing file on reload stays silent and the face reads 'load failed' (never a crash). v1 fully loads into memory (~10 min @48k cap); no disk streaming yet.",
+      "cpu": "trivial",
+      "latency": "0",
+      "audioIns": 0,
+      "audioOuts": 1,
+      "midiIn": false,
+      "midiOut": false,
+      "dataPorts": [],
+      "inPortNames": [],
+      "params": [
+        {
+          "id": "play",
+          "name": "Play",
+          "min": 0,
+          "max": 1,
+          "def": 0,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 0,
+          "dataPort": "param:play",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "Stop",
+            "Play"
+          ]
+        },
+        {
+          "id": "loop",
+          "name": "Loop",
+          "min": 0,
+          "max": 1,
+          "def": 0,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 1,
+          "dataPort": "param:loop",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "Off",
+            "On"
+          ]
+        },
+        {
+          "id": "gain",
+          "name": "Gain",
+          "min": 0,
+          "max": 1,
+          "def": 0,
+          "step": 0,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 2,
+          "dataPort": "param:gain",
+          "skew": false,
+          "symK": 0,
+          "role": "level"
+        },
+        {
+          "id": "speed",
+          "name": "Speed",
+          "min": 0.25,
+          "max": 4,
+          "def": 1,
+          "step": 0,
+          "mid": 1,
+          "suffix": " x",
+          "modPort": 3,
+          "dataPort": "param:speed",
+          "skew": true,
+          "symK": 0,
+          "role": "ratio"
+        },
+        {
+          "id": "lstart",
+          "name": "Loop A",
+          "min": 0,
+          "max": 1,
+          "def": 0,
+          "step": 0,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 4,
+          "dataPort": "param:lstart",
+          "skew": false,
+          "symK": 0
+        },
+        {
+          "id": "lend",
+          "name": "Loop B",
+          "min": 0,
+          "max": 1,
+          "def": 1,
+          "step": 0,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 5,
+          "dataPort": "param:lend",
+          "skew": false,
+          "symK": 0
+        },
+        {
+          "id": "xfade",
+          "name": "Seam XF",
+          "min": 0,
+          "max": 50,
+          "def": 5,
+          "step": 0,
+          "mid": 5,
+          "suffix": " ms",
+          "modPort": 6,
+          "dataPort": "param:xfade",
+          "skew": true,
+          "symK": 0
+        }
+      ]
+    },
+    {
+      "type": 167,
+      "name": "PluginHost",
+      "category": "Routing & Structure",
+      "signal": "audio",
+      "level": 3,
+      "blurb": "PLUGIN HOST: loads a THIRD-PARTY VST3 or Audio Unit inside the patch as a node - right-click Load (or drop) a .vst3/.component bundle, audio + MIDI route through it, and double-click the header (or click the face) to open the plugin's OWN editor in a separate window. Bypass is the one node param (the plugin's parameters are driven from its editor; exposing them as node params is a phase-2 mapping - a plugin's param list is only known after load, and mod-port bus indices must stay stable). The patch stores the plugin's ABSOLUTE path + full state blob (base64); a MISSING plugin on reload degrades to a bypassed dry-through stub with an error face - path and state are preserved on re-save, never a crash, never a dropped patch. HOST-ONLY: cannot export (a third-party binary cannot be compiled into an exported plugin - the emitter refuses it). Loading arbitrary third-party code can still crash the process (no out-of-process sandbox in v1).",
+      "cpu": "trivial",
+      "latency": "0",
+      "safety": "instantiation runs IN-PROCESS on the message thread (no sandbox in v1) - a broken third-party plugin can still take the app down while loading, and a plugin that fails to load leaves a bypassed dry-through stub (error face, path + state kept). Plugin path is ABSOLUTE (machine-level, not a project asset): the patch is not portable across machines unless the same plugin is installed. Latency is forwarded live from the hosted plugin. Cannot export (host-only, emitter refuses). AUv3 plugins (async-only instantiation) are not supported in v1",
+      "audioIns": 1,
+      "audioOuts": 1,
+      "midiIn": true,
+      "midiOut": false,
+      "dataPorts": [],
+      "inPortNames": [
+        "A"
+      ],
+      "params": [
+        {
+          "id": "bypass",
+          "name": "Bypass",
+          "min": 0,
+          "max": 1,
+          "def": 0,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 1,
+          "dataPort": "param:bypass",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "Off",
+            "On"
+          ]
+        }
+      ]
+    },
+    {
+      "type": 168,
+      "name": "PkgModel",
+      "category": "Dynamics & Distortion",
+      "signal": "audio",
+      "level": 2,
+      "blurb": "PACKAGE MODEL: hosts a content-addressed model through a compiled-in Pack runtime. The first Pack is org.patchlab.nam/model: stereo is processed as two independent mono NAM instances, with off-thread hash verification/loading/prewarm, a 200-tap sample-rate island, Full/Lite saved quality, and 20 ms model/bypass transitions. Missing Packs or resources preserve the node and pass latency-aligned dry audio. Input, Output and Mix are the fixed automatable parameters; model identity and quality are saved properties.",
+      "cpu": "trivial",
+      "latency": "0",
+      "audioIns": 1,
+      "audioOuts": 1,
+      "midiIn": false,
+      "midiOut": false,
+      "dataPorts": [],
+      "inPortNames": [
+        "A"
+      ],
+      "params": [
+        {
+          "id": "inputGainDb",
+          "name": "Input",
+          "min": -24,
+          "max": 24,
+          "def": 0,
+          "step": 0.009999999776483,
+          "mid": 0,
+          "suffix": " dB",
+          "modPort": 1,
+          "dataPort": "param:inputGainDb",
+          "skew": false,
+          "symK": 2
+        },
+        {
+          "id": "outputGainDb",
+          "name": "Output",
+          "min": -24,
+          "max": 24,
+          "def": 0,
+          "step": 0.009999999776483,
+          "mid": 0,
+          "suffix": " dB",
+          "modPort": 2,
+          "dataPort": "param:outputGainDb",
+          "skew": false,
+          "symK": 2
+        },
+        {
+          "id": "mix",
+          "name": "Mix",
+          "min": 0,
+          "max": 100,
+          "def": 100,
+          "step": 0.009999999776483,
+          "mid": 0,
+          "suffix": "%",
+          "modPort": 3,
+          "dataPort": "param:mix",
+          "skew": false,
+          "symK": 0
+        }
+      ]
+    },
+    {
+      "type": 169,
+      "name": "Modulation Rate",
+      "category": "Routing & Structure",
+      "signal": "structure",
+      "level": "structural",
+      "blurb": "MODULATION RATE ZONE: the per-region CONTROL-ACCURACY setting (the fourth zone kind after Oversample/Poly/STFT). PatchLab's audio path is sample-accurate everywhere, but a mod cable into a PARAMETER is block-rate: the whole block of the modulator collapses to ONE value that is held for the block, so slow LFOs are fine while fast LFOs, sharp envelopes and audio-rate modulators step and mis-track. Put that region inside this zone and set Mod Rate to how often it should be resolved: Block (the default - exactly today's behaviour, bit-identical to a plain Container) or every 64/32/16/8/4/1 samples. The zone changes TIMING ONLY: at 1 smp a bipolar-tagged mod target becomes genuinely sample-accurate and signed, while a plain (non-bipolar) param still reads the magnitude of that sample - finer, not re-polarised. CPU scales with the granularity (1 smp = the nested graph is stepped once per sample, like the Feedback zone), so wrap only the region that needs it. Like the other zones, the inner graph + macros + serialization are untouched; the setting is one extra param.",
+      "cpu": "medium",
+      "latency": "0",
+      "safety": "changes WHEN the region is resolved, not what it computes. Mod Rate Block is the DEFAULT and is bit-identical to a plain Container (the same single inner processBlock call) - an existing patch moves zero. At N the nested graph is stepped once per N samples, so CPU scales roughly with block/N: 64 smp is near-free, 1 smp costs what a Feedback zone costs (no block vectorisation inside). It fixes TIMING ONLY - at 1 smp a BIPOLAR-tagged mod target becomes genuinely sample-accurate and signed, but a plain non-bipolar param still reads the magnitude of that sample, so this does not turn a rectified mod into a signed one. Only the region INSIDE the zone gets the finer rate; a mod cable that crosses the zone boundary is still resolved at the outer rate (put the modulator inside too). Latency 0. FUSION: a zone at any setting other than Block has no fused equivalent (a Cmajor program renders one flat block rate), so it DEMOTES - its own sub-graph and every enclosing fused container fall back to the native path for as long as the setting is non-Block; sibling containers keep their own fused programs, and putting it back to Block re-fuses. Flipping it live is safe (checked per block, no click). EXPORT: the legacy Cmajor export REFUSES a non-Block zone by name rather than silently baking it as a plain Container; the native PatchIR export refuses every container. Set it back to Block to export (the audio is then identical)",
+      "audioIns": 1,
+      "audioOuts": 1,
+      "midiIn": true,
+      "midiOut": false,
+      "dataPorts": [],
+      "inPortNames": [
+        "A"
+      ],
+      "params": [
+        {
+          "id": "acc",
+          "name": "Mod Rate",
+          "min": 0,
+          "max": 6,
+          "def": 0,
+          "step": 1,
+          "mid": 0,
+          "suffix": "",
+          "modPort": 9,
+          "dataPort": "param:acc",
+          "skew": false,
+          "symK": 0,
+          "items": [
+            "Block",
+            "64",
+            "32",
+            "16",
+            "8",
+            "4",
+            "1"
+          ]
+        }
+      ],
+      "macroSlots": 8
+    },
+    {
+      "type": 170,
+      "name": "DcBlocker",
+      "category": "Filters & EQ",
+      "signal": "audio",
+      "level": 1,
+      "blurb": "DC BLOCKER: the named first-order DC-removal primitive - y[n] = x[n] - x[n-1] + r*y[n-1], a zero exactly at 0 Hz and a pole just inside it, so DC is nulled EXACTLY (an infinite-depth null, not an approximation) while the audio band passes within ~0.1 dB an octave above the corner. Every framework in the fundamentals audit ships this under this name (Cmajor dcblocker, gen~ dcblock, Faust fi.dcblocker, HISE dc_remover). Put it after anything that parks an offset on the bus: an asymmetric waveshaper or Bias'd saturator, a rectifier, a chaotic or feedback core, a DC-heavy sample. An offset eats headroom, biases every downstream nonlinearity into a different curve, and thumps whenever a gain changes. Cutoff is CLAMPED to the 2..40 Hz design range: below 2 Hz the pole collides with the zero in float and the settling time runs to seconds; above 40 Hz this stops being a DC blocker and is just a shallow rumble filter - reach for OnePole HP or SVF HP for that. Cutoff is coefficient-smoothed (8 ms), so a mod-cabled or automated corner glides instead of clicking. Identical core to OnePole's DC Block mode; this is its first-class name.",
+      "cpu": "trivial",
+      "latency": "0",
+      "safety": "Cutoff is CLAMPED to 2..40 Hz - the param displays what you set but the pole never leaves the design range (same clamp as OnePole's DC Block mode); for a real highpass above 40 Hz use OnePole HP or SVF. It removes DC, it does not remove rumble",
+      "audioIns": 1,
+      "audioOuts": 1,
+      "midiIn": false,
+      "midiOut": false,
+      "dataPorts": [],
+      "inPortNames": [
+        "A"
+      ],
+      "params": [
+        {
+          "id": "cutoff",
+          "name": "Cutoff",
+          "min": 2,
+          "max": 40,
+          "def": 10,
+          "step": 0,
+          "mid": 10,
+          "suffix": " Hz",
+          "modPort": 1,
+          "dataPort": "param:cutoff",
+          "skew": true,
+          "symK": 0,
+          "role": "frequency"
         }
       ]
     }

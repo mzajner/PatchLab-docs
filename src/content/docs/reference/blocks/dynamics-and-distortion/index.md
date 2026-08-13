@@ -1,11 +1,11 @@
 ---
 title: "Dynamics & Distortion"
-description: "10 PatchLab blocks in Dynamics & Distortion."
+description: "11 PatchLab blocks in Dynamics & Distortion."
 sidebar:
   order: 14
 ---
 
-**10 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
+**11 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
 
 For selection advice, signal-flow patterns, and cautions, read [Using Dynamics & Distortion blocks](/guides/block-families/dynamics-and-distortion/).
 
@@ -21,4 +21,5 @@ For selection advice, signal-flow patterns, and cautions, read [Using Dynamics &
 | [Transient](./transient/) | Audio | 1 in / 1 out | — |
 | [Waveshaper](./waveshaper/) | Audio | 1 in / 1 out | — |
 | [TableShaper](./tableshaper/) | Audio | 1 in / 1 out | — |
+| [PkgModel](./pkgmodel/) | Audio | 1 in / 1 out | — |
 

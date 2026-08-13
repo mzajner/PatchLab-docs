@@ -1,11 +1,11 @@
 ---
 title: "Filters & EQ"
-description: "15 PatchLab blocks in Filters & EQ."
+description: "16 PatchLab blocks in Filters & EQ."
 sidebar:
   order: 13
 ---
 
-**15 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
+**16 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
 
 For selection advice, signal-flow patterns, and cautions, read [Using Filters & EQ blocks](/guides/block-families/filters-and-eq/).
 
@@ -26,4 +26,5 @@ For selection advice, signal-flow patterns, and cautions, read [Using Filters & 
 | [Formant](./formant/) | Audio | 1 in / 1 out | — |
 | [HarmonicBank](./harmonicbank/) | Audio | 1 in / 1 out | — |
 | [PhaseDelay](./phasedelay/) | Audio | 1 in / 1 out | — |
+| [DcBlocker](./dcblocker/) | Audio | 1 in / 1 out | — |
 

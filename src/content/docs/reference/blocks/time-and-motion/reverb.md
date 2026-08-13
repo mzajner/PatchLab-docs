@@ -1,11 +1,11 @@
 ---
 title: "Reverb"
-description: "algorithmic room reverb"
+description: "algorithmic room reverb (Freeverb); Time > 0 sets the decay in SECONDS (measured RT60 at Damp 0, ~0.7..11 s) and overrides Size; Time 0 = Size rules"
 sidebar:
   order: 12
 ---
 
-<small>Generated from PatchLab binary source candidate `99899b76e006` · registry type 11</small>
+<small>Generated from PatchLab binary source candidate `96ae72bb5451` · registry type 11</small>
 
 ## At a glance
 
@@ -28,6 +28,7 @@ sidebar:
 | Damp | `damp` | 0 to 1 | 0.5 | — | 2 |
 | Width (width) | `width` | 0 to 1 | 0.9 | — | 3 |
 | Mix (mix) | `mix` | 0 to 1 | 0.25 | — | 4 |
+| Time (time) | `timeS` | 0 to 12 | 0 | s | 5 |
 
 ## Declared ports
 
@@ -36,7 +37,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-algorithmic room reverb
+algorithmic room reverb (Freeverb); Time > 0 sets the decay in SECONDS (measured RT60 at Damp 0, ~0.7..11 s) and overrides Size; Time 0 = Size rules
 
 </details>
 

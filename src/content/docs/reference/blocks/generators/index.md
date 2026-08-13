@@ -1,11 +1,11 @@
 ---
 title: "Generators"
-description: "12 PatchLab blocks in Generators."
+description: "13 PatchLab blocks in Generators."
 sidebar:
   order: 10
 ---
 
-**12 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
+**13 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
 
 For selection advice, signal-flow patterns, and cautions, read [Using Generators blocks](/guides/block-families/generators/).
 
@@ -23,4 +23,5 @@ For selection advice, signal-flow patterns, and cautions, read [Using Generators
 | [Supersaw](./supersaw/) | Audio | 0 in / 1 out | — |
 | [DrumSynth](./drumsynth/) | Audio | 0 in / 1 out | in |
 | [Impulse](./impulse/) | Audio | 0 in / 1 out | — |
+| [AudioPlayer](./audioplayer/) | Audio | 0 in / 1 out | — |
 

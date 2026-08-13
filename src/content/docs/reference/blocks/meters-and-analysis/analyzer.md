@@ -5,7 +5,7 @@ sidebar:
   order: 165
 ---
 
-<small>Generated from PatchLab binary source candidate `99899b76e006` · registry type 164</small>
+<small>Generated from PatchLab binary source candidate `96ae72bb5451` · registry type 164</small>
 
 ## At a glance
 
@@ -27,6 +27,9 @@ sidebar:
 | Peak Hold | `peak` | 0 to 1 | 0 | `Off`, `Hold` | 2 |
 | Avg | `avg` | 0 to 2 | 1 | `Off`, `Fast`, `Slow` | 3 |
 | Floor | `floor` | 0 to 2 | 1 | `-60`, `-90`, `-120` | 4 |
+| Res | `res` | 0 to 2 | 1 | `2048`, `4096`, `8192` | 5 |
+| Tilt | `tilt` | 0 to 3 | 2 | `0`, `3`, `4.5`, `6` | 6 |
+| Smooth | `smooth` | 0 to 2 | 1 | `Off`, `Med`, `High` | 7 |
 
 ## Declared ports
 

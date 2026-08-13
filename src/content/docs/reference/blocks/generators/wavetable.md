@@ -5,7 +5,7 @@ sidebar:
   order: 76
 ---
 
-<small>Generated from PatchLab binary source candidate `99899b76e006` · registry type 75</small>
+<small>Generated from PatchLab binary source candidate `96ae72bb5451` · registry type 75</small>
 
 ## At a glance
 
@@ -32,6 +32,8 @@ sidebar:
 | Detune (depth) | `detune` | 0 to 100 | 12 | c | 6 |
 | Spread | `spread` | 0 to 1 | 0.5 | — | 7 |
 | PM (depth) | `pm` | 0 to 1 | 0 | — | 8 |
+| Morph | `morphmode` | 0 to 5 | 0 | `Time`, `Spectral`, `H.Stretch`, `Formant`, `Smear`, `Skew` | 9 |
+| Amount (depth) | `morphamount` | 0 to 1 | 0 | — | 10 |
 
 ## Declared ports
 
