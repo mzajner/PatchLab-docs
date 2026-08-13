@@ -32,7 +32,8 @@ npm run sync:registry
 ```
 
 Set `PATCHLAB_BIN` and `PATCHLAB_SOURCE` when the product checkout is not in the
-expected sibling location. Generated pages under
+expected sibling location, `../PatchLab` (that is, `PatchLab` checked out next to
+`PatchLab-docs` under the same parent directory). Generated pages under
 `src/content/docs/reference/blocks/` are replaced on each sync; do not edit them by
 hand.
 

@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const productRoot = resolve(
-	process.env.PATCHLAB_SOURCE ?? join(root, '..', 'ModularFx', 'PatchLab'),
+	process.env.PATCHLAB_SOURCE ?? join(root, '..', 'PatchLab'),
 );
 const registry = JSON.parse(readFileSync(join(root, 'src', 'data', 'registry.json'), 'utf8'));
 const byType = new Map(registry.blocks.map((block) => [block.type, block]));

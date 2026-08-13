@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const productRoot = resolve(
-	process.env.PATCHLAB_SOURCE ?? join(repoRoot, '..', 'ModularFx', 'PatchLab'),
+	process.env.PATCHLAB_SOURCE ?? join(repoRoot, '..', 'PatchLab'),
 );
 const binary = resolve(
 	process.env.PATCHLAB_BIN ??

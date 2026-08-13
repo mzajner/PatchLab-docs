@@ -3,7 +3,7 @@
 - Documentation errors, broken links, inaccessible presentation, and lesson feedback:
   open an issue in `mzajner/PatchLab-docs` using the documentation template.
 - PatchLab product defects and feature requests: use the PatchLab product repository,
-  `mzajner/ModularFx`, and include the product revision and a minimal project when safe.
+  `mzajner/PatchLab`, and include the product revision and a minimal project when safe.
 - Security-sensitive reports: use the private process in `SECURITY.md`.
 
 Public repositories are not private support channels. Remove credentials, personal

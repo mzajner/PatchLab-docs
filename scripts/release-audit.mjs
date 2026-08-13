@@ -4,7 +4,7 @@ import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const productRoot = resolve(process.env.PATCHLAB_SOURCE ?? join(root, '..', 'ModularFx', 'PatchLab'));
+const productRoot = resolve(process.env.PATCHLAB_SOURCE ?? join(root, '..', 'PatchLab'));
 const registry = JSON.parse(readFileSync(join(root, 'src', 'data', 'registry-meta.json'), 'utf8'));
 const examples = JSON.parse(readFileSync(join(root, 'public', 'examples', 'manifest.json'), 'utf8'));
 const gates = JSON.parse(readFileSync(join(root, 'project', 'release-gates.json'), 'utf8'));

@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const docsRoot = join(root, 'src', 'content', 'docs');
-const productRoot = resolve(process.env.PATCHLAB_SOURCE ?? join(root, '..', 'ModularFx', 'PatchLab'));
+const productRoot = resolve(process.env.PATCHLAB_SOURCE ?? join(root, '..', 'PatchLab'));
 const authorities = JSON.parse(readFileSync(join(root, 'project', 'accuracy-authorities.json'), 'utf8'));
 const registry = JSON.parse(readFileSync(join(root, 'src', 'data', 'registry.json'), 'utf8'));
 const registryMeta = JSON.parse(readFileSync(join(root, 'src', 'data', 'registry-meta.json'), 'utf8'));
