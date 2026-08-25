@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-  "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300",
-  "registryBlocks": 166,
+  "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46",
+  "registryBlocks": 171,
   "pages": [
     {
       "page": "404.md",
@@ -902,7 +902,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/dynamics-and-distortion/comp.md",
@@ -913,7 +913,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/dynamics-and-distortion/crush.md",
@@ -924,7 +924,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/dynamics-and-distortion/drive.md",
@@ -935,7 +935,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/dynamics-and-distortion/gate.md",
@@ -946,7 +946,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/dynamics-and-distortion/index.md",
@@ -957,7 +957,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/dynamics-and-distortion/limiter.md",
@@ -968,7 +968,18 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
+    },
+    {
+      "page": "reference/blocks/dynamics-and-distortion/pkgmodel.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/dynamics-and-distortion/tableshaper.md",
@@ -979,7 +990,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/dynamics-and-distortion/transient.md",
@@ -990,7 +1001,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/dynamics-and-distortion/updowncomp.md",
@@ -1001,7 +1012,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/dynamics-and-distortion/waveshaper.md",
@@ -1012,7 +1023,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/allpass.md",
@@ -1023,7 +1034,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/biquad.md",
@@ -1034,7 +1045,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/cascade.md",
@@ -1045,7 +1056,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/comb.md",
@@ -1056,7 +1067,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/crossover.md",
@@ -1067,7 +1078,18 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
+    },
+    {
+      "page": "reference/blocks/filters-and-eq/dcblocker.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/eq.md",
@@ -1078,7 +1100,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/filterbank.md",
@@ -1089,7 +1111,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/fir.md",
@@ -1100,7 +1122,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/formant.md",
@@ -1111,7 +1133,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/harmonicbank.md",
@@ -1122,7 +1144,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/index.md",
@@ -1133,7 +1155,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/ladder.md",
@@ -1144,7 +1166,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/onepole.md",
@@ -1155,7 +1177,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/phasedelay.md",
@@ -1166,7 +1188,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/svf-eq.md",
@@ -1177,7 +1199,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/filters-and-eq/svf.md",
@@ -1188,7 +1210,18 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
+    },
+    {
+      "page": "reference/blocks/generators/audioplayer.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/drumsynth.md",
@@ -1199,7 +1232,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/fmop.md",
@@ -1210,7 +1243,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/impulse.md",
@@ -1221,7 +1254,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/index.md",
@@ -1232,7 +1265,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/modalbank.md",
@@ -1243,7 +1276,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/noise.md",
@@ -1254,7 +1287,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/noteosc.md",
@@ -1265,7 +1298,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/osc.md",
@@ -1276,7 +1309,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/phasor.md",
@@ -1287,7 +1320,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/sampler.md",
@@ -1298,7 +1331,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/supersaw.md",
@@ -1309,7 +1342,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/waveguide.md",
@@ -1320,7 +1353,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/generators/wavetable.md",
@@ -1331,7 +1364,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/index.md",
@@ -1342,7 +1375,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/analyzer.md",
@@ -1353,7 +1386,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/autoalign.md",
@@ -1364,7 +1397,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/correlation.md",
@@ -1375,7 +1408,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/cvscope.md",
@@ -1386,7 +1419,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/goniometer.md",
@@ -1397,7 +1430,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/index.md",
@@ -1408,7 +1441,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/meter.md",
@@ -1419,7 +1452,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/midimonitor.md",
@@ -1430,7 +1463,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/print.md",
@@ -1441,7 +1474,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/recorder.md",
@@ -1452,7 +1485,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/scope.md",
@@ -1463,7 +1496,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/spectrogram.md",
@@ -1474,7 +1507,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/tuner.md",
@@ -1485,7 +1518,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/meters-and-analysis/wavehistory.md",
@@ -1496,7 +1529,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/accumulate.md",
@@ -1507,7 +1540,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/adsr.md",
@@ -1518,7 +1551,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/ahdsr.md",
@@ -1529,7 +1562,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/ar.md",
@@ -1540,7 +1573,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/chaos.md",
@@ -1551,7 +1584,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/clamp.md",
@@ -1562,7 +1595,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/const.md",
@@ -1573,7 +1606,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/convert.md",
@@ -1584,7 +1617,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/curvemap.md",
@@ -1595,7 +1628,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/cvtranspose.md",
@@ -1606,7 +1639,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/envfollow.md",
@@ -1617,7 +1650,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/faders.md",
@@ -1628,7 +1661,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/formula.md",
@@ -1639,7 +1672,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/function.md",
@@ -1650,7 +1683,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/gaincomp.md",
@@ -1661,7 +1694,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/index.md",
@@ -1672,7 +1705,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/keytrack.md",
@@ -1683,7 +1716,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/lastchanged.md",
@@ -1694,7 +1727,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/lfo.md",
@@ -1705,7 +1738,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/maprange.md",
@@ -1716,7 +1749,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/math1.md",
@@ -1727,7 +1760,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/math2.md",
@@ -1738,7 +1771,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/midicc.md",
@@ -1749,7 +1782,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/multienv.md",
@@ -1760,7 +1793,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/onload.md",
@@ -1771,7 +1804,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/quantize.md",
@@ -1782,7 +1815,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/ramp.md",
@@ -1793,7 +1826,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/random.md",
@@ -1804,7 +1837,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/s-and-h.md",
@@ -1815,7 +1848,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/smoother.md",
@@ -1826,7 +1859,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/track-and-hold.md",
@@ -1837,7 +1870,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/velocity.md",
@@ -1848,7 +1881,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/voiceinfo.md",
@@ -1859,7 +1892,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/modulators/xy.md",
@@ -1870,7 +1903,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/arp.md",
@@ -1881,7 +1914,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/burst.md",
@@ -1892,7 +1925,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/button.md",
@@ -1903,7 +1936,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/cctransform.md",
@@ -1914,7 +1947,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/change.md",
@@ -1925,7 +1958,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/chordgen.md",
@@ -1936,7 +1969,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/clockdiv.md",
@@ -1947,7 +1980,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/compare.md",
@@ -1958,7 +1991,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/cvtomidicc.md",
@@ -1969,7 +2002,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/cvtomidinote.md",
@@ -1980,7 +2013,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/dice.md",
@@ -1991,7 +2024,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/euclidean.md",
@@ -2002,7 +2035,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/eventdelay.md",
@@ -2013,7 +2046,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/humanize.md",
@@ -2024,7 +2057,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/index.md",
@@ -2035,7 +2068,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/keys.md",
@@ -2046,7 +2079,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/logic.md",
@@ -2057,7 +2090,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/microquant.md",
@@ -2068,7 +2101,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/midifilt.md",
@@ -2079,7 +2112,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/midimerge.md",
@@ -2090,7 +2123,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/midipanic.md",
@@ -2101,7 +2134,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/midiscale.md",
@@ -2112,7 +2145,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/noteremap.md",
@@ -2123,7 +2156,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/notetogate.md",
@@ -2134,7 +2167,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/pendulum.md",
@@ -2145,7 +2178,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/ppq.md",
@@ -2156,7 +2189,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/probability.md",
@@ -2167,7 +2200,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/scala.md",
@@ -2178,7 +2211,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/scalequant.md",
@@ -2189,7 +2222,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/sequencer.md",
@@ -2200,7 +2233,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/temposync.md",
@@ -2211,7 +2244,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/timer.md",
@@ -2222,7 +2255,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/transport.md",
@@ -2233,7 +2266,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/transpose.md",
@@ -2244,7 +2277,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/notes-and-sequencing/turing.md",
@@ -2255,7 +2288,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/add.md",
@@ -2266,7 +2299,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/branch.md",
@@ -2277,7 +2310,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/cmaj.md",
@@ -2288,7 +2321,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/container.md",
@@ -2299,7 +2332,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/feedback.md",
@@ -2310,7 +2343,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/gain.md",
@@ -2321,7 +2354,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/index.md",
@@ -2332,7 +2365,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/matrix.md",
@@ -2343,7 +2376,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/mixmatrix.md",
@@ -2354,7 +2387,18 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/modulation-rate.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/monosplit.md",
@@ -2365,7 +2409,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/ms-dec.md",
@@ -2376,7 +2420,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/ms-enc.md",
@@ -2387,7 +2431,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/multiply.md",
@@ -2398,7 +2442,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/oversample.md",
@@ -2409,7 +2453,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/pan.md",
@@ -2420,7 +2464,18 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
+    },
+    {
+      "page": "reference/blocks/routing-and-structure/pluginhost.md",
+      "evidenceClass": "generated-registry",
+      "authorities": [
+        "src/data/registry.json",
+        "src/data/registry-meta.json",
+        "scripts/sync-registry.mjs"
+      ],
+      "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/poly.md",
@@ -2431,7 +2486,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/receive.md",
@@ -2442,7 +2497,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/selector.md",
@@ -2453,7 +2508,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/send.md",
@@ -2464,7 +2519,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/stereomerge.md",
@@ -2475,7 +2530,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/width.md",
@@ -2486,7 +2541,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/routing-and-structure/xfade.md",
@@ -2497,7 +2552,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/spectral/binfreeze.md",
@@ -2508,7 +2563,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/spectral/bingate.md",
@@ -2519,7 +2574,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/spectral/binshift.md",
@@ -2530,7 +2585,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/spectral/crosssynth.md",
@@ -2541,7 +2596,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/spectral/index.md",
@@ -2552,7 +2607,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/spectral/magphase.md",
@@ -2563,7 +2618,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/spectral/spectralblur.md",
@@ -2574,7 +2629,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/spectral/stft.md",
@@ -2585,7 +2640,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/allpassdelay.md",
@@ -2596,7 +2651,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/chorus.md",
@@ -2607,7 +2662,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/combbank.md",
@@ -2618,7 +2673,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/convolution.md",
@@ -2629,7 +2684,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/delay.md",
@@ -2640,7 +2695,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/diffuser.md",
@@ -2651,7 +2706,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/fdn.md",
@@ -2662,7 +2717,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/fixdelay.md",
@@ -2673,7 +2728,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/flanger.md",
@@ -2684,7 +2739,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/granular.md",
@@ -2695,7 +2750,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/index.md",
@@ -2706,7 +2761,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/looper.md",
@@ -2717,7 +2772,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/multitap.md",
@@ -2728,7 +2783,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/phaser.md",
@@ -2739,7 +2794,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/pitchshift.md",
@@ -2750,7 +2805,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/reverb.md",
@@ -2761,7 +2816,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/reversedelay.md",
@@ -2772,7 +2827,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/ringmod.md",
@@ -2783,7 +2838,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/sampledelay.md",
@@ -2794,7 +2849,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/tremolo.md",
@@ -2805,7 +2860,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/time-and-motion/wowflutter.md",
@@ -2816,7 +2871,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/visual/index.md",
@@ -2827,7 +2882,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/blocks/visual/videoplayer.md",
@@ -2838,7 +2893,7 @@
         "scripts/sync-registry.mjs"
       ],
       "productCommit": "7e84a02b4ca30564a909b4585079079de40c1300",
-      "registrySha256": "3283dada03ded1c9561d8ab879d9941a26ea07a97a7c79aff8ac468e4e573300"
+      "registrySha256": "07cced69a59b12fdc236f81ed6d1e876cb603c20b93a906f309c82df41c06b46"
     },
     {
       "page": "reference/documentation-status.mdx",

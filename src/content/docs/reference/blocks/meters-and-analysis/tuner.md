@@ -5,7 +5,7 @@ sidebar:
   order: 105
 ---
 
-<small>Generated from PatchLab binary source candidate `96ae72bb5451` · registry type 104</small>
+<small>Generated from PatchLab binary source candidate `2a98ed460799` · registry type 104</small>
 
 ## At a glance
 
@@ -14,7 +14,7 @@ sidebar:
 | Category | [Meters & Analysis](../) |
 | Signal role | Visual |
 | Audio inputs | 1 |
-| Audio outputs | 1 |
+| Audio outputs | 2 |
 | MIDI input | No |
 | MIDI output | No |
 | CPU class | trivial |
@@ -36,7 +36,7 @@ sidebar:
 
 ## Safety and limits
 
-MONOPHONIC only (YIN tracks one fundamental - chords/polyphony report the dominant or jitter); detection has ~one analysis-window of inherent latency (cannot be lower - it needs >=2 periods of the lowest note) and runs at the ~60 Hz analyzer rate, so the read settles rather than jumping per-sample. Audio is bit-exact passthrough UNLESS Mod Out is set (then the out bus carries the control value, NOT the audio - place it as a TAP for display, or as a SOURCE for the mod value, not both at once). Unvoiced/noisy input is confidence-gated (no false octave-lock); pick the Range band that matches the source for the tightest tracking
+MONOPHONIC only (YIN tracks one fundamental - chords/polyphony report the dominant or jitter); detection has ~one analysis-window of inherent latency (cannot be lower - it needs >=2 periods of the lowest note) and runs at the ~60 Hz analyzer rate, so the read settles rather than jumping per-sample. Audio is bit-exact passthrough in EVERY mode; the dedicated Mod bus (out 2/3) carries the control value when Mod Out is set (zero when Off), so it can be a display tap and a mod source at once (PL-BLK-74). Offline/bounce renders detect synchronously on the render thread (same YIN), so a bounce reads real pitch, not zero. Unvoiced/noisy input is confidence-gated (no false octave-lock); pick the Range band that matches the source for the tightest tracking
 
 <details>
 <summary>Registry implementation notes</summary>

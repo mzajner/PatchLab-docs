@@ -5,7 +5,7 @@ sidebar:
   order: 77
 ---
 
-<small>Generated from PatchLab binary source candidate `96ae72bb5451` · registry type 76</small>
+<small>Generated from PatchLab binary source candidate `2a98ed460799` · registry type 76</small>
 
 ## At a glance
 
@@ -40,6 +40,9 @@ sidebar:
 | Decay (time) | `decay` | 1 to 4000 | 80 | ms | 13 |
 | Sustain | `sustain` | 0 to 1 | 1 | — | 14 |
 | Group XF | `groupxf` | 0 to 1 | 0 | — | 15 |
+| Flt Cut | `fltcutoff` | -8 to 8 | 0 | oct | 16 |
+| Flt Res | `fltres` | -1 to 1 | 0 | — | 17 |
+| Flt Env | `fltenv` | -1 to 1 | 0 | — | 18 |
 
 ## Safety and limits
 

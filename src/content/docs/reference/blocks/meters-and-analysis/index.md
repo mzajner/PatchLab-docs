@@ -15,7 +15,7 @@ For selection advice, signal-flow patterns, and cautions, read [Using Meters & A
 | [Meter](./meter/) | Visual | 1 in / 1 out | — |
 | [Goniometer](./goniometer/) | Visual | 1 in / 1 out | — |
 | [Correlation](./correlation/) | Visual | 1 in / 1 out | — |
-| [Tuner](./tuner/) | Visual | 1 in / 1 out | — |
+| [Tuner](./tuner/) | Visual | 1 in / 2 out | — |
 | [Print](./print/) | Visual | 1 in / 1 out | — |
 | [CVScope](./cvscope/) | Visual | 1 in / 1 out | — |
 | [Recorder](./recorder/) | Utility | 1 in / 1 out | — |
