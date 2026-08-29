@@ -1,11 +1,11 @@
 ---
 title: "Time & Motion"
-description: "20 PatchLab blocks in Time & Motion."
+description: "26 PatchLab blocks in Time & Motion."
 sidebar:
   order: 15
 ---
 
-**20 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
+**26 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
 
 For selection advice, signal-flow patterns, and cautions, read [Using Time & Motion blocks](/guides/block-families/time-and-motion/).
 
@@ -31,4 +31,10 @@ For selection advice, signal-flow patterns, and cautions, read [Using Time & Mot
 | [Flanger](./flanger/) | Audio | 1 in / 1 out | — |
 | [Tremolo](./tremolo/) | Audio | 1 in / 1 out | — |
 | [Looper](./looper/) | Audio | 1 in / 1 out | — |
+| [Buffer](./buffer/) | Utility | 0 in / 0 out | — |
+| [BufWrite](./bufwrite/) | Audio | 1 in / 1 out | — |
+| [BufRead](./bufread/) | Audio | 2 in / 1 out | — |
+| [TableRead](./tableread/) | Audio | 2 in / 1 out | — |
+| [BufPoke](./bufpoke/) | Audio | 2 in / 1 out | — |
+| [BufClear](./bufclear/) | Audio | 1 in / 0 out | — |
 

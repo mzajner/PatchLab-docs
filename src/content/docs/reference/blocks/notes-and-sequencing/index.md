@@ -1,11 +1,11 @@
 ---
 title: "Notes & Sequencing"
-description: "34 PatchLab blocks in Notes & Sequencing."
+description: "35 PatchLab blocks in Notes & Sequencing."
 sidebar:
   order: 17
 ---
 
-**34 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
+**35 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
 
 For selection advice, signal-flow patterns, and cautions, read [Using Notes & Sequencing blocks](/guides/block-families/notes-and-sequencing/).
 
@@ -45,4 +45,5 @@ For selection advice, signal-flow patterns, and cautions, read [Using Notes & Se
 | [MidiScale](./midiscale/) | Event | 0 in / 0 out | in/out |
 | [Pendulum](./pendulum/) | Modulation | 1 in / 2 out | — |
 | [Keys](./keys/) | Event | 0 in / 0 out | out |
+| [EventStep](./eventstep/) | Event | 0 in / 1 out | in |
 

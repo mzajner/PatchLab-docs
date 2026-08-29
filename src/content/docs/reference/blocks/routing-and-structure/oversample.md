@@ -5,7 +5,7 @@ sidebar:
   order: 66
 ---
 
-<small>Generated from PatchLab binary source candidate `2a98ed460799` · registry type 65</small>
+<small>Generated from PatchLab binary source candidate `7fd3876b4e75` · registry type 65</small>
 
 ## At a glance
 
@@ -18,7 +18,7 @@ sidebar:
 | MIDI input | Yes |
 | MIDI output | No |
 | CPU class | trivial |
-| Reported latency | halfband-filter group delay at the chosen factor (reported at prepare; 1x = 0; ~31-54 smp at 2x/4x/8x) |
+| Reported latency | halfband-filter group delay at the chosen factor (reported at prepare; 1x = the sub-graph aggregate under fusion flags, like a plain Container, else 0; ~31-54 smp at 2x/4x/8x) |
 | Macro slots | 8 |
 
 ## Parameters

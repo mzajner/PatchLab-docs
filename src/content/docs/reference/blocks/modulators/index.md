@@ -1,11 +1,11 @@
 ---
 title: "Modulators"
-description: "33 PatchLab blocks in Modulators."
+description: "35 PatchLab blocks in Modulators."
 sidebar:
   order: 11
 ---
 
-**33 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
+**35 blocks**. Select a block for its generated ports, parameters, ranges, defaults, CPU class, latency, and registry notes.
 
 For selection advice, signal-flow patterns, and cautions, read [Using Modulators blocks](/guides/block-families/modulators/).
 
@@ -44,4 +44,6 @@ For selection advice, signal-flow patterns, and cautions, read [Using Modulators
 | [CVTranspose](./cvtranspose/) | Modulation | 1 in / 1 out | — |
 | [LastChanged](./lastchanged/) | Modulation | 4 in / 1 out | — |
 | [OnLoad](./onload/) | Modulation | 0 in / 1 out | — |
+| [BlockPeak](./blockpeak/) | Modulation | 1 in / 1 out | — |
+| [PeakHold](./peakhold/) | Modulation | 1 in / 1 out | — |
 
