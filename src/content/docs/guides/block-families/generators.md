@@ -17,6 +17,8 @@ data before they produce sound.
 - **FMOp**, **ModalBank**, and **Waveguide** expose more structured synthesis models.
 - **DrumSynth** provides event-driven percussive synthesis.
 - **Impulse** is useful as a stimulus and transient source.
+- **AudioPlayer** plays a loaded audio file with transport, loop, and varispeed;
+  it is silent by default until Gain is raised and Play is pressed.
 - **Phasor** is principally a ramp/phase source; decide whether the destination expects
   audio or control behavior.
 

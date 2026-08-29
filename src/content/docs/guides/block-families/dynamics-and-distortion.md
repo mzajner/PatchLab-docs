@@ -14,7 +14,9 @@ sustain. **Limiter** belongs at a deliberately measured boundary, not as permiss
 an uncontrolled graph.
 
 Use **Drive**, **Clipper**, **Waveshaper**, **TableShaper**, or **Crush** according to the
-nonlinearity or reduction mechanism required. Compare at matched output level. A louder
+nonlinearity or reduction mechanism required. **PkgModel** hosts a content-addressed
+neural model (first Pack: NAM) with latency-aligned dry fallback when the model is
+missing. Compare at matched output level. A louder
 processed path is not evidence of better tone.
 
 ## Minimum dynamics test

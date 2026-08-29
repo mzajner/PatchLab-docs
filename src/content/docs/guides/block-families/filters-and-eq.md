@@ -23,7 +23,9 @@ modulation, and numerical behavior.
 complementary band splitting. **Cascade** and **Filterbank** organize multiple filter
 stages or bands. **FIR** is appropriate when its finite impulse response and latency
 tradeoff are required. **Allpass**, **Comb**, and **PhaseDelay** primarily change phase
-or time relationships even when magnitude looks flat.
+or time relationships even when magnitude looks flat. **DcBlocker** is the named
+first-order DC-removal primitive (2–40 Hz corner) for anything that parks an offset
+on the bus.
 
 Never call a crossover sum “flat” without recombining its bands under the documented
 mode and measuring level and phase. Never infer audible transparency from a magnitude

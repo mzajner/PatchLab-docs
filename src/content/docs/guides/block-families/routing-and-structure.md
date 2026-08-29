@@ -17,7 +17,10 @@ manage non-local or conditional flow.
 
 **Container** groups one subsystem. **Oversample** changes the sample rate of its nested
 graph. **Poly** creates multiple note-driven voices. **Feedback** creates an explicitly
-scheduled recursive zone. **Cmaj** hosts supported custom DSP.
+scheduled recursive zone. **Modulation Rate** sets how often a nested region's
+mod-cable targets are resolved (Block down to every sample). **Cmaj** hosts supported
+custom DSP. **PluginHost** loads a third-party VST3/AU inside the patch (host-only;
+not exportable).
 
 ## Boundary review
 
