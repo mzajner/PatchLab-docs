@@ -1,6 +1,9 @@
 name: Check external links
 
 on:
+  push:
+    branches: [main]
+  pull_request:
   workflow_dispatch:
   schedule:
     - cron: '17 14 * * 1'

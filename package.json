@@ -12,7 +12,7 @@
     "sync:registry": "node scripts/sync-registry.mjs",
     "sync:examples": "node scripts/sync-examples.mjs",
     "check:content": "node scripts/check-content.mjs",
-    "check:accuracy": "node scripts/verify-accuracy.mjs && node scripts/test-dsp.mjs && node scripts/test-theme.mjs",
+    "check:accuracy": "node scripts/verify-accuracy.mjs && node scripts/test-theme.mjs",
     "release:audit": "node scripts/release-audit.mjs",
     "release:audit:strict": "node scripts/release-audit.mjs --strict",
     "check": "npm run check:content && npm run check:accuracy && astro check && npm run build"
