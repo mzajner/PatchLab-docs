@@ -24,5 +24,5 @@ is available. The product is moving quickly and historical status prose can lag.
 
 ## Before handoff
 
-Run `npm run check`. For changed product procedures, also perform the relevant steps in
-the matching PatchLab build and record the evidence in the change description.
+When the site build itself is the task, `npm run check` is the verdict. For a
+prose-only change it is not required.
