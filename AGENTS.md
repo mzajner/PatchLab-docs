@@ -2,7 +2,7 @@
 
 ## Trajectory (2026-09-07)
 
-Authority on what is proven: `../PatchCore/docs/VISION_BOARD.md`. Lane list:
+Authority on what is proven: `../VISION_BOARD.md`. Lane list:
 `../PatchCore/docs/DEVELOPMENT_PLAN.md`. Owner rulings: front door is the VS Code
 extension pack in stock VS Code; all MIT for now (prose does not relicense files);
 nothing archived, split or renamed without VISION_BOARD D13. Shared contract: `../CLAUDE.md`.
