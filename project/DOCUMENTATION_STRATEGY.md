@@ -338,25 +338,7 @@ Quarterly maintenance should review search gaps, high-exit pages, broken externa
 links, unowned screenshots, stale status labels, unsupported versions, and glossary
 drift.
 
-## 17. Competitor lessons without imitation
-
-Patchwerk demonstrates the value of a concise narrative path from first sound through
-design and export, plus an internals layer for advanced readers. MNodes demonstrates
-the value of visible categories, exhaustive block reference, search, and direct routes
-to popular tasks.
-
-PatchLab should combine those strengths and differentiate through:
-
-- generated product truth;
-- explicit evidence and revision provenance;
-- strong DSP teaching linked to real patches;
-- measurement-driven troubleshooting; and
-- an eventual interactive curriculum built from the same modular concepts as the app.
-
-Do not copy competitor prose, screenshots, category names, or page structure. Their
-materials are research evidence, not source content.
-
-## 18. Decisions still requiring Mike
+## 17. Decisions still requiring Mike
 
 - Confirm the official docs domain and repository owner/visibility.
 - Decide whether documentation ships under the same GPL license as PatchLab or a

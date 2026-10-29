@@ -33,7 +33,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-LAST CHANGED: an N-input 'last-touched wins' mux - four control inputs A..D, the output follows whichever input MOST RECENTLY moved (crossed the Sens threshold) and holds that selection until a different input moves. The niche convenience for 'let the source I just touched drive the destination' (four macro sources -> one param). Composable from Compare + gates but tedious; this is the named primitive. Block-rate change detection on the stereo pairs; the winning input's samples pass through. Unconnected inputs read silence -> never win. Native-first. (MNodes CV Last-Changed).
+LAST CHANGED: an N-input 'last-touched wins' mux - four control inputs A..D, the output follows whichever input MOST RECENTLY moved (crossed the Sens threshold) and holds that selection until a different input moves. The niche convenience for 'let the source I just touched drive the destination' (four macro sources -> one param). Composable from Compare + gates but tedious; this is the named primitive. Block-rate change detection on the stereo pairs; the winning input's samples pass through. Unconnected inputs read silence -> never win. Native-first..
 
 </details>
 

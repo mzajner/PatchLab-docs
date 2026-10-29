@@ -35,7 +35,7 @@ two held input notes can snap to the SAME output note (e.g. C# and D -> D in C m
 <details>
 <summary>Registry implementation notes</summary>
 
-MIDI SCALE: snaps incoming MIDI note-ons to a musical scale - the event-domain counterpart of the CV-domain ScaleQuant (which quantizes a control wire, not notes). Root picks the tonic, Scale the set (Chromatic / Major / Minor / Dorian / Mixolyd / MajPent / MinPent / Blues / HarmMin / WholeTone), Mode how an out-of-scale note resolves: Nearest (ties prefer down) / Up / Down. Note-offs follow the SAME remap as their note-on via a per-channel held-note table, so changing Root/Scale/Mode mid-note can NEVER hang a note. Non-note messages pass untouched. Wrong-note-proof keyboards, in-key Arp/Sequencer streams, drum-pad melodies. Face = the scale as 12 pitch-class pads (root dotted) + the last snap in note names. MIDI in -> MIDI out, allocation-free (out pre-sized; fixed table). (MNodes MIDI Scale)
+MIDI SCALE: snaps incoming MIDI note-ons to a musical scale - the event-domain counterpart of the CV-domain ScaleQuant (which quantizes a control wire, not notes). Root picks the tonic, Scale the set (Chromatic / Major / Minor / Dorian / Mixolyd / MajPent / MinPent / Blues / HarmMin / WholeTone), Mode how an out-of-scale note resolves: Nearest (ties prefer down) / Up / Down. Note-offs follow the SAME remap as their note-on via a per-channel held-note table, so changing Root/Scale/Mode mid-note can NEVER hang a note. Non-note messages pass untouched. Wrong-note-proof keyboards, in-key Arp/Sequencer streams, drum-pad melodies. Face = the scale as 12 pitch-class pads (root dotted) + the last snap in note names. MIDI in -> MIDI out, allocation-free (out pre-sized; fixed table).
 
 </details>
 

@@ -31,7 +31,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-IMPULSE: a test / utility CLICK source - a periodic single-sample impulse train at Rate Hz. The classic bench generator for measuring an impulse response (drive a Delay/Reverb/Filter and watch its tail), clocking S&H, or seeding a physical-modeling exciter. SILENT BY DEFAULT (Level 0, hard rule #2): the phase advances but every impulse is 0 until you raise Level. Polarity Uni = all +Level; Bi = alternating +/-Level. Allocation-free; the face draws recent impulse ticks (one block-decimated peak per point) and reads 'silent' while Level is 0. Native-first. (MNodes Impulse).
+IMPULSE: a test / utility CLICK source - a periodic single-sample impulse train at Rate Hz. The classic bench generator for measuring an impulse response (drive a Delay/Reverb/Filter and watch its tail), clocking S&H, or seeding a physical-modeling exciter. SILENT BY DEFAULT (Level 0, hard rule #2): the phase advances but every impulse is 0 until you raise Level. Polarity Uni = all +Level; Bi = alternating +/-Level. Allocation-free; the face draws recent impulse ticks (one block-decimated peak per point) and reads 'silent' while Level is 0. Native-first..
 
 </details>
 

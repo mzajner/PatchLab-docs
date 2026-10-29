@@ -41,7 +41,7 @@ sidebar:
 
 ## Safety and limits
 
-generator: SILENT until Level is raised (house rule). Band-limited by FFT-built half-octave mip tables (alias floor < -107 dBc, no oversampling needed); Position morphs across frames, is a mod target, and is smoothed per sample (~15 ms) - sweeps are click-free by design. Tables: factory:basic (default sine->tri->saw->square), factory:sawsquare/pwm/formant/harmonics, or a Serum-style .wav (2048-sample frames, count = length/2048, max 256) via Load audio file / the zoom-in workbench; builds off-thread. Unison 1-8 voices (Detune cents, equal-power Spread; Unison 1 = legacy mono, both channels identical). PM phase-modulates the read from the Mod input (audio-rate, up to +-2 cycles at depth 1); Mod Oct remains block-rate FM from the same cable
+generator: SILENT until Level is raised (house rule). Band-limited by FFT-built half-octave mip tables (alias floor < -107 dBc, no oversampling needed); Position morphs across frames, is a mod target, and is smoothed per sample (~15 ms) - sweeps are click-free by design. Tables: factory:basic (default sine->tri->saw->square), factory:sawsquare/pwm/formant/harmonics, or a wavetable-synth-style .wav (2048-sample frames, count = length/2048, max 256) via Load audio file / the zoom-in workbench; builds off-thread. Unison 1-8 voices (Detune cents, equal-power Spread; Unison 1 = legacy mono, both channels identical). PM phase-modulates the read from the Mod input (audio-rate, up to +-2 cycles at depth 1); Mod Oct remains block-rate FM from the same cable
 
 <details>
 <summary>Registry implementation notes</summary>

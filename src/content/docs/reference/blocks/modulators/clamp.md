@@ -34,7 +34,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-CLAMP: a NAMED hard clamp - passes any audio or CV wire through, limiting every sample to [Lo, Hi]. Composable already (Math1 Clip is fixed +/-1; MapRange clamps to a mapped range) - this is the legibility primitive: an explicit two-knob floor + ceiling. Lo/Hi auto-order so the bounds never invert; inputs are sanitized (NaN/Inf -> 0). CV = audio bus so it clamps both planes (a safety clip on a modulation wire, a hard ceiling on audio). Per-sample, both channels; face draws the clamp transfer curve + the live in->out point. (MNodes Clamp / legibility sugar over Math1/MapRange).
+CLAMP: a NAMED hard clamp - passes any audio or CV wire through, limiting every sample to [Lo, Hi]. Composable already (Math1 Clip is fixed +/-1; MapRange clamps to a mapped range) - this is the legibility primitive: an explicit two-knob floor + ceiling. Lo/Hi auto-order so the bounds never invert; inputs are sanitized (NaN/Inf -> 0). CV = audio bus so it clamps both planes (a safety clip on a modulation wire, a hard ceiling on audio). Per-sample, both channels; face draws the clamp transfer curve + the live in->out point..
 
 </details>
 

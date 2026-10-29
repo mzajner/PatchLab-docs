@@ -41,7 +41,7 @@ with Damp > 0 the swing comes to REST at the centre - no more crossings until a 
 <details>
 <summary>Registry implementation notes</summary>
 
-PENDULUM: a swinging trigger sequencer - the bob sweeps across Segments zones in harmonic (sine) motion; each zone CROSSING fires a one-sample trigger on Gate out while Pos out streams the bob position 0..1 (centre 0.5). Crossings bunch through the middle and stretch at the swing edges - the accelerate/decelerate feel a plain clock cannot make (Gate -> AR/DrumSynth/Dice for swung hits, Pos -> any mod port for the matching sweep). Rate = the full swing cycle in Hz, or a tempo division via Sync. Damp decays the swing toward rest at the centre (crossings slow, cluster, STOP); a rising Push edge (param click or Trig cable) re-excites to full width. Face = a live animated pendulum over the segment arc. Two outs (the Sequencer Gate+Value port model). Allocation-free (a phase + an amplitude). (MNodes Pendulum)
+PENDULUM: a swinging trigger sequencer - the bob sweeps across Segments zones in harmonic (sine) motion; each zone CROSSING fires a one-sample trigger on Gate out while Pos out streams the bob position 0..1 (centre 0.5). Crossings bunch through the middle and stretch at the swing edges - the accelerate/decelerate feel a plain clock cannot make (Gate -> AR/DrumSynth/Dice for swung hits, Pos -> any mod port for the matching sweep). Rate = the full swing cycle in Hz, or a tempo division via Sync. Damp decays the swing toward rest at the centre (crossings slow, cluster, STOP); a rising Push edge (param click or Trig cable) re-excites to full width. Face = a live animated pendulum over the segment arc. Two outs (the Sequencer Gate+Value port model). Allocation-free (a phase + an amplitude).
 
 </details>
 

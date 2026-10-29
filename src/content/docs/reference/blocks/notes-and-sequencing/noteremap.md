@@ -31,7 +31,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-NOTE REMAP: maps ONE source note to a target note - note on/offs whose number == Src are rewritten to Dst; every OTHER note passes (Others = Pass) or is dropped (Others = Block); non-note messages always pass. The per-note routing cell: retarget one drum pad, carve a single key out of a keyboard split (Block turns it into a one-note extractor), or CHAIN several NoteRemaps for a hand-built drum map (MNodes packs 8 slots in one node; ours composes, granularity doctrine). Src/Dst display as note NAMES (C-2..G8); the face draws src -> dst on a key strip with a pass flash on each remap. MIDI in -> MIDI out, allocation-free (out pre-sized). Native-first. (MNodes MIDI Note Remap).
+NOTE REMAP: maps ONE source note to a target note - note on/offs whose number == Src are rewritten to Dst; every OTHER note passes (Others = Pass) or is dropped (Others = Block); non-note messages always pass. The per-note routing cell: retarget one drum pad, carve a single key out of a keyboard split (Block turns it into a one-note extractor), or CHAIN several NoteRemaps for a hand-built drum map. Src/Dst display as note NAMES (C-2..G8); the face draws src -> dst on a key strip with a pass flash on each remap. MIDI in -> MIDI out, allocation-free (out pre-sized). Native-first..
 
 </details>
 

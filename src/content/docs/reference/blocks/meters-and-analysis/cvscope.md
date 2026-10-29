@@ -34,7 +34,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-CV SCOPE: a SLOW time-base plot of a control signal over a seconds-scale Window (distinct from the audio Scope's millisecond frame). You can finally SEE modulation move - an LFO / env / random wire drawn as a scrolling history over Window (0.25-30 s). PASSTHROUGH (insert inline on a CV wire; CV = audio bus). The audio thread decimates the signal into a lock-free ring (one averaged point per decim samples); drawFace + the web viz plane (host.telemetry 'scope') only read it. Range = Uni 0..1 / Bi -1..1 / Auto (min..max of the window). The 'watch the modulation' analysis tool (MNodes CV Scope gap).
+CV SCOPE: a SLOW time-base plot of a control signal over a seconds-scale Window (distinct from the audio Scope's millisecond frame). You can finally SEE modulation move - an LFO / env / random wire drawn as a scrolling history over Window (0.25-30 s). PASSTHROUGH (insert inline on a CV wire; CV = audio bus). The audio thread decimates the signal into a lock-free ring (one averaged point per decim samples); drawFace + the web viz plane (host.telemetry 'scope') only read it. Range = Uni 0..1 / Bi -1..1 / Auto (min..max of the window). The 'watch the modulation' analysis tool.
 
 </details>
 

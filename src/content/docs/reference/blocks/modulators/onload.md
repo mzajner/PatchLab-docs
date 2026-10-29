@@ -30,7 +30,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-ON LOAD: fires ONE one-sample 1.0 pulse (both channels) Delay ms after playback starts - the load/startup trigger. Retrig = Once fires only on the FIRST prepareToPlay after the node loads (project/preset-load automation: kick something exactly once as the patch comes up); Every Play re-arms on every prepareToPlay (each transport/graph start). Aim it at any Trig port: OnLoad -> Ramp = an automatic fade-in on load, OnLoad -> S&H = latch an initial random, OnLoad -> Sequencer.Clock = step once. Sample-exact (the countdown is kept in samples; the pulse lands inside the crossing block). Audio out only, silent except the single pulse; face = a power-on glyph that lights once fired. Allocation-free. Native-first. (MNodes On Load).
+ON LOAD: fires ONE one-sample 1.0 pulse (both channels) Delay ms after playback starts - the load/startup trigger. Retrig = Once fires only on the FIRST prepareToPlay after the node loads (project/preset-load automation: kick something exactly once as the patch comes up); Every Play re-arms on every prepareToPlay (each transport/graph start). Aim it at any Trig port: OnLoad -> Ramp = an automatic fade-in on load, OnLoad -> S&H = latch an initial random, OnLoad -> Sequencer.Clock = step once. Sample-exact (the countdown is kept in samples; the pulse lands inside the crossing block). Audio out only, silent except the single pulse; face = a power-on glyph that lights once fired. Allocation-free. Native-first..
 
 </details>
 

@@ -33,7 +33,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-MIDI PANIC: the all-notes-off broadcast - the stuck-note rescue button. When the Panic param crosses 0.5 upward (click the row / automate it) OR a rising edge lands on the Trig audio input (Schmitt at 0.5, so any Button/Timer/Compare wire can fire it), it emits All Notes Off (CC 123) + All Sound Off (CC 120) + sustain-pedal-off (CC 64 = 0) on ALL 16 channels into its MIDI output, timestamped at the edge sample. Incoming MIDI passes through, so it sits inline before a synth and shares the wire. Face = one big round PANIC button that flashes when fired (+ a fire counter). Allocation-free (out pre-sized). Native-first. (MNodes MIDI Panic).
+MIDI PANIC: the all-notes-off broadcast - the stuck-note rescue button. When the Panic param crosses 0.5 upward (click the row / automate it) OR a rising edge lands on the Trig audio input (Schmitt at 0.5, so any Button/Timer/Compare wire can fire it), it emits All Notes Off (CC 123) + All Sound Off (CC 120) + sustain-pedal-off (CC 64 = 0) on ALL 16 channels into its MIDI output, timestamped at the edge sample. Incoming MIDI passes through, so it sits inline before a synth and shares the wire. Face = one big round PANIC button that flashes when fired (+ a fire counter). Allocation-free (out pre-sized). Native-first..
 
 </details>
 

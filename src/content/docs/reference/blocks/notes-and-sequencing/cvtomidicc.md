@@ -37,7 +37,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-CV -> MIDI CC: injects an LFO/env/any-CV wire out as a MIDI CC, Pitch Bend or Channel Pressure (Aftertouch). Distinct from CCTransform (which REMAPS an existing CC) - this SOURCES a controller from the control plane. The CV (input 0) is read block-rate and mapped Lo..Hi across 0..127; a controller event is emitted ONLY when the value changes (rate-limited, no MIDI flooding). Type = CC / Pitch Bend / Aftertouch; CC# + Channel address it. One CV input, MIDI out (incoming messages pass thru). The 'wire an LFO to the mod wheel / automate a synth CC from modulation' utility (MNodes MIDI CC Inject gap). Allocation-free (out pre-sized).
+CV -> MIDI CC: injects an LFO/env/any-CV wire out as a MIDI CC, Pitch Bend or Channel Pressure (Aftertouch). Distinct from CCTransform (which REMAPS an existing CC) - this SOURCES a controller from the control plane. The CV (input 0) is read block-rate and mapped Lo..Hi across 0..127; a controller event is emitted ONLY when the value changes (rate-limited, no MIDI flooding). Type = CC / Pitch Bend / Aftertouch; CC# + Channel address it. One CV input, MIDI out (incoming messages pass thru). The 'wire an LFO to the mod wheel / automate a synth CC from modulation' utility. Allocation-free (out pre-sized).
 
 </details>
 

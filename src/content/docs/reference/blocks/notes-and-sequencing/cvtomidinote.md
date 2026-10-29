@@ -1,6 +1,6 @@
 ---
 title: "CVToMidiNote"
-description: "CV -> MIDI NOTE: the one missing MIDI-bridge direction (MNodes MIDI Note Trigger)."
+description: "CV -> MIDI NOTE: the one missing MIDI-bridge direction."
 sidebar:
   order: 144
 ---
@@ -38,7 +38,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-CV -> MIDI NOTE: the one missing MIDI-bridge direction (MNodes MIDI Note Trigger). Pitch-CV + Gate inputs -> MIDI note on/off out. A rising Gate edge (Schmitt at 0.5) latches the pitch and emits a note-on; the Gate falling emits the note-off; Retrig re-fires on a note change while held (mono legato). Pitch In = '0..1>Range' maps the CV across Lo..Hi (LFO/Random/Sequencer -> melodies) or 'Note# in' reads the CV as a raw MIDI note number (chain ScaleQuant/MicroQuant straight in). Velocity + Channel set the emitted note; two CV inputs + MIDI out (no audio out). Unlocks MIDI Scale / Riff / arpeggiated-CV patches. Allocation-free (out pre-sized).
+CV -> MIDI NOTE: the one missing MIDI-bridge direction. Pitch-CV + Gate inputs -> MIDI note on/off out. A rising Gate edge (Schmitt at 0.5) latches the pitch and emits a note-on; the Gate falling emits the note-off; Retrig re-fires on a note change while held (mono legato). Pitch In = '0..1>Range' maps the CV across Lo..Hi (LFO/Random/Sequencer -> melodies) or 'Note# in' reads the CV as a raw MIDI note number (chain ScaleQuant/MicroQuant straight in). Velocity + Channel set the emitted note; two CV inputs + MIDI out (no audio out). Unlocks MIDI Scale / Riff / arpeggiated-CV patches. Allocation-free (out pre-sized).
 
 </details>
 

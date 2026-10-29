@@ -36,7 +36,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-WOW & FLUTTER: tape pitch wobble via an LFO-modulated fractional delay. A slow 'wow' (Rate) plus a fixed fast 'flutter' (~6.3 Hz, scaled by Flutter) sweep the read head around a ~6 ms centre so the pitch drifts like worn tape; Depth sets the sweep, Mix blends dry/wet. Drop it after a delay/echo or on a full mix for lo-fi/tape character (MNodes tape-damage gap). Stereo in -> out, allocation-free (owned FracDelayLine per channel)
+WOW & FLUTTER: tape pitch wobble via an LFO-modulated fractional delay. A slow 'wow' (Rate) plus a fixed fast 'flutter' (~6.3 Hz, scaled by Flutter) sweep the read head around a ~6 ms centre so the pitch drifts like worn tape; Depth sets the sweep, Mix blends dry/wet. Drop it after a delay/echo or on a full mix for lo-fi/tape character. Stereo in -> out, allocation-free (owned FracDelayLine per channel)
 
 </details>
 

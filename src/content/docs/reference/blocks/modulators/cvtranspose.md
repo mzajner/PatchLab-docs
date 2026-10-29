@@ -34,7 +34,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-CV TRANSPOSE: a CV-DOMAIN semitone + cent pitch shifter - multiplies a Hz-valued control wire by the musical ratio 2^((Semis + Cents/100)/12). Composable already (Convert semitone->ratio x Hz via Math2) - this is the named sugar for 'transpose / detune a pitch CV'. Wire a Hz source (Convert Note>Hz, KeyTrack, a sequencer) through it into an Osc or Filter freq. DISTINCT from the MIDI-domain Transpose (which shifts note EVENTS): this shifts a control VALUE. The ratio is smoothed (~5 ms lag) so modulating Semis/Cents glides, not steps (house rule 5). Per-sample x ratio on both channels; inputs sanitized. Native-first. (MNodes CV Transpose/Detune).
+CV TRANSPOSE: a CV-DOMAIN semitone + cent pitch shifter - multiplies a Hz-valued control wire by the musical ratio 2^((Semis + Cents/100)/12). Composable already (Convert semitone->ratio x Hz via Math2) - this is the named sugar for 'transpose / detune a pitch CV'. Wire a Hz source (Convert Note>Hz, KeyTrack, a sequencer) through it into an Osc or Filter freq. DISTINCT from the MIDI-domain Transpose (which shifts note EVENTS): this shifts a control VALUE. The ratio is smoothed (~5 ms lag) so modulating Semis/Cents glides, not steps (house rule 5). Per-sample x ratio on both channels; inputs sanitized. Native-first..
 
 </details>
 

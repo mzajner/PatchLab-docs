@@ -30,7 +30,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-PROBABILITY: a chance gate on a MIDI note stream. Each note-on passes with probability Chance (0..1); a dropped note-on is omitted (Chance 1.0 = pure passthrough). Note-offs + all non-note messages ALWAYS pass, so a dropped note leaves NO stuck note. Seed makes the pattern repeatable. The generative 'thinning / variation' tool - feed a busy Arp/Sequencer through it for evolving note dropouts (MNodes Math/Logic Probability gap). MIDI in -> MIDI out, allocation-free (out buffer pre-sized)
+PROBABILITY: a chance gate on a MIDI note stream. Each note-on passes with probability Chance (0..1); a dropped note-on is omitted (Chance 1.0 = pure passthrough). Note-offs + all non-note messages ALWAYS pass, so a dropped note leaves NO stuck note. Seed makes the pattern repeatable. The generative 'thinning / variation' tool - feed a busy Arp/Sequencer through it for evolving note dropouts. MIDI in -> MIDI out, allocation-free (out buffer pre-sized)
 
 </details>
 

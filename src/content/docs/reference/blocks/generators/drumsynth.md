@@ -33,7 +33,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-DRUMSYNTH: a curated one-shot drum VOICE (Voice = Kick / Snare / Hat), MIDI-note triggered like NoteOsc -- no samples, pure analog-model synthesis. KICK = a pitch-swept sine (Tune = body pitch) + exp amp decay + tanh Drive (Tone); SNARE = two detuned sines (tone) + a bandpassed noise burst, blended by Tone; HAT = highpassed noise (Tune = brightness) + short exp decay. Four macros -- Tune / Decay / Tone / Level -- drive all three voices; velocity scales the hit. SILENT until a note arrives (env-gated); a ~1.5 ms declick ramp kills the trigger click. Drop three for a kit, or sequence one from an Arp/Sequencer (the MNodes curated-drum-voice gap -- 136 processing blocks but no drum voice). Stereo out, 0 RT alloc.
+DRUMSYNTH: a curated one-shot drum VOICE (Voice = Kick / Snare / Hat), MIDI-note triggered like NoteOsc -- no samples, pure analog-model synthesis. KICK = a pitch-swept sine (Tune = body pitch) + exp amp decay + tanh Drive (Tone); SNARE = two detuned sines (tone) + a bandpassed noise burst, blended by Tone; HAT = highpassed noise (Tune = brightness) + short exp decay. Four macros -- Tune / Decay / Tone / Level -- drive all three voices; velocity scales the hit. SILENT until a note arrives (env-gated); a ~1.5 ms declick ramp kills the trigger click. Drop three for a kit, or sequence one from an Arp/Sequencer. Stereo out, 0 RT alloc.
 
 </details>
 

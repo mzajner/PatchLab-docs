@@ -33,7 +33,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-SUPERSAW: the JP-8000 'hyper saw' lead - up to 9 detuned saw oscillators summed with an equal-power stereo spread. Voices sets the stack size; Detune spreads them symmetrically around Freq (+/- cents at the extremes); Spread pans the outer voices L/R for width. SILENT by default (Level 0). The instant-gratification trance/EDM lead (MNodes instrument gap); stack -> Filter -> ADSR for a classic supersaw patch. Stereo audio out, allocation-free (fixed per-voice arrays)
+SUPERSAW: the JP-8000 'hyper saw' lead - up to 9 detuned saw oscillators summed with an equal-power stereo spread. Voices sets the stack size; Detune spreads them symmetrically around Freq (+/- cents at the extremes); Spread pans the outer voices L/R for width. SILENT by default (Level 0). The instant-gratification trance/EDM lead; stack -> Filter -> ADSR for a classic supersaw patch. Stereo audio out, allocation-free (fixed per-voice arrays)
 
 </details>
 

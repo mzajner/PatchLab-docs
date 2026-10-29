@@ -35,7 +35,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-SCALA LOADER: a microtuning-TABLE quantizer - snaps a 0..1 control wire to the nearest tone of an ARBITRARY scale loaded from a Scala .scl file (MicroQuant is parametric N-EDO only). Same contract as MicroQuant: input 0..1 -> Base..Base+Range semitones above Base (the 1/1 tonic), snapped to the loaded tuning, out = a FRACTIONAL MIDI NOTE NUMBER (chain Convert(Note>Hz) -> Osc/Filter freq). The .scl path lives in the props bag (path-ref like Sampler): parsed ON THE MESSAGE THREAD into an inactive buffer then published by an ATOMIC POINTER SWAP the audio thread reads (double-buffer). No .scl -> a 12-EDO default (never dead). (.kbm is round-tripped in props but its keyboard mapping is reserved / not yet applied.) The Scala-standard xenharmonic tuning primitive (MNodes CV MicroQuantize Scala gap).
+SCALA LOADER: a microtuning-TABLE quantizer - snaps a 0..1 control wire to the nearest tone of an ARBITRARY scale loaded from a Scala .scl file (MicroQuant is parametric N-EDO only). Same contract as MicroQuant: input 0..1 -> Base..Base+Range semitones above Base (the 1/1 tonic), snapped to the loaded tuning, out = a FRACTIONAL MIDI NOTE NUMBER (chain Convert(Note>Hz) -> Osc/Filter freq). The .scl path lives in the props bag (path-ref like Sampler): parsed ON THE MESSAGE THREAD into an inactive buffer then published by an ATOMIC POINTER SWAP the audio thread reads (double-buffer). No .scl -> a 12-EDO default (never dead). (.kbm is round-tripped in props but its keyboard mapping is reserved / not yet applied.) The Scala-standard xenharmonic tuning primitive.
 
 </details>
 

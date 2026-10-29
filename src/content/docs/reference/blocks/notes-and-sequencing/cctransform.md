@@ -32,7 +32,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-CC TRANSFORM: remaps + scales + offsets ONE MIDI CC to another. Controller events whose number == Src are rewritten to Dst with value = round(value*Scale)+Offset (clamped 0..127); every other message passes untouched. Default Src=Dst=1, Scale=1, Offset=0 = identity. The MIDI utility for 'wire the mod wheel to expression', invert/rescale a pedal, or narrow a controller's range (MNodes MIDI-depth gap). MIDI in -> MIDI out, allocation-free (out buffer pre-sized)
+CC TRANSFORM: remaps + scales + offsets ONE MIDI CC to another. Controller events whose number == Src are rewritten to Dst with value = round(value*Scale)+Offset (clamped 0..127); every other message passes untouched. Default Src=Dst=1, Scale=1, Offset=0 = identity. The MIDI utility for 'wire the mod wheel to expression', invert/rescale a pedal, or narrow a controller's range. MIDI in -> MIDI out, allocation-free (out buffer pre-sized)
 
 </details>
 

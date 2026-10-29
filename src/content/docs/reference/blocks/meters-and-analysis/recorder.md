@@ -33,7 +33,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-RECORDER: taps the wire to a WAV file on disk (the maker-loop convenience - capture a patch without a DAW). PASSTHROUGH audio. AUDIO-THREAD SAFE: the audio thread only stores samples into a lock-free FIFO (juce::AudioFormatWriter::ThreadedWriter) via an atomic pointer; a background thread owns ALL file IO. Record is a param polled on the message thread (never opens a file on the audio thread); stopping RETIRES the writer for one tick before freeing it so no in-flight block writes to a freed object. Files -> ~/Documents/PatchLab Recordings/PatchLab_<timestamp>.wav (24-bit stereo). Face shows the armed/recording state + elapsed time (MNodes Recorder gap).
+RECORDER: taps the wire to a WAV file on disk (the maker-loop convenience - capture a patch without a DAW). PASSTHROUGH audio. AUDIO-THREAD SAFE: the audio thread only stores samples into a lock-free FIFO (juce::AudioFormatWriter::ThreadedWriter) via an atomic pointer; a background thread owns ALL file IO. Record is a param polled on the message thread (never opens a file on the audio thread); stopping RETIRES the writer for one tick before freeing it so no in-flight block writes to a freed object. Files -> ~/Documents/PatchLab Recordings/PatchLab_<timestamp>.wav (24-bit stereo). Face shows the armed/recording state + elapsed time.
 
 </details>
 

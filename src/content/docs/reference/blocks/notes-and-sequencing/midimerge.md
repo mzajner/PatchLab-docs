@@ -27,7 +27,7 @@ This block declares no editable parameters.
 <details>
 <summary>Registry implementation notes</summary>
 
-MIDI MERGE: the explicit, LEGIBLE multi-stream MIDI junction. The graph already merges every MIDI cable feeding a node's single MIDI input into one time-ordered buffer, so a merge is free by fanning several sources in - this named node makes that merge point VISIBLE and gives ONE clean output to fan back out (keyboard + Arp + ChordGen -> one stream -> a synth). Pure passthrough (the graph did the merge): it leaves the MIDI untouched and only reads it to surface the combined event count + activity pulse. No audio path, allocation-free. Native-first. (MNodes MIDI Merge).
+MIDI MERGE: the explicit, LEGIBLE multi-stream MIDI junction. The graph already merges every MIDI cable feeding a node's single MIDI input into one time-ordered buffer, so a merge is free by fanning several sources in - this named node makes that merge point VISIBLE and gives ONE clean output to fan back out (keyboard + Arp + ChordGen -> one stream -> a synth). Pure passthrough (the graph did the merge): it leaves the MIDI untouched and only reads it to surface the combined event count + activity pulse. No audio path, allocation-free. Native-first..
 
 </details>
 

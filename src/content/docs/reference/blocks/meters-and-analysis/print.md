@@ -33,7 +33,7 @@ sidebar:
 <details>
 <summary>Registry implementation notes</summary>
 
-PRINT / VALUE MONITOR: a numeric readout of ANY wire - the current value (Mode = Raw / dB / Note), a recent-history sparkline, a running recent min/max, and a change-log ring of the last distinct values. The debug AND agent-legibility primitive: insert it inline to READ what a CV or audio wire is actually doing (CV = audio bus, so it monitors both). PASSTHROUGH - the audio is untouched; all capture is lock-free (atomics + SPSC rings), drawFace only reads. Pairs with ScaleQuant/MicroQuant (Note mode shows the fractional MIDI note). MNodes Print / HISE gap.
+PRINT / VALUE MONITOR: a numeric readout of ANY wire - the current value (Mode = Raw / dB / Note), a recent-history sparkline, a running recent min/max, and a change-log ring of the last distinct values. The debug AND agent-legibility primitive: insert it inline to READ what a CV or audio wire is actually doing (CV = audio bus, so it monitors both). PASSTHROUGH - the audio is untouched; all capture is lock-free (atomics + SPSC rings), drawFace only reads. Pairs with ScaleQuant/MicroQuant (Note mode shows the fractional MIDI note). the reference app Print / HISE gap.
 
 </details>
 
